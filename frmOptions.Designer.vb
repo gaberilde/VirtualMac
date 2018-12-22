@@ -32,38 +32,36 @@
 	'It can be modified using the Windows Form Designer.
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmOptions))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.BrowseOpen = New System.Windows.Forms.OpenFileDialog
-        Me.cmdOK = New System.Windows.Forms.Button
-        Me.cmdCancel = New System.Windows.Forms.Button
-        Me._picOptions_3 = New System.Windows.Forms.Panel
-        Me.fraSample4 = New System.Windows.Forms.GroupBox
-        Me._picOptions_2 = New System.Windows.Forms.Panel
-        Me.fraSample3 = New System.Windows.Forms.GroupBox
-        Me._picOptions_1 = New System.Windows.Forms.Panel
-        Me.fraSample2 = New System.Windows.Forms.GroupBox
-        Me.Folders = New System.Windows.Forms.GroupBox
-        Me.DefFolderTitle = New System.Windows.Forms.Label
-        Me.DefaultMacFolder = New System.Windows.Forms.TextBox
-        Me.BrowseFolder = New System.Windows.Forms.Button
-        Me.ROM = New System.Windows.Forms.GroupBox
-        Me.ROMFile = New System.Windows.Forms.TextBox
-        Me.BrowseROM = New System.Windows.Forms.Button
+        Me.BrowseOpen = New System.Windows.Forms.OpenFileDialog()
+        Me.cmdOK = New System.Windows.Forms.Button()
+        Me.cmdCancel = New System.Windows.Forms.Button()
+        Me._picOptions_3 = New System.Windows.Forms.Panel()
+        Me.fraSample4 = New System.Windows.Forms.GroupBox()
+        Me._picOptions_2 = New System.Windows.Forms.Panel()
+        Me.fraSample3 = New System.Windows.Forms.GroupBox()
+        Me._picOptions_1 = New System.Windows.Forms.Panel()
+        Me.fraSample2 = New System.Windows.Forms.GroupBox()
+        Me.Folders = New System.Windows.Forms.GroupBox()
+        Me.DefFolderTitle = New System.Windows.Forms.Label()
+        Me.DefaultMacFolder = New System.Windows.Forms.TextBox()
+        Me.BrowseFolder = New System.Windows.Forms.Button()
+        Me.ROM = New System.Windows.Forms.GroupBox()
+        Me.ROMFile = New System.Windows.Forms.TextBox()
+        Me.BrowseROM = New System.Windows.Forms.Button()
         Me.picOptions = New Microsoft.VisualBasic.Compatibility.VB6.PanelArray(Me.components)
-        Me.FolderBrowser = New System.Windows.Forms.FolderBrowserDialog
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.ListView1 = New System.Windows.Forms.ListView
+        Me.FolderBrowser = New System.Windows.Forms.FolderBrowserDialog()
+        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me._picOptions_3.SuspendLayout()
         Me._picOptions_2.SuspendLayout()
         Me._picOptions_1.SuspendLayout()
         Me.Folders.SuspendLayout()
         Me.ROM.SuspendLayout()
         CType(Me.picOptions, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'cmdOK
@@ -211,31 +209,22 @@
         Me.BrowseROM.Name = "BrowseROM"
         Me.BrowseROM.UseVisualStyleBackColor = True
         '
-        'TableLayoutPanel1
-        '
-        resources.ApplyResources(Me.TableLayoutPanel1, "TableLayoutPanel1")
-        Me.TableLayoutPanel1.Controls.Add(Me.Label2, 0, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label1, 1, 0)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        '
-        'Label2
-        '
-        resources.ApplyResources(Me.Label2, "Label2")
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Name = "Label2"
-        '
-        'Label1
-        '
-        resources.ApplyResources(Me.Label1, "Label1")
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Name = "Label1"
-        '
         'ListView1
         '
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2})
         Me.ListView1.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {CType(resources.GetObject("ListView1.Groups"), System.Windows.Forms.ListViewGroup), CType(resources.GetObject("ListView1.Groups1"), System.Windows.Forms.ListViewGroup)})
         resources.ApplyResources(Me.ListView1, "ListView1")
         Me.ListView1.Name = "ListView1"
         Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        resources.ApplyResources(Me.ColumnHeader1, "ColumnHeader1")
+        '
+        'ColumnHeader2
+        '
+        resources.ApplyResources(Me.ColumnHeader2, "ColumnHeader2")
         '
         'frmOptions
         '
@@ -247,7 +236,6 @@
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.ROM)
         Me.Controls.Add(Me.Folders)
-        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.cmdOK)
         Me.Controls.Add(Me.cmdCancel)
         Me.Controls.Add(Me._picOptions_3)
@@ -271,8 +259,6 @@
         Me.ROM.ResumeLayout(False)
         Me.ROM.PerformLayout()
         CType(Me.picOptions, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -283,9 +269,8 @@
     Public WithEvents ROMFile As System.Windows.Forms.TextBox
     Public WithEvents BrowseROM As System.Windows.Forms.Button
     Friend WithEvents FolderBrowser As System.Windows.Forms.FolderBrowserDialog
-    Friend WithEvents TableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader1 As ColumnHeader
+    Friend WithEvents ColumnHeader2 As ColumnHeader
 #End Region
 End Class
