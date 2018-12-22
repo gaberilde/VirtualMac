@@ -40,57 +40,57 @@
     'It can be modified using the Windows Form Designer.
     'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Start = New System.Windows.Forms.Button
-        Me.Remove = New System.Windows.Forms.Button
-        Me.Settings = New System.Windows.Forms.Button
-        Me.NewMac = New System.Windows.Forms.Button
-        Me.VMGraphicList = New System.Windows.Forms.Panel
-        Me.VMList = New System.Windows.Forms.ListBox
-        Me.VMGraphicScroll = New System.Windows.Forms.VScrollBar
-        Me._VM_0 = New System.Windows.Forms.Panel
-        Me._VMSnap_0 = New System.Windows.Forms.PictureBox
-        Me._VMName_0 = New System.Windows.Forms.Label
-        Me._VMDescription_0 = New System.Windows.Forms.Label
+        Me.Start = New System.Windows.Forms.Button()
+        Me.Remove = New System.Windows.Forms.Button()
+        Me.Settings = New System.Windows.Forms.Button()
+        Me.NewMac = New System.Windows.Forms.Button()
+        Me.VMGraphicList = New System.Windows.Forms.Panel()
+        Me.VMList = New System.Windows.Forms.ListBox()
+        Me.VMGraphicScroll = New System.Windows.Forms.VScrollBar()
+        Me._VM_0 = New System.Windows.Forms.Panel()
+        Me._VMSnap_0 = New System.Windows.Forms.PictureBox()
+        Me._VMName_0 = New System.Windows.Forms.Label()
+        Me._VMDescription_0 = New System.Windows.Forms.Label()
         Me.VM = New Microsoft.VisualBasic.Compatibility.VB6.PanelArray(Me.components)
         Me.VMDescription = New Microsoft.VisualBasic.Compatibility.VB6.LabelArray(Me.components)
         Me.VMName = New Microsoft.VisualBasic.Compatibility.VB6.LabelArray(Me.components)
         Me.VMSnap = New Microsoft.VisualBasic.Compatibility.VB6.PictureBoxArray(Me.components)
         Me.VirtualMacTray = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ShowVMC = New System.Windows.Forms.ToolStripMenuItem
-        Me.IconNewMac = New System.Windows.Forms.ToolStripMenuItem
-        Me.IconNewDisk = New System.Windows.Forms.ToolStripMenuItem
-        Me.MenuBar0 = New System.Windows.Forms.ToolStripSeparator
-        Me.IconOptions = New System.Windows.Forms.ToolStripMenuItem
-        Me.MenuBar1 = New System.Windows.Forms.ToolStripSeparator
-        Me.MenuBar2 = New System.Windows.Forms.ToolStripSeparator
-        Me.IconExit = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuFile = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuNewMac = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuNewDisk = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuFileBar0 = New System.Windows.Forms.ToolStripSeparator
-        Me.mnuFileOptions = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuFileBar1 = New System.Windows.Forms.ToolStripSeparator
-        Me.mnuFileExit = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuAction = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuActionStart = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuActionBar0 = New System.Windows.Forms.ToolStripSeparator
-        Me.mnuActionPause = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuActionRestart = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuActionBar1 = New System.Windows.Forms.ToolStripSeparator
-        Me.mnuActionRemove = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuActionBar2 = New System.Windows.Forms.ToolStripSeparator
-        Me.mnuActionSettings = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuActionProperties = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuHelp = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuHelpContents = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuHelpSearchForHelpOn = New System.Windows.Forms.ToolStripMenuItem
-        Me.mnuHelpBar0 = New System.Windows.Forms.ToolStripSeparator
-        Me.mnuHelpAbout = New System.Windows.Forms.ToolStripMenuItem
-        Me.MainMenu1 = New System.Windows.Forms.MenuStrip
+        Me.ShowVMC = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IconNewMac = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IconNewDisk = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuBar0 = New System.Windows.Forms.ToolStripSeparator()
+        Me.IconOptions = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuBar1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.MenuBar2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.IconExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MainMenu1 = New System.Windows.Forms.MainMenu(Me.components)
+        Me.MenuItem1 = New System.Windows.Forms.MenuItem()
+        Me.mnuNewMac = New System.Windows.Forms.MenuItem()
+        Me.mnuFileExit = New System.Windows.Forms.MenuItem()
+        Me.MenuItem2 = New System.Windows.Forms.MenuItem()
+        Me.mnuActionStart = New System.Windows.Forms.MenuItem()
+        Me.MenuItem5 = New System.Windows.Forms.MenuItem()
+        Me.mnuActionPause = New System.Windows.Forms.MenuItem()
+        Me.mnuActionRestart = New System.Windows.Forms.MenuItem()
+        Me.MenuItem9 = New System.Windows.Forms.MenuItem()
+        Me.mnuActionRemove = New System.Windows.Forms.MenuItem()
+        Me.MenuItem11 = New System.Windows.Forms.MenuItem()
+        Me.mnuActionSettings = New System.Windows.Forms.MenuItem()
+        Me.mnuActionProperties = New System.Windows.Forms.MenuItem()
+        Me.MenuItem3 = New System.Windows.Forms.MenuItem()
+        Me.mnuHelpContents = New System.Windows.Forms.MenuItem()
+        Me.mnuHelpSearchForHelpOn = New System.Windows.Forms.MenuItem()
+        Me.MenuItem7 = New System.Windows.Forms.MenuItem()
+        Me.mnuHelpAbout = New System.Windows.Forms.MenuItem()
+        Me.MenuItem6 = New System.Windows.Forms.MenuItem()
+        Me.mnuFileBar0 = New System.Windows.Forms.MenuItem()
+        Me.mnuFileBar1 = New System.Windows.Forms.MenuItem()
+        Me.mnuFileOptions = New System.Windows.Forms.MenuItem()
         Me.VMGraphicList.SuspendLayout()
         Me._VM_0.SuspendLayout()
         CType(Me._VMSnap_0, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -99,7 +99,6 @@
         CType(Me.VMName, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.VMSnap, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
-        Me.MainMenu1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Start
@@ -274,144 +273,122 @@
         Me.IconExit.Name = "IconExit"
         resources.ApplyResources(Me.IconExit, "IconExit")
         '
-        'mnuFile
+        'MainMenu1
         '
-        resources.ApplyResources(Me.mnuFile, "mnuFile")
-        Me.mnuFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuNewMac, Me.mnuNewDisk, Me.mnuFileBar0, Me.mnuFileOptions, Me.mnuFileBar1, Me.mnuFileExit})
-        Me.mnuFile.Name = "mnuFile"
+        Me.MainMenu1.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.MenuItem1, Me.MenuItem2, Me.MenuItem3})
+        '
+        'MenuItem1
+        '
+        Me.MenuItem1.Index = 0
+        Me.MenuItem1.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuNewMac, Me.MenuItem6, Me.mnuFileBar0, Me.mnuFileOptions, Me.mnuFileBar1, Me.mnuFileExit})
+        resources.ApplyResources(Me.MenuItem1, "MenuItem1")
         '
         'mnuNewMac
         '
-        Me.mnuNewMac.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuNewMac.Name = "mnuNewMac"
+        Me.mnuNewMac.Index = 0
         resources.ApplyResources(Me.mnuNewMac, "mnuNewMac")
-        '
-        'mnuNewDisk
-        '
-        Me.mnuNewDisk.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuNewDisk.Name = "mnuNewDisk"
-        resources.ApplyResources(Me.mnuNewDisk, "mnuNewDisk")
-        '
-        'mnuFileBar0
-        '
-        Me.mnuFileBar0.Name = "mnuFileBar0"
-        resources.ApplyResources(Me.mnuFileBar0, "mnuFileBar0")
-        '
-        'mnuFileOptions
-        '
-        Me.mnuFileOptions.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuFileOptions.Name = "mnuFileOptions"
-        resources.ApplyResources(Me.mnuFileOptions, "mnuFileOptions")
-        '
-        'mnuFileBar1
-        '
-        Me.mnuFileBar1.Name = "mnuFileBar1"
-        resources.ApplyResources(Me.mnuFileBar1, "mnuFileBar1")
         '
         'mnuFileExit
         '
-        Me.mnuFileExit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuFileExit.Name = "mnuFileExit"
+        Me.mnuFileExit.Index = 5
         resources.ApplyResources(Me.mnuFileExit, "mnuFileExit")
         '
-        'mnuAction
+        'MenuItem2
         '
-        resources.ApplyResources(Me.mnuAction, "mnuAction")
-        Me.mnuAction.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuAction.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuActionStart, Me.mnuActionBar0, Me.mnuActionPause, Me.mnuActionRestart, Me.mnuActionBar1, Me.mnuActionRemove, Me.mnuActionBar2, Me.mnuActionSettings, Me.mnuActionProperties})
-        Me.mnuAction.Name = "mnuAction"
+        Me.MenuItem2.Index = 1
+        Me.MenuItem2.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuActionStart, Me.MenuItem5, Me.mnuActionPause, Me.mnuActionRestart, Me.MenuItem9, Me.mnuActionRemove, Me.MenuItem11, Me.mnuActionSettings, Me.mnuActionProperties})
+        resources.ApplyResources(Me.MenuItem2, "MenuItem2")
         '
         'mnuActionStart
         '
-        Me.mnuActionStart.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.mnuActionStart.Index = 0
         resources.ApplyResources(Me.mnuActionStart, "mnuActionStart")
-        Me.mnuActionStart.Name = "mnuActionStart"
         '
-        'mnuActionBar0
+        'MenuItem5
         '
-        Me.mnuActionBar0.Name = "mnuActionBar0"
-        resources.ApplyResources(Me.mnuActionBar0, "mnuActionBar0")
+        Me.MenuItem5.Index = 1
+        resources.ApplyResources(Me.MenuItem5, "MenuItem5")
         '
         'mnuActionPause
         '
-        Me.mnuActionPause.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.mnuActionPause.Index = 2
         resources.ApplyResources(Me.mnuActionPause, "mnuActionPause")
-        Me.mnuActionPause.Name = "mnuActionPause"
         '
         'mnuActionRestart
         '
-        Me.mnuActionRestart.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.mnuActionRestart.Index = 3
         resources.ApplyResources(Me.mnuActionRestart, "mnuActionRestart")
-        Me.mnuActionRestart.Name = "mnuActionRestart"
         '
-        'mnuActionBar1
+        'MenuItem9
         '
-        Me.mnuActionBar1.Name = "mnuActionBar1"
-        resources.ApplyResources(Me.mnuActionBar1, "mnuActionBar1")
+        Me.MenuItem9.Index = 4
+        resources.ApplyResources(Me.MenuItem9, "MenuItem9")
         '
         'mnuActionRemove
         '
+        Me.mnuActionRemove.Index = 5
         resources.ApplyResources(Me.mnuActionRemove, "mnuActionRemove")
-        Me.mnuActionRemove.Name = "mnuActionRemove"
         '
-        'mnuActionBar2
+        'MenuItem11
         '
-        Me.mnuActionBar2.Name = "mnuActionBar2"
-        resources.ApplyResources(Me.mnuActionBar2, "mnuActionBar2")
+        Me.MenuItem11.Index = 6
+        resources.ApplyResources(Me.MenuItem11, "MenuItem11")
         '
         'mnuActionSettings
         '
+        Me.mnuActionSettings.Index = 7
         resources.ApplyResources(Me.mnuActionSettings, "mnuActionSettings")
-        Me.mnuActionSettings.Name = "mnuActionSettings"
         '
         'mnuActionProperties
         '
+        Me.mnuActionProperties.Index = 8
         resources.ApplyResources(Me.mnuActionProperties, "mnuActionProperties")
-        Me.mnuActionProperties.Name = "mnuActionProperties"
         '
-        'mnuHelp
+        'MenuItem3
         '
-        resources.ApplyResources(Me.mnuHelp, "mnuHelp")
-        Me.mnuHelp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuHelp.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuHelpContents, Me.mnuHelpSearchForHelpOn, Me.mnuHelpBar0, Me.mnuHelpAbout})
-        Me.mnuHelp.Name = "mnuHelp"
-        Me.mnuHelp.Padding = New System.Windows.Forms.Padding(0)
+        Me.MenuItem3.Index = 2
+        Me.MenuItem3.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuHelpContents, Me.mnuHelpSearchForHelpOn, Me.MenuItem7, Me.mnuHelpAbout})
+        resources.ApplyResources(Me.MenuItem3, "MenuItem3")
         '
         'mnuHelpContents
         '
-        Me.mnuHelpContents.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuHelpContents.Name = "mnuHelpContents"
-        Me.mnuHelpContents.Padding = New System.Windows.Forms.Padding(0)
+        Me.mnuHelpContents.Index = 0
         resources.ApplyResources(Me.mnuHelpContents, "mnuHelpContents")
         '
         'mnuHelpSearchForHelpOn
         '
-        Me.mnuHelpSearchForHelpOn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuHelpSearchForHelpOn.Name = "mnuHelpSearchForHelpOn"
-        Me.mnuHelpSearchForHelpOn.Padding = New System.Windows.Forms.Padding(0)
+        Me.mnuHelpSearchForHelpOn.Index = 1
         resources.ApplyResources(Me.mnuHelpSearchForHelpOn, "mnuHelpSearchForHelpOn")
         '
-        'mnuHelpBar0
+        'MenuItem7
         '
-        Me.mnuHelpBar0.Name = "mnuHelpBar0"
-        resources.ApplyResources(Me.mnuHelpBar0, "mnuHelpBar0")
+        Me.MenuItem7.Index = 2
+        resources.ApplyResources(Me.MenuItem7, "MenuItem7")
         '
         'mnuHelpAbout
         '
-        Me.mnuHelpAbout.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.mnuHelpAbout.Name = "mnuHelpAbout"
+        Me.mnuHelpAbout.Index = 3
         resources.ApplyResources(Me.mnuHelpAbout, "mnuHelpAbout")
         '
-        'MainMenu1
+        'MenuItem6
         '
-        Me.MainMenu1.GripMargin = New System.Windows.Forms.Padding(0)
-        Me.MainMenu1.ImageScalingSize = New System.Drawing.Size(0, 0)
-        Me.MainMenu1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFile, Me.mnuAction, Me.mnuHelp})
-        resources.ApplyResources(Me.MainMenu1, "MainMenu1")
-        Me.MainMenu1.Name = "MainMenu1"
-        Me.MainMenu1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.MainMenu1.Stretch = False
+        Me.MenuItem6.Index = 1
+        resources.ApplyResources(Me.MenuItem6, "MenuItem6")
+        '
+        'mnuFileBar0
+        '
+        Me.mnuFileBar0.Index = 2
+        resources.ApplyResources(Me.mnuFileBar0, "mnuFileBar0")
+        '
+        'mnuFileBar1
+        '
+        Me.mnuFileBar1.Index = 4
+        resources.ApplyResources(Me.mnuFileBar1, "mnuFileBar1")
+        '
+        'mnuFileOptions
+        '
+        Me.mnuFileOptions.Index = 3
+        resources.ApplyResources(Me.mnuFileOptions, "mnuFileOptions")
         '
         'frmMain
         '
@@ -424,10 +401,8 @@
         Me.Controls.Add(Me.Settings)
         Me.Controls.Add(Me.NewMac)
         Me.Controls.Add(Me.VMGraphicList)
-        Me.Controls.Add(Me.MainMenu1)
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.MainMenuStrip = Me.MainMenu1
         Me.MaximizeBox = False
         Me.Name = "frmMain"
         Me.VMGraphicList.ResumeLayout(False)
@@ -438,10 +413,7 @@
         CType(Me.VMName, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.VMSnap, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ContextMenuStrip1.ResumeLayout(False)
-        Me.MainMenu1.ResumeLayout(False)
-        Me.MainMenu1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents VirtualMacTray As System.Windows.Forms.NotifyIcon
@@ -452,30 +424,30 @@
     Friend WithEvents IconExit As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MenuBar1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents IconOptions As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuFile As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuNewMac As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuNewDisk As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuFileBar0 As System.Windows.Forms.ToolStripSeparator
-    Public WithEvents mnuFileOptions As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuFileBar1 As System.Windows.Forms.ToolStripSeparator
-    Public WithEvents mnuFileExit As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuAction As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuActionStart As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuActionBar0 As System.Windows.Forms.ToolStripSeparator
-    Public WithEvents mnuActionPause As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuActionRestart As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuActionBar1 As System.Windows.Forms.ToolStripSeparator
-    Public WithEvents mnuActionRemove As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuActionBar2 As System.Windows.Forms.ToolStripSeparator
-    Public WithEvents mnuActionSettings As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuActionProperties As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuHelp As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuHelpContents As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuHelpSearchForHelpOn As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents mnuHelpBar0 As System.Windows.Forms.ToolStripSeparator
-    Public WithEvents mnuHelpAbout As System.Windows.Forms.ToolStripMenuItem
-    Public WithEvents MainMenu1 As System.Windows.Forms.MenuStrip
     Friend WithEvents IconNewMac As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MenuBar2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MainMenu1 As MainMenu
+    Friend WithEvents MenuItem1 As MenuItem
+    Friend WithEvents MenuItem2 As MenuItem
+    Friend WithEvents MenuItem3 As MenuItem
+    Friend WithEvents mnuHelpContents As MenuItem
+    Friend WithEvents mnuHelpSearchForHelpOn As MenuItem
+    Friend WithEvents MenuItem7 As MenuItem
+    Friend WithEvents mnuHelpAbout As MenuItem
+    Friend WithEvents mnuActionStart As MenuItem
+    Friend WithEvents MenuItem5 As MenuItem
+    Friend WithEvents mnuActionPause As MenuItem
+    Friend WithEvents mnuActionRestart As MenuItem
+    Friend WithEvents MenuItem9 As MenuItem
+    Friend WithEvents mnuActionRemove As MenuItem
+    Friend WithEvents MenuItem11 As MenuItem
+    Friend WithEvents mnuActionSettings As MenuItem
+    Friend WithEvents mnuActionProperties As MenuItem
+    Friend WithEvents mnuNewMac As MenuItem
+    Friend WithEvents mnuFileExit As MenuItem
+    Friend WithEvents MenuItem6 As MenuItem
+    Friend WithEvents mnuFileBar0 As MenuItem
+    Friend WithEvents mnuFileBar1 As MenuItem
+    Friend WithEvents mnuFileOptions As MenuItem
 #End Region
 End Class
