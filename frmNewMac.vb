@@ -33,9 +33,10 @@ Friend Class frmNewMac
 
         BrowseOpen.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
         BrowseSave.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
-        BrowseSave.ShowDialog()
         BrowseOpen.FileName = BrowseSave.FileName
-        FileNameC.Text = BrowseOpen.FileName
+        If BrowseSave.ShowDialog() = DialogResult.OK Then
+            FileNameC.Text = BrowseOpen.FileName
+        End If
 
     End Sub
 
