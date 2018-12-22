@@ -321,8 +321,8 @@
         '
         'mnuActionStart
         '
-        Me.mnuActionStart.Index = 0
         resources.ApplyResources(Me.mnuActionStart, "mnuActionStart")
+        Me.mnuActionStart.Index = 0
         '
         'mnuActionBar0
         '
@@ -331,13 +331,13 @@
         '
         'mnuActionPause
         '
-        Me.mnuActionPause.Index = 2
         resources.ApplyResources(Me.mnuActionPause, "mnuActionPause")
+        Me.mnuActionPause.Index = 2
         '
         'mnuActionRestart
         '
-        Me.mnuActionRestart.Index = 3
         resources.ApplyResources(Me.mnuActionRestart, "mnuActionRestart")
+        Me.mnuActionRestart.Index = 3
         '
         'mnuActionBar1
         '
@@ -346,8 +346,8 @@
         '
         'mnuActionRemove
         '
-        Me.mnuActionRemove.Index = 5
         resources.ApplyResources(Me.mnuActionRemove, "mnuActionRemove")
+        Me.mnuActionRemove.Index = 5
         '
         'mnuActionBar2
         '
@@ -356,13 +356,13 @@
         '
         'mnuActionSettings
         '
-        Me.mnuActionSettings.Index = 7
         resources.ApplyResources(Me.mnuActionSettings, "mnuActionSettings")
+        Me.mnuActionSettings.Index = 7
         '
         'mnuActionProperties
         '
-        Me.mnuActionProperties.Index = 8
         resources.ApplyResources(Me.mnuActionProperties, "mnuActionProperties")
+        Me.mnuActionProperties.Index = 8
         '
         'mnuHelp
         '

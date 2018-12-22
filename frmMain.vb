@@ -103,7 +103,7 @@ Friend Class frmMain
     End Sub
     Public Sub Start68kEmulation()
 
-        MsgBox("Virtual Mac Â© " & "Beta. Virtualization isn't supported (again). Only fake OS X screen plus example stuff avaible")
+        MsgBox("Virtual Mac © " & "Beta. Virtualization isn't supported (again). Only fake OS X screen plus example stuff avaible")
 
         'Shell (App.Path & "\68k.exe"), vbNormalFocus
         frmVirtualMacintosh.Text = VMName(VMList.SelectedIndex + 1).Text & " - Virtual Mac"
@@ -165,8 +165,10 @@ Friend Class frmMain
 
     End Sub
     Public Sub mnuActionSettings_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuActionSettings.Click
-        MacToEdit = VB6.GetItemString(VMList, VMList.SelectedIndex)
-        frmVMSettings.Show()
+        If VMList.SelectedIndex <> -1 Then
+            MacToEdit = VB6.GetItemString(VMList, VMList.SelectedIndex)
+            frmVMSettings.Show()
+        End If
     End Sub
     Public Sub mnuActionStart_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuActionStart.Click
         Start68kEmulation()

@@ -609,7 +609,7 @@
     <value>True</value>
   </data>
   <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>701, 13</value>
+    <value>699, 12</value>
   </metadata>
   <data name="mnuNewMac.Text" xml:space="preserve">
     <value>New Mac Wizard</value>
@@ -632,14 +632,23 @@
   <data name="mnuFile.Text" xml:space="preserve">
     <value>File</value>
   </data>
+  <data name="mnuActionStart.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="mnuActionStart.Text" xml:space="preserve">
     <value>Start</value>
   </data>
   <data name="mnuActionBar0.Text" xml:space="preserve">
     <value>-</value>
   </data>
+  <data name="mnuActionPause.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="mnuActionPause.Text" xml:space="preserve">
     <value>Pause</value>
+  </data>
+  <data name="mnuActionRestart.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mnuActionRestart.Text" xml:space="preserve">
     <value>Restart</value>
@@ -647,14 +656,23 @@
   <data name="mnuActionBar1.Text" xml:space="preserve">
     <value>-</value>
   </data>
+  <data name="mnuActionRemove.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="mnuActionRemove.Text" xml:space="preserve">
     <value>Remove</value>
   </data>
   <data name="mnuActionBar2.Text" xml:space="preserve">
     <value>-</value>
   </data>
+  <data name="mnuActionSettings.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="mnuActionSettings.Text" xml:space="preserve">
     <value>Settings</value>
+  </data>
+  <data name="mnuActionProperties.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mnuActionProperties.Text" xml:space="preserve">
     <value>Properties</value>
