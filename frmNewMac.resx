@@ -1414,7 +1414,7 @@
     <value>74</value>
   </data>
   <data name="NewVDHelp.Text" xml:space="preserve">
-    <value>Type a name for the new virtual hard disk .Unless you specify a different location, the virtual hard disk file will automatically be saved in the same location as the virtual macintosh configuration file.</value>
+    <value>Type a name for the new virtual hard disk. Unless you specify a different location, the virtual hard disk file will automatically be saved in the same location as the virtual macintosh configuration file.</value>
   </data>
   <data name="&gt;&gt;NewVDHelp.Name" xml:space="preserve">
     <value>NewVDHelp</value>
@@ -1549,7 +1549,7 @@
     <value>69</value>
   </data>
   <data name="NewMac60Help.Text" xml:space="preserve">
-    <value>A virtual hard disk is a .dsk file that is stored on your physical hard disk  and is used to contain the guest operating system, applications and data.</value>
+    <value>A virtual hard disk is a .dsk file that is stored on your physical hard disk and is used to contain the guest operating system, applications and data.</value>
   </data>
   <data name="&gt;&gt;NewMac60Help.Name" xml:space="preserve">
     <value>NewMac60Help</value>
@@ -1753,7 +1753,7 @@
     <value>2</value>
   </data>
   <data name="HelpA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 16</value>
+    <value>39, 16</value>
   </data>
   <data name="HelpA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -1864,7 +1864,7 @@
     <value>1</value>
   </data>
   <data name="FileNameTitleC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 88</value>
+    <value>30, 85</value>
   </data>
   <data name="FileNameTitleC.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -2646,7 +2646,7 @@
     <value>1</value>
   </data>
   <data name="AdviceClickFinish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 232</value>
+    <value>177, 232</value>
   </data>
   <data name="AdviceClickFinish.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>

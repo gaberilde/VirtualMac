@@ -180,6 +180,45 @@
   <data name="&gt;&gt;cmdCancel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <metadata name="picOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 17</value>
+  </metadata>
+  <data name="&gt;&gt;fraSample4.Name" xml:space="preserve">
+    <value>fraSample4</value>
+  </data>
+  <data name="&gt;&gt;fraSample4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraSample4.Parent" xml:space="preserve">
+    <value>_picOptions_3</value>
+  </data>
+  <data name="&gt;&gt;fraSample4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_picOptions_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1333, 32</value>
+  </data>
+  <data name="_picOptions_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_picOptions_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 252</value>
+  </data>
+  <data name="_picOptions_3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_picOptions_3.Name" xml:space="preserve">
+    <value>_picOptions_3</value>
+  </data>
+  <data name="&gt;&gt;_picOptions_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_picOptions_3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_picOptions_3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="fraSample4.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 34</value>
   </data>
@@ -206,48 +245,6 @@
   </data>
   <data name="&gt;&gt;fraSample4.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <metadata name="picOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>225, 17</value>
-  </metadata>
-  <data name="_picOptions_3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1333, 32</value>
-  </data>
-  <data name="_picOptions_3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="_picOptions_3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 252</value>
-  </data>
-  <data name="_picOptions_3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;_picOptions_3.Name" xml:space="preserve">
-    <value>_picOptions_3</value>
-  </data>
-  <data name="&gt;&gt;_picOptions_3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_picOptions_3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;_picOptions_3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="fraSample3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 27</value>
-  </data>
-  <data name="fraSample3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="fraSample3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 135</value>
-  </data>
-  <data name="fraSample3.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="fraSample3.Text" xml:space="preserve">
-    <value>Ejemplo 3</value>
   </data>
   <data name="&gt;&gt;fraSample3.Name" xml:space="preserve">
     <value>fraSample3</value>
@@ -285,20 +282,32 @@
   <data name="&gt;&gt;_picOptions_2.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="fraSample2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 21</value>
+  <data name="fraSample3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 27</value>
   </data>
-  <data name="fraSample2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="fraSample3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="fraSample2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="fraSample3.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 135</value>
   </data>
-  <data name="fraSample2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="fraSample3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="fraSample2.Text" xml:space="preserve">
-    <value>Ejemplo 2</value>
+  <data name="fraSample3.Text" xml:space="preserve">
+    <value>Ejemplo 3</value>
+  </data>
+  <data name="&gt;&gt;fraSample3.Name" xml:space="preserve">
+    <value>fraSample3</value>
+  </data>
+  <data name="&gt;&gt;fraSample3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraSample3.Parent" xml:space="preserve">
+    <value>_picOptions_2</value>
+  </data>
+  <data name="&gt;&gt;fraSample3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;fraSample2.Name" xml:space="preserve">
     <value>fraSample2</value>
@@ -335,6 +344,99 @@
   </data>
   <data name="&gt;&gt;_picOptions_1.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="fraSample2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="fraSample2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="fraSample2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 135</value>
+  </data>
+  <data name="fraSample2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="fraSample2.Text" xml:space="preserve">
+    <value>Ejemplo 2</value>
+  </data>
+  <data name="&gt;&gt;fraSample2.Name" xml:space="preserve">
+    <value>fraSample2</value>
+  </data>
+  <data name="&gt;&gt;fraSample2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraSample2.Parent" xml:space="preserve">
+    <value>_picOptions_1</value>
+  </data>
+  <data name="&gt;&gt;fraSample2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DefFolderTitle.Name" xml:space="preserve">
+    <value>DefFolderTitle</value>
+  </data>
+  <data name="&gt;&gt;DefFolderTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DefFolderTitle.Parent" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="&gt;&gt;DefFolderTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DefaultMacFolder.Name" xml:space="preserve">
+    <value>DefaultMacFolder</value>
+  </data>
+  <data name="&gt;&gt;DefaultMacFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DefaultMacFolder.Parent" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="&gt;&gt;DefaultMacFolder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BrowseFolder.Name" xml:space="preserve">
+    <value>BrowseFolder</value>
+  </data>
+  <data name="&gt;&gt;BrowseFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowseFolder.Parent" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="&gt;&gt;BrowseFolder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Folders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 6</value>
+  </data>
+  <data name="Folders.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Folders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 217</value>
+  </data>
+  <data name="Folders.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Folders.Text" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="Folders.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Folders.Name" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="&gt;&gt;Folders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Folders.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Folders.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="DefFolderTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 17</value>
@@ -420,36 +522,6 @@
   <data name="&gt;&gt;BrowseFolder.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="Folders.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 6</value>
-  </data>
-  <data name="Folders.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="Folders.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 217</value>
-  </data>
-  <data name="Folders.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="Folders.Text" xml:space="preserve">
-    <value>Folders</value>
-  </data>
-  <data name="Folders.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;Folders.Name" xml:space="preserve">
-    <value>Folders</value>
-  </data>
-  <data name="&gt;&gt;Folders.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Folders.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Folders.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="ROMFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 20</value>
   </data>
@@ -511,7 +583,7 @@
     <value>No</value>
   </data>
   <data name="ROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 217</value>
+    <value>253, 86</value>
   </data>
   <data name="ROM.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -531,15 +603,12 @@
   <data name="&gt;&gt;ROM.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="picOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 17</value>
+  </metadata>
   <metadata name="FolderBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>328, 17</value>
   </metadata>
-  <data name="ColumnHeader1.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="ColumnHeader2.Text" xml:space="preserve">
-    <value>Value</value>
-  </data>
   <data name="ListView1.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
@@ -603,6 +672,12 @@
   </data>
   <data name="&gt;&gt;ListView1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="ColumnHeader1.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="ColumnHeader2.Text" xml:space="preserve">
+    <value>Value</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
