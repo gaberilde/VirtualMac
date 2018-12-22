@@ -7,16 +7,11 @@ Friend Class frmAbout
 		SystemInformation()
 		
 	End Sub
-	
-	Public Sub SystemInformation()
-		
-		'Declarations
-		
-		'Here you obtain the system info
-		
-		'Naming the Windows OS by its version
-		
-		'Assigning the info to the labels
-		
-	End Sub
+
+    Public Sub SystemInformation()
+        'Obtain the system info
+
+        OSName.Text = My.Computer.Info.OSFullName
+        OSVersion.Text = My.Computer.Info.OSVersion
+    End Sub
 End Class
