@@ -3,7 +3,6 @@ Option Explicit On
 Friend Class frmNewMac
     Inherits System.Windows.Forms.Form
     'Honestly, the most complicated assistant (Here is where my hard work is :D)
-
     Private Structure MEMORYSTATUS 'Api for checking how much RAM is avaible in the machine
         Dim dwLength As Integer
         Dim dwMemoryLoad As Integer
@@ -15,40 +14,31 @@ Friend Class frmNewMac
         Dim dwAvailVirtual As Integer
     End Structure
     Private Declare Sub GlobalMemoryStatus Lib "kernel32" (ByRef lpBuffer As MEMORYSTATUS)
-
     Private Sub BrowseA_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles BrowseA.Click
-
         'A for Add, that means 'Add an existing machine'.
         'Opens a 'Open dialog' to search VirtualMac config file
-
         BrowseOpen.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
         BrowseOpen.ShowDialog()
         FileNameA.Text = BrowseOpen.FileName
     End Sub
-
     Private Sub BrowseC_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles BrowseC.Click
         'C for Create, that means 'Create a new machine'
         'Opens the save dialog that let's you choose where
         'will the config file be saved
-
         BrowseOpen.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
         BrowseSave.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
         BrowseOpen.FileName = BrowseSave.FileName
         If BrowseSave.ShowDialog() = DialogResult.OK Then
             FileNameC.Text = BrowseOpen.FileName
         End If
-
     End Sub
-
     Private Sub cmdBack_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdBack.Click
-
         'This is the first part of the hard code, this makes
         'that the right Frame will be shown, this is in base
         'to which is the currently visible frame. This makes
         'visible the earlier Frame. The instruction
         '<GoTo EndNext> makes that you won't automatically jump
         'until the Start screen
-
         If NewMac2.Visible = True Then 'Go back to Start screen
             cmdBack.Enabled = False
             NewMac2.Visible = False
@@ -56,10 +46,8 @@ Friend Class frmNewMac
             NewMac1.Visible = True
             GoTo EndNext
         End If
-
         'Both fo these go back to Page 2. But every one is different
         'since one creates a new Mac, the other adds a new one
-
         If NewMac3.Visible = True Then 'Back from the page 'Create a new one'
             NewMac3.Visible = False
             Action.Text = "Options"
@@ -67,7 +55,6 @@ Friend Class frmNewMac
             NewMac2.Visible = True
             GoTo EndNext
         End If
-
         If NewMacFromExist.Visible = True Then 'Back from page 'Add a new one'
             NewMacFromExist.Visible = False
             Action.Text = "Options"
@@ -75,7 +62,6 @@ Friend Class frmNewMac
             NewMac2.Visible = True
             GoTo EndNext
         End If
-
         If NewMac4.Visible = True Then 'Back from the page 'Name and Location'
             NewMac4.Visible = False
             Action.Text = "Virtual Macintosh Name and Location"
@@ -83,7 +69,6 @@ Friend Class frmNewMac
             NewMac3.Visible = True
             GoTo EndNext
         End If
-
         If NewMac5.Visible = True Then 'Back from the page 'Select OS'
             NewMac5.Visible = False
             Action.Text = "Operating System"
@@ -91,7 +76,6 @@ Friend Class frmNewMac
             NewMac4.Visible = True
             GoTo EndNext
         End If
-
         If NewMac6.Visible = True Then 'Back from the page 'RAM for this Mac'
             NewMac6.Visible = False
             Action.Text = "Memory"
@@ -99,11 +83,8 @@ Friend Class frmNewMac
             NewMac5.Visible = True
             GoTo EndNext
         End If
-
-
         'Back from the page 'Finishing the New Mac Wizard'. Note: This changes as which option was choosen
         If NewMacEnd.Visible = True Then
-
             'If choosen the option 'Create a new Mac', this will return
             'to the 'RAM' page
             If CreateNew.Checked = True Then
@@ -113,7 +94,6 @@ Friend Class frmNewMac
                 NewMac6.Visible = True
                 GoTo EndNext
             End If
-
             'If choosen the option 'Use default settings to create a Virtual Mac'
             'this will return to the page 2
             If UseDefaults.Checked = True Then
@@ -125,16 +105,13 @@ Friend Class frmNewMac
                 GoTo EndNext
             End If
         End If
-
 EndNext:
     End Sub
-
     Private Sub cmdCancel_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdCancel.Click
         'If you cahnge of opinion and you think you don't need
         'a New Mac, this will Unload the current Window
         Me.Close()
     End Sub
-
     Private Sub cmdNext_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdNext.Click
         'Here is the REALLY HARD work. This code will make you advance
         'throught the assistant. This will check which page (Frame) is
@@ -221,7 +198,6 @@ EndNext:
             End If
         End If
 
-
         'Move away from the OS page and choose the RAM for you new Mac!
         '(Only avaible when creating new one, not when you choosed use defaults)
         If NewMac4.Visible = True Then
@@ -265,7 +241,6 @@ EndNext:
             GoTo EndNext
         End If
 
-
         If NewMacEnd.Visible = True Then
 
             frmMain.VMList.Items.Add(MacName)   'Adds the just created machine to the VM List
@@ -289,7 +264,6 @@ ErrorHandler:
 
 EndNext:
     End Sub
-
     Public Function HardwareEngineer(ByVal AutoDetect As Boolean) As String
 
         Dim VMemory As Integer
@@ -393,13 +367,11 @@ Catalog:
         Return VMemory & "," & VDisk & "," & VArch
 
     End Function
-
     Public Sub Labeler(ByVal Memory As Long, ByVal Disk As Long, ByVal Arch As String)
         MemoryMB.Text = Memory & " MB"
         DiskMB.Text = Disk & " MB"
         CPUArch.Text = Arch
     End Sub
-
     Private Sub DiskSizeMB_TextChanged(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles DiskSizeMB.TextChanged
         'This is the tiny code that makes the slider and the textbox to synchronize
 
@@ -424,13 +396,10 @@ Catalog:
             WarningLowerSize.Visible = False
             DiskSizeMB.Focus()
         End If
-
     End Sub
-
     Private Sub DiskSizeMB_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles DiskSizeMB.Click
         DiskSizeMB.Focus()
     End Sub
-
     Private Sub DiskSizeMB_KeyPress(ByVal eventSender As System.Object, ByVal eventArgs As System.Windows.Forms.KeyPressEventArgs) Handles DiskSizeMB.KeyPress
         Dim KeyAscii As Short = Asc(eventArgs.KeyChar)
         'Goes to a function that makes that you can only press numbers,
@@ -442,7 +411,6 @@ Catalog:
             eventArgs.Handled = True
         End If
     End Sub
-
     Private Sub NewVDBrowse_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles NewVDBrowse.Click
         'Opens the dialog to let you choice the location of the new hard disk
 
@@ -452,19 +420,11 @@ Catalog:
         BrowseOpen.FileName = BrowseSave.FileName
         NewMac7VDName.Text = BrowseOpen.FileName
     End Sub
-
     Private Sub FileNameC_Enter(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles FileNameC.Enter
         'Selects all the text when you click in the machine FileName TextBox
-
         FileNameC.SelectionStart = 0
         FileNameC.SelectionLength = Len(FileNameC.Text)
     End Sub
-
-    Private Sub OSList_SelectedIndexChanged(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles OSList.SelectedIndexChanged
-
-
-    End Sub
-
     Function VerifyKey(ByRef PressedKey As Object) As Object
         'Lets only to send the keys assigned to numbers in the keyboard
 
@@ -481,19 +441,14 @@ Catalog:
         Else
             VerifyKey = 0
         End If
-
-
     End Function
-
     Public Sub AddVM()
         'This procedure will, make place where at the end
         'of the assistant the machine is made and the config file
         'is written to disk. But for now it's incomplete
 
         frmMain.RedrawList() 'Verifies for new items and redraws the list
-
     End Sub
-
     Public Sub CheckIfNameExist()
         '===Check that we haven't a machine with the same name===
         'Declarations
@@ -507,20 +462,14 @@ Catalog:
                 FileNameC.Text = "New Mac (" & x & ")"
             End If
         Next
-
     End Sub
-
     Private Sub RAMAdjust_Scroll(ByVal sender As Object, ByVal e As System.EventArgs) Handles RAMAdjust.Scroll
-
         RAMMegabyteNumber.Text = CStr(RAMAdjust.Value)
-
     End Sub
-
     Private Sub RAMMegabyteNumber_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles RAMMegabyteNumber.GotFocus
         RAMMegabyteNumber.SelectionStart = 0
         RAMMegabyteNumber.SelectionLength = Len(RAMMegabyteNumber.Text)
     End Sub
-
     Private Sub RAMMegabyteNumber_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles RAMMegabyteNumber.KeyPress
         Dim KeyAscii As Short = Asc(e.KeyChar)
 
@@ -531,15 +480,10 @@ Catalog:
             e.Handled = True
         End If
     End Sub
-
     Private Sub RAMMegabyteNumber_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles RAMMegabyteNumber.TextChanged
         'Makes that the value of the TextBox will be represented in the slider
-
         On Error GoTo ErrorHandler
-
         RAMAdjust.Value = CInt(RAMMegabyteNumber.Text)
-
-
 
 ErrorHandler:
         If Not Err.Number = 0 Then
@@ -552,25 +496,19 @@ ErrorHandler:
             End If
         End If
     End Sub
-
     Private Sub Adjust_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles Adjust.CheckedChanged
         If sender.Checked Then
-
             'This makes visible the Frame that shows the RAM slider to adjust the RAM
-
             If Adjust.Checked = True Then
                 RAMAdjuster.Visible = True
                 RAMAdjust.TabStop = True
                 RAMMegabyteNumber.TabStop = True
             End If
-
         End If
     End Sub
-
     Private Sub Recommend_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles Recommend.CheckedChanged
         If sender.Checked Then
             'Makes Invisible the Frame with the RAM Slider so you will use the default RAM for the machine
-
             If Recommend.Checked = True Then
                 RAMAdjuster.Visible = False
                 RAMAdjust.TabStop = False
