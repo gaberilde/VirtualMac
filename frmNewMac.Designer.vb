@@ -33,10 +33,9 @@
 	Public WithEvents OSListTitle As System.Windows.Forms.Label
 	Public WithEvents Help4 As System.Windows.Forms.Label
 	Public WithEvents NewMac4 As System.Windows.Forms.Panel
-    Public WithEvents NewMac2 As System.Windows.Forms.Panel
-	Public WithEvents WizardPictureSmall As System.Windows.Forms.PictureBox
-	Public WithEvents ActionDescription As System.Windows.Forms.Label
-	Public WithEvents Action As System.Windows.Forms.Label
+    Public WithEvents WizardPictureSmall As System.Windows.Forms.PictureBox
+    Public WithEvents ActionDescription As System.Windows.Forms.Label
+    Public WithEvents Action As System.Windows.Forms.Label
     Public WithEvents DescriptionBox As System.Windows.Forms.GroupBox
     Public WithEvents FileNameA As System.Windows.Forms.TextBox
     Public WithEvents BrowseA As System.Windows.Forms.Button
@@ -86,92 +85,92 @@
     'It can be modified using the Windows Form Designer.
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmNewMac))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.cmdBack = New System.Windows.Forms.Button
-        Me.NewMacWizard = New System.Windows.Forms.Panel
-        Me.NewMac2 = New System.Windows.Forms.Panel
-        Me.CreateNew = New System.Windows.Forms.RadioButton
-        Me.UseDefaults = New System.Windows.Forms.RadioButton
-        Me.AddExist = New System.Windows.Forms.RadioButton
-        Me.HelpSelect = New System.Windows.Forms.Label
-        Me.NewDescription2 = New System.Windows.Forms.Label
-        Me.UseDefaultsDescription2 = New System.Windows.Forms.Label
-        Me.AddExistDescription2 = New System.Windows.Forms.Label
-        Me.NewMac5 = New System.Windows.Forms.Panel
-        Me.RAMAdjuster = New System.Windows.Forms.Panel
-        Me.RAMAdjust = New System.Windows.Forms.TrackBar
-        Me.RAMMegabyteNumber = New System.Windows.Forms.TextBox
-        Me.MegaByte = New System.Windows.Forms.Label
-        Me.RAMDescription = New System.Windows.Forms.Label
-        Me.Recommend = New System.Windows.Forms.RadioButton
-        Me.Adjust = New System.Windows.Forms.RadioButton
-        Me.RecRAM = New System.Windows.Forms.Label
-        Me.RAMHelpTitle = New System.Windows.Forms.Label
-        Me.RAMHelp = New System.Windows.Forms.Label
-        Me.DescriptionBox = New System.Windows.Forms.GroupBox
-        Me.WizardPictureSmall = New System.Windows.Forms.PictureBox
-        Me.ActionDescription = New System.Windows.Forms.Label
-        Me.Action = New System.Windows.Forms.Label
-        Me.NewMac4 = New System.Windows.Forms.Panel
-        Me.OSList = New System.Windows.Forms.ComboBox
-        Me.CPUArch = New System.Windows.Forms.Label
-        Me.DiskMB = New System.Windows.Forms.Label
-        Me.MemoryMB = New System.Windows.Forms.Label
-        Me.CPUType = New System.Windows.Forms.Label
-        Me.Disk = New System.Windows.Forms.Label
-        Me.Memory = New System.Windows.Forms.Label
-        Me.DefaultHardware = New System.Windows.Forms.Label
-        Me.OSListTitle = New System.Windows.Forms.Label
-        Me.Help4 = New System.Windows.Forms.Label
-        Me.NewMac6 = New System.Windows.Forms.Panel
-        Me.DiskSizeMB = New System.Windows.Forms.TextBox
-        Me.NewVDBrowse = New System.Windows.Forms.Button
-        Me.NewMac7VDName = New System.Windows.Forms.TextBox
-        Me.WarningLowerSize = New System.Windows.Forms.Label
-        Me.VDInfoAboutVD = New System.Windows.Forms.Label
-        Me.VDInfoMaxMBSize = New System.Windows.Forms.Label
-        Me.VDMBInfo = New System.Windows.Forms.Label
-        Me.MaxVDSize = New System.Windows.Forms.Label
-        Me.InfoVDSize = New System.Windows.Forms.Label
-        Me.NewVDHelp = New System.Windows.Forms.Label
-        Me.NewVDTitleHelp = New System.Windows.Forms.Label
-        Me.NewMac60 = New System.Windows.Forms.Panel
-        Me.NewMac60ButtonFix = New System.Windows.Forms.Panel
-        Me.CreateNewVD = New System.Windows.Forms.RadioButton
-        Me.AddExistingVD = New System.Windows.Forms.RadioButton
-        Me.NewMac60Help = New System.Windows.Forms.Label
-        Me.NewMac60Use = New System.Windows.Forms.Label
-        Me.NewMac60About = New System.Windows.Forms.Label
-        Me.NewMacFromExist = New System.Windows.Forms.Panel
-        Me.FileNameA = New System.Windows.Forms.TextBox
-        Me.BrowseA = New System.Windows.Forms.Button
-        Me.FileNameTitleA = New System.Windows.Forms.Label
-        Me.HelpA = New System.Windows.Forms.Label
-        Me.NewMac3 = New System.Windows.Forms.Panel
-        Me.FileNameC = New System.Windows.Forms.TextBox
-        Me.BrowseC = New System.Windows.Forms.Button
-        Me.FileNameTitleC = New System.Windows.Forms.Label
-        Me.HelpC = New System.Windows.Forms.Label
-        Me.NewMacEnd = New System.Windows.Forms.Panel
-        Me.OpenSettingsAfterFinish = New System.Windows.Forms.CheckBox
-        Me.WizardEnd = New System.Windows.Forms.PictureBox
-        Me.AdviceClickFinish = New System.Windows.Forms.Label
-        Me.AdviceNoHD = New System.Windows.Forms.Label
-        Me.VMName = New System.Windows.Forms.Label
-        Me.DescriptionEnd = New System.Windows.Forms.Label
-        Me.TitleEnd = New System.Windows.Forms.Label
-        Me.BrowseOpen = New System.Windows.Forms.OpenFileDialog
-        Me.BrowseSave = New System.Windows.Forms.SaveFileDialog
-        Me.ButtonBox = New System.Windows.Forms.GroupBox
-        Me.cmdCancel = New System.Windows.Forms.Button
-        Me.cmdNext = New System.Windows.Forms.Button
-        Me.NewMac1 = New System.Windows.Forms.Panel
-        Me.WizardStart = New System.Windows.Forms.PictureBox
-        Me.TitleStart = New System.Windows.Forms.Label
-        Me.DescriptionStart = New System.Windows.Forms.Label
-        Me.ContextMenu1 = New System.Windows.Forms.ContextMenu
+        Me.cmdBack = New System.Windows.Forms.Button()
+        Me.NewMacWizard = New System.Windows.Forms.Panel()
+        Me.NewMac2 = New System.Windows.Forms.Panel()
+        Me.CreateNew = New System.Windows.Forms.RadioButton()
+        Me.UseDefaults = New System.Windows.Forms.RadioButton()
+        Me.AddExist = New System.Windows.Forms.RadioButton()
+        Me.HelpSelect = New System.Windows.Forms.Label()
+        Me.NewDescription2 = New System.Windows.Forms.Label()
+        Me.UseDefaultsDescription2 = New System.Windows.Forms.Label()
+        Me.AddExistDescription2 = New System.Windows.Forms.Label()
+        Me.NewMac5 = New System.Windows.Forms.Panel()
+        Me.RAMAdjuster = New System.Windows.Forms.Panel()
+        Me.RAMAdjust = New System.Windows.Forms.TrackBar()
+        Me.RAMMegabyteNumber = New System.Windows.Forms.TextBox()
+        Me.MegaByte = New System.Windows.Forms.Label()
+        Me.RAMDescription = New System.Windows.Forms.Label()
+        Me.Recommend = New System.Windows.Forms.RadioButton()
+        Me.Adjust = New System.Windows.Forms.RadioButton()
+        Me.RecRAM = New System.Windows.Forms.Label()
+        Me.RAMHelpTitle = New System.Windows.Forms.Label()
+        Me.RAMHelp = New System.Windows.Forms.Label()
+        Me.DescriptionBox = New System.Windows.Forms.GroupBox()
+        Me.WizardPictureSmall = New System.Windows.Forms.PictureBox()
+        Me.ActionDescription = New System.Windows.Forms.Label()
+        Me.Action = New System.Windows.Forms.Label()
+        Me.NewMac4 = New System.Windows.Forms.Panel()
+        Me.OSList = New System.Windows.Forms.ComboBox()
+        Me.CPUArch = New System.Windows.Forms.Label()
+        Me.DiskMB = New System.Windows.Forms.Label()
+        Me.MemoryMB = New System.Windows.Forms.Label()
+        Me.CPUType = New System.Windows.Forms.Label()
+        Me.Disk = New System.Windows.Forms.Label()
+        Me.Memory = New System.Windows.Forms.Label()
+        Me.DefaultHardware = New System.Windows.Forms.Label()
+        Me.OSListTitle = New System.Windows.Forms.Label()
+        Me.Help4 = New System.Windows.Forms.Label()
+        Me.NewMac6 = New System.Windows.Forms.Panel()
+        Me.DiskSizeMB = New System.Windows.Forms.TextBox()
+        Me.NewVDBrowse = New System.Windows.Forms.Button()
+        Me.NewMac7VDName = New System.Windows.Forms.TextBox()
+        Me.WarningLowerSize = New System.Windows.Forms.Label()
+        Me.VDInfoAboutVD = New System.Windows.Forms.Label()
+        Me.VDInfoMaxMBSize = New System.Windows.Forms.Label()
+        Me.VDMBInfo = New System.Windows.Forms.Label()
+        Me.MaxVDSize = New System.Windows.Forms.Label()
+        Me.InfoVDSize = New System.Windows.Forms.Label()
+        Me.NewVDHelp = New System.Windows.Forms.Label()
+        Me.NewVDTitleHelp = New System.Windows.Forms.Label()
+        Me.NewMac60 = New System.Windows.Forms.Panel()
+        Me.NewMac60ButtonFix = New System.Windows.Forms.Panel()
+        Me.CreateNewVD = New System.Windows.Forms.RadioButton()
+        Me.AddExistingVD = New System.Windows.Forms.RadioButton()
+        Me.NewMac60Help = New System.Windows.Forms.Label()
+        Me.NewMac60Use = New System.Windows.Forms.Label()
+        Me.NewMac60About = New System.Windows.Forms.Label()
+        Me.NewMacFromExist = New System.Windows.Forms.Panel()
+        Me.FileNameA = New System.Windows.Forms.TextBox()
+        Me.BrowseA = New System.Windows.Forms.Button()
+        Me.FileNameTitleA = New System.Windows.Forms.Label()
+        Me.HelpA = New System.Windows.Forms.Label()
+        Me.NewMac3 = New System.Windows.Forms.Panel()
+        Me.FileNameC = New System.Windows.Forms.TextBox()
+        Me.BrowseC = New System.Windows.Forms.Button()
+        Me.FileNameTitleC = New System.Windows.Forms.Label()
+        Me.HelpC = New System.Windows.Forms.Label()
+        Me.NewMacEnd = New System.Windows.Forms.Panel()
+        Me.OpenSettingsAfterFinish = New System.Windows.Forms.CheckBox()
+        Me.WizardEnd = New System.Windows.Forms.PictureBox()
+        Me.AdviceClickFinish = New System.Windows.Forms.Label()
+        Me.AdviceNoHD = New System.Windows.Forms.Label()
+        Me.VMName = New System.Windows.Forms.Label()
+        Me.DescriptionEnd = New System.Windows.Forms.Label()
+        Me.TitleEnd = New System.Windows.Forms.Label()
+        Me.BrowseOpen = New System.Windows.Forms.OpenFileDialog()
+        Me.BrowseSave = New System.Windows.Forms.SaveFileDialog()
+        Me.ButtonBox = New System.Windows.Forms.GroupBox()
+        Me.cmdCancel = New System.Windows.Forms.Button()
+        Me.cmdNext = New System.Windows.Forms.Button()
+        Me.NewMac1 = New System.Windows.Forms.Panel()
+        Me.WizardStart = New System.Windows.Forms.PictureBox()
+        Me.TitleStart = New System.Windows.Forms.Label()
+        Me.DescriptionStart = New System.Windows.Forms.Label()
+        Me.ContextMenu1 = New System.Windows.Forms.ContextMenu()
         Me.NewMacWizard.SuspendLayout()
         Me.NewMac2.SuspendLayout()
         Me.NewMac5.SuspendLayout()
@@ -327,6 +326,7 @@
         resources.ApplyResources(Me.RAMAdjust, "RAMAdjust")
         Me.RAMAdjust.Maximum = 959
         Me.RAMAdjust.Name = "RAMAdjust"
+        Me.RAMAdjust.Value = 128
         '
         'RAMMegabyteNumber
         '
@@ -1001,12 +1001,13 @@
     Public WithEvents RecRAM As System.Windows.Forms.Label
     Public WithEvents RAMHelpTitle As System.Windows.Forms.Label
     Public WithEvents RAMHelp As System.Windows.Forms.Label
-    Public WithEvents CreateNew As System.Windows.Forms.RadioButton
-    Public WithEvents UseDefaults As System.Windows.Forms.RadioButton
-    Public WithEvents AddExist As System.Windows.Forms.RadioButton
-    Public WithEvents HelpSelect As System.Windows.Forms.Label
-    Public WithEvents NewDescription2 As System.Windows.Forms.Label
-    Public WithEvents UseDefaultsDescription2 As System.Windows.Forms.Label
-    Public WithEvents AddExistDescription2 As System.Windows.Forms.Label
+    Public WithEvents NewMac2 As Panel
+    Public WithEvents CreateNew As RadioButton
+    Public WithEvents UseDefaults As RadioButton
+    Public WithEvents AddExist As RadioButton
+    Public WithEvents HelpSelect As Label
+    Public WithEvents NewDescription2 As Label
+    Public WithEvents UseDefaultsDescription2 As Label
+    Public WithEvents AddExistDescription2 As Label
 #End Region
 End Class
