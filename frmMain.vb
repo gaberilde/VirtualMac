@@ -3,27 +3,25 @@ Option Explicit On
 Friend Class frmMain
 	Inherits System.Windows.Forms.Form
     'Private Declare Function SetParent Lib "user32" (ByVal hWndChild As Integer, ByVal hWndNewParent As Integer) As Integer
-	
-	Public Sub RedrawList()
-		On Error Resume Next
-		
-		
-		'===Declarations===
-		Dim retF As Integer 'To set the parent of the Frame
-		Dim retS As Integer 'To set the parent of the VMSnap
-		Dim i As Integer 'Used to identify the graphic being handled
-		Dim x As Integer 'Used to know which and where was the last graphic
-		Dim division As Integer
-		
-		'===Duplicate the items so we can have more than 1 machine at time===
-		'Check how much items exist. The items are created as they exist in a
-		'hidden list. Let's mean you made 2 VMs, then 2 items will be added to
-		'this hidden list, and this Instruction called RedrawList will check how
-		'much items you made, then it will draw the number of items (In this case, 2)
-		'To do this, it will draw every item individually, and will repeat the
-		'actions until it gets to all the items using a 'For' cycle
-		
-		For i = 1 To VMList.Items.Count
+
+    '===Declarations===
+    Dim retF As Integer 'To set the parent of the Frame
+    Dim retS As Integer 'To set the parent of the VMSnap
+    Dim i As Integer 'Used to identify the graphic being handled
+    Dim x As Integer 'Used to know which and where was the last graphic
+    Dim division As Integer
+    Public Shared MacToEdit As String ' Used for settings window to know which one to edit
+    Public Sub RedrawList()
+        On Error Resume Next
+        '===Duplicate the items so we can have more than 1 machine at time===
+        'Check how much items exist. The items are created as they exist in a
+        'hidden list. Let's mean you made 2 VMs, then 2 items will be added to
+        'this hidden list, and this Instruction called RedrawList will check how
+        'much items you made, then it will draw the number of items (In this case, 2)
+        'To do this, it will draw every item individually, and will repeat the
+        'actions until it gets to all the items using a 'For' cycle
+
+        For i = 1 To VMList.Items.Count
 			
 			x = i - 1
 			
