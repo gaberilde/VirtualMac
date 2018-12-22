@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>4, 8</value>
   </metadata>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Start.Enabled" type="System.Boolean, mscorlib">
@@ -126,7 +126,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Start.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 120</value>
+    <value>267, 99</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Start.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
@@ -157,7 +157,7 @@
     <value>False</value>
   </data>
   <data name="Remove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 82</value>
+    <value>267, 61</value>
   </data>
   <data name="Remove.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -187,7 +187,7 @@
     <value>False</value>
   </data>
   <data name="Settings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 52</value>
+    <value>267, 31</value>
   </data>
   <data name="Settings.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -214,7 +214,7 @@
     <value>3</value>
   </data>
   <data name="NewMac.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 22</value>
+    <value>267, 1</value>
   </data>
   <data name="NewMac.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -239,66 +239,6 @@
   </data>
   <data name="&gt;&gt;NewMac.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;VMList.Name" xml:space="preserve">
-    <value>VMList</value>
-  </data>
-  <data name="&gt;&gt;VMList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VMList.Parent" xml:space="preserve">
-    <value>VMGraphicList</value>
-  </data>
-  <data name="&gt;&gt;VMList.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicScroll.Name" xml:space="preserve">
-    <value>VMGraphicScroll</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicScroll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.VScrollBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicScroll.Parent" xml:space="preserve">
-    <value>VMGraphicList</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicScroll.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Name" xml:space="preserve">
-    <value>_VM_0</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Parent" xml:space="preserve">
-    <value>VMGraphicList</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="VMGraphicList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 24</value>
-  </data>
-  <data name="VMGraphicList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="VMGraphicList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 185</value>
-  </data>
-  <data name="VMGraphicList.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.Name" xml:space="preserve">
-    <value>VMGraphicList</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="VMList.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, -2</value>
@@ -348,71 +288,8 @@
   <data name="&gt;&gt;VMGraphicScroll.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="VM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>105, 17</value>
-  </metadata>
-  <data name="&gt;&gt;_VMSnap_0.Name" xml:space="preserve">
-    <value>_VMSnap_0</value>
-  </data>
-  <data name="&gt;&gt;_VMSnap_0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_VMSnap_0.Parent" xml:space="preserve">
-    <value>_VM_0</value>
-  </data>
-  <data name="&gt;&gt;_VMSnap_0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;_VMName_0.Name" xml:space="preserve">
-    <value>_VMName_0</value>
-  </data>
-  <data name="&gt;&gt;_VMName_0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_VMName_0.Parent" xml:space="preserve">
-    <value>_VM_0</value>
-  </data>
-  <data name="&gt;&gt;_VMName_0.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;_VMDescription_0.Name" xml:space="preserve">
-    <value>_VMDescription_0</value>
-  </data>
-  <data name="&gt;&gt;_VMDescription_0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_VMDescription_0.Parent" xml:space="preserve">
-    <value>_VM_0</value>
-  </data>
-  <data name="&gt;&gt;_VMDescription_0.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="_VM_0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -61</value>
-  </data>
-  <data name="_VM_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="_VM_0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 61</value>
-  </data>
-  <data name="_VM_0.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Name" xml:space="preserve">
-    <value>_VM_0</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Parent" xml:space="preserve">
-    <value>VMGraphicList</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <metadata name="VMSnap.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>345, 17</value>
+    <value>332, 8</value>
   </metadata>
   <data name="_VMSnap_0.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 10</value>
@@ -439,7 +316,7 @@
     <value>0</value>
   </data>
   <metadata name="VMName.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>273, 17</value>
+    <value>260, 8</value>
   </metadata>
   <data name="_VMName_0.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 8</value>
@@ -469,7 +346,7 @@
     <value>1</value>
   </data>
   <metadata name="VMDescription.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>159, 17</value>
+    <value>146, 8</value>
   </metadata>
   <data name="_VMDescription_0.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 32</value>
@@ -499,19 +376,58 @@
     <value>2</value>
   </data>
   <metadata name="VM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>105, 17</value>
+    <value>92, 8</value>
   </metadata>
-  <metadata name="VMDescription.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>159, 17</value>
-  </metadata>
-  <metadata name="VMName.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>273, 17</value>
-  </metadata>
-  <metadata name="VMSnap.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>345, 17</value>
-  </metadata>
+  <data name="_VM_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -61</value>
+  </data>
+  <data name="_VM_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_VM_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 61</value>
+  </data>
+  <data name="_VM_0.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Name" xml:space="preserve">
+    <value>_VM_0</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Parent" xml:space="preserve">
+    <value>VMGraphicList</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="VMGraphicList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="VMGraphicList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="VMGraphicList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 185</value>
+  </data>
+  <data name="VMGraphicList.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.Name" xml:space="preserve">
+    <value>VMGraphicList</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <metadata name="VirtualMacTray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>420, 19</value>
+    <value>407, 10</value>
   </metadata>
   <data name="VirtualMacTray.BalloonTipText" xml:space="preserve">
     <value>Welcome to the Vintage Macintosh emulator FrontEnd</value>
@@ -520,10 +436,55 @@
     <value>Welcome to Virtual Mac!</value>
   </data>
   <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>515, 20</value>
+    <value>527, 12</value>
   </metadata>
+  <data name="ShowVMC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ShowVMC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="ShowVMC.Text" xml:space="preserve">
+    <value>Show Virtual Mac Console</value>
+  </data>
+  <data name="IconNewMac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconNewMac.Text" xml:space="preserve">
+    <value>New Macintosh Wizard</value>
+  </data>
+  <data name="IconNewDisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconNewDisk.Text" xml:space="preserve">
+    <value>New Disk Wizard</value>
+  </data>
+  <data name="MenuBar0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="IconOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MenuBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="MenuBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="MenuBar2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IconExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 132</value>
+    <value>218, 154</value>
   </data>
   <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
     <value>ContextMenuStrip1</value>
@@ -647,242 +608,86 @@
   <data name="VirtualMacTray.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="ShowVMC.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 8.25pt, style=Bold</value>
-  </data>
-  <data name="ShowVMC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="ShowVMC.Text" xml:space="preserve">
-    <value>Show Virtual Mac Console</value>
-  </data>
-  <data name="IconNewMac.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconNewMac.Text" xml:space="preserve">
-    <value>New Macintosh Wizard</value>
-  </data>
-  <data name="IconNewDisk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconNewDisk.Text" xml:space="preserve">
-    <value>New Disk Wizard</value>
-  </data>
-  <data name="MenuBar0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="IconOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="MenuBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="MenuBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="MenuBar2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="IconExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="mnuFile.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 20</value>
-  </data>
-  <data name="mnuFile.Text" xml:space="preserve">
+  <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>674, 13</value>
+  </metadata>
+  <data name="MenuItem1.Text" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="mnuNewMac.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="MenuItem2.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="MenuItem3.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="mnuNewMac.Text" xml:space="preserve">
     <value>New Mac Wizard</value>
   </data>
-  <data name="mnuNewDisk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="mnuNewDisk.Text" xml:space="preserve">
-    <value>New Disk Wizard</value>
-  </data>
-  <data name="mnuFileBar0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 6</value>
-  </data>
-  <data name="mnuFileOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
-  <data name="mnuFileOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="mnuFileBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 6</value>
-  </data>
-  <data name="mnuFileExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
-  </data>
   <data name="mnuFileExit.Text" xml:space="preserve">
     <value>Exit</value>
-  </data>
-  <data name="mnuAction.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuAction.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
-  </data>
-  <data name="mnuAction.Text" xml:space="preserve">
-    <value>Action</value>
-  </data>
-  <data name="mnuAction.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>Overlay</value>
-  </data>
-  <data name="mnuActionStart.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuActionStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
   </data>
   <data name="mnuActionStart.Text" xml:space="preserve">
     <value>Start</value>
   </data>
-  <data name="mnuActionBar0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 6</value>
-  </data>
-  <data name="mnuActionPause.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuActionPause.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
+  <data name="MenuItem5.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="mnuActionPause.Text" xml:space="preserve">
     <value>Pause</value>
   </data>
-  <data name="mnuActionRestart.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuActionRestart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
-  </data>
   <data name="mnuActionRestart.Text" xml:space="preserve">
     <value>Restart</value>
   </data>
-  <data name="mnuActionBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 6</value>
-  </data>
-  <data name="mnuActionRemove.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuActionRemove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
+  <data name="MenuItem9.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="mnuActionRemove.Text" xml:space="preserve">
     <value>Remove</value>
   </data>
-  <data name="mnuActionBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 6</value>
-  </data>
-  <data name="mnuActionSettings.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuActionSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
+  <data name="MenuItem11.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="mnuActionSettings.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="mnuActionProperties.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuActionProperties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
-  </data>
   <data name="mnuActionProperties.Text" xml:space="preserve">
     <value>Properties</value>
-  </data>
-  <data name="mnuHelp.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuHelp.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
-  </data>
-  <data name="mnuHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="mnuHelp.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextBeforeImage</value>
-  </data>
-  <data name="mnuHelpContents.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 20</value>
   </data>
   <data name="mnuHelpContents.Text" xml:space="preserve">
     <value>Virtual Mac Help</value>
   </data>
-  <data name="mnuHelpContents.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextBeforeImage</value>
-  </data>
-  <data name="mnuHelpSearchForHelpOn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 20</value>
-  </data>
   <data name="mnuHelpSearchForHelpOn.Text" xml:space="preserve">
     <value>Online Help</value>
   </data>
-  <data name="mnuHelpSearchForHelpOn.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextBeforeImage</value>
-  </data>
-  <data name="mnuHelpBar0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 6</value>
-  </data>
-  <data name="mnuHelpAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
+  <data name="MenuItem7.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="mnuHelpAbout.Text" xml:space="preserve">
     <value>About Virtual Mac...</value>
   </data>
-  <data name="mnuHelpAbout.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextBeforeImage</value>
+  <data name="MenuItem6.Text" xml:space="preserve">
+    <value>New Disk Wizard</value>
   </data>
-  <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
-  </metadata>
-  <data name="MainMenu1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="mnuFileBar0.Text" xml:space="preserve">
+    <value>-</value>
   </data>
-  <data name="MainMenu1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>353, 24</value>
+  <data name="mnuFileBar1.Text" xml:space="preserve">
+    <value>-</value>
   </data>
-  <data name="MainMenu1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;MainMenu1.Name" xml:space="preserve">
-    <value>MainMenu1</value>
-  </data>
-  <data name="&gt;&gt;MainMenu1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainMenu1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MainMenu1.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="mnuFileOptions.Text" xml:space="preserve">
+    <value>Options</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>42</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>353, 215</value>
+    <value>353, 193</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 8.25pt</value>
@@ -1090,137 +895,143 @@
   <data name="&gt;&gt;IconExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mnuFile.Name" xml:space="preserve">
-    <value>mnuFile</value>
+  <data name="&gt;&gt;MainMenu1.Name" xml:space="preserve">
+    <value>MainMenu1</value>
   </data>
-  <data name="&gt;&gt;mnuFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MainMenu1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem1.Name" xml:space="preserve">
+    <value>MenuItem1</value>
+  </data>
+  <data name="&gt;&gt;MenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuNewMac.Name" xml:space="preserve">
     <value>mnuNewMac</value>
   </data>
   <data name="&gt;&gt;mnuNewMac.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuNewDisk.Name" xml:space="preserve">
-    <value>mnuNewDisk</value>
-  </data>
-  <data name="&gt;&gt;mnuNewDisk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar0.Name" xml:space="preserve">
-    <value>mnuFileBar0</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuFileOptions.Name" xml:space="preserve">
-    <value>mnuFileOptions</value>
-  </data>
-  <data name="&gt;&gt;mnuFileOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar1.Name" xml:space="preserve">
-    <value>mnuFileBar1</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuFileExit.Name" xml:space="preserve">
     <value>mnuFileExit</value>
   </data>
   <data name="&gt;&gt;mnuFileExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mnuAction.Name" xml:space="preserve">
-    <value>mnuAction</value>
+  <data name="&gt;&gt;MenuItem2.Name" xml:space="preserve">
+    <value>MenuItem2</value>
   </data>
-  <data name="&gt;&gt;mnuAction.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionStart.Name" xml:space="preserve">
     <value>mnuActionStart</value>
   </data>
   <data name="&gt;&gt;mnuActionStart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mnuActionBar0.Name" xml:space="preserve">
-    <value>mnuActionBar0</value>
+  <data name="&gt;&gt;MenuItem5.Name" xml:space="preserve">
+    <value>MenuItem5</value>
   </data>
-  <data name="&gt;&gt;mnuActionBar0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionPause.Name" xml:space="preserve">
     <value>mnuActionPause</value>
   </data>
   <data name="&gt;&gt;mnuActionPause.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionRestart.Name" xml:space="preserve">
     <value>mnuActionRestart</value>
   </data>
   <data name="&gt;&gt;mnuActionRestart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mnuActionBar1.Name" xml:space="preserve">
-    <value>mnuActionBar1</value>
+  <data name="&gt;&gt;MenuItem9.Name" xml:space="preserve">
+    <value>MenuItem9</value>
   </data>
-  <data name="&gt;&gt;mnuActionBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionRemove.Name" xml:space="preserve">
     <value>mnuActionRemove</value>
   </data>
   <data name="&gt;&gt;mnuActionRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mnuActionBar2.Name" xml:space="preserve">
-    <value>mnuActionBar2</value>
+  <data name="&gt;&gt;MenuItem11.Name" xml:space="preserve">
+    <value>MenuItem11</value>
   </data>
-  <data name="&gt;&gt;mnuActionBar2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MenuItem11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionSettings.Name" xml:space="preserve">
     <value>mnuActionSettings</value>
   </data>
   <data name="&gt;&gt;mnuActionSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionProperties.Name" xml:space="preserve">
     <value>mnuActionProperties</value>
   </data>
   <data name="&gt;&gt;mnuActionProperties.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mnuHelp.Name" xml:space="preserve">
-    <value>mnuHelp</value>
+  <data name="&gt;&gt;MenuItem3.Name" xml:space="preserve">
+    <value>MenuItem3</value>
   </data>
-  <data name="&gt;&gt;mnuHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuHelpContents.Name" xml:space="preserve">
     <value>mnuHelpContents</value>
   </data>
   <data name="&gt;&gt;mnuHelpContents.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuHelpSearchForHelpOn.Name" xml:space="preserve">
     <value>mnuHelpSearchForHelpOn</value>
   </data>
   <data name="&gt;&gt;mnuHelpSearchForHelpOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mnuHelpBar0.Name" xml:space="preserve">
-    <value>mnuHelpBar0</value>
+  <data name="&gt;&gt;MenuItem7.Name" xml:space="preserve">
+    <value>MenuItem7</value>
   </data>
-  <data name="&gt;&gt;mnuHelpBar0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuHelpAbout.Name" xml:space="preserve">
     <value>mnuHelpAbout</value>
   </data>
   <data name="&gt;&gt;mnuHelpAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem6.Name" xml:space="preserve">
+    <value>MenuItem6</value>
+  </data>
+  <data name="&gt;&gt;MenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar0.Name" xml:space="preserve">
+    <value>mnuFileBar0</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar1.Name" xml:space="preserve">
+    <value>mnuFileBar1</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuFileOptions.Name" xml:space="preserve">
+    <value>mnuFileOptions</value>
+  </data>
+  <data name="&gt;&gt;mnuFileOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmMain</value>
