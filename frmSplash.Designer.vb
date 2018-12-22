@@ -24,18 +24,18 @@
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSplash))
-        Me.Mac = New System.Windows.Forms.Label
-        Me.Starting = New System.Windows.Forms.Label
-        Me.Virtual = New System.Windows.Forms.Label
-        Me.Version = New System.Windows.Forms.Label
-        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar
+        Me.Mac = New System.Windows.Forms.Label()
+        Me.Starting = New System.Windows.Forms.Label()
+        Me.Virtual = New System.Windows.Forms.Label()
+        Me.Version = New System.Windows.Forms.Label()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.SuspendLayout()
         '
         'Mac
         '
         Me.Mac.BackColor = System.Drawing.Color.Transparent
         Me.Mac.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Mac.Font = New System.Drawing.Font("David Transparent", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
+        Me.Mac.Font = New System.Drawing.Font("David", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
         Me.Mac.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Mac.Location = New System.Drawing.Point(228, 168)
         Me.Mac.Name = "Mac"
@@ -52,7 +52,7 @@
         Me.Starting.Cursor = System.Windows.Forms.Cursors.WaitCursor
         Me.Starting.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Starting.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Starting.Location = New System.Drawing.Point(154, 272)
+        Me.Starting.Location = New System.Drawing.Point(154, 260)
         Me.Starting.Name = "Starting"
         Me.Starting.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Starting.Size = New System.Drawing.Size(113, 17)
@@ -65,7 +65,7 @@
         '
         Me.Virtual.BackColor = System.Drawing.Color.Transparent
         Me.Virtual.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Virtual.Font = New System.Drawing.Font("David Transparent", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
+        Me.Virtual.Font = New System.Drawing.Font("David", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
         Me.Virtual.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Virtual.Location = New System.Drawing.Point(38, 168)
         Me.Virtual.Name = "Virtual"
