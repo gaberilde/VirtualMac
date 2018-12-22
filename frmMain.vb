@@ -165,7 +165,7 @@ Friend Class frmMain
 
     End Sub
     Public Sub mnuActionSettings_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuActionSettings.Click
-        frmVMSettings.Text = "Settings for " & VB6.GetItemString(VMList, VMList.SelectedIndex)
+        MacToEdit = VB6.GetItemString(VMList, VMList.SelectedIndex)
         frmVMSettings.Show()
     End Sub
     Public Sub mnuActionStart_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuActionStart.Click
@@ -197,6 +197,7 @@ Friend Class frmMain
         OpenSettingsFor(VB6.GetItemString(VMList, VMList.SelectedIndex))
     End Sub
     Public Sub OpenSettingsFor(ByRef MacName As String)
+        MacToEdit = MacName
         frmVMSettings.Text = "Settings for " & MacName
         frmVMSettings.Show()
     End Sub
