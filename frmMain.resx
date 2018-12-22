@@ -484,7 +484,7 @@
     <value>Exit</value>
   </data>
   <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 154</value>
+    <value>218, 132</value>
   </data>
   <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
     <value>ContextMenuStrip1</value>
@@ -609,27 +609,33 @@
     <value>True</value>
   </data>
   <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>700, 12</value>
+    <value>701, 13</value>
   </metadata>
-  <data name="MenuItem1.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="MenuItem2.Text" xml:space="preserve">
-    <value>Action</value>
-  </data>
-  <data name="MenuItem3.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
   <data name="mnuNewMac.Text" xml:space="preserve">
     <value>New Mac Wizard</value>
+  </data>
+  <data name="mnuNewDisk.Text" xml:space="preserve">
+    <value>New Disk Wizard</value>
+  </data>
+  <data name="mnuFileBar0.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="mnuFileOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="mnuFileBar1.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="mnuFileExit.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
   <data name="mnuActionStart.Text" xml:space="preserve">
     <value>Start</value>
   </data>
-  <data name="MenuItem5.Text" xml:space="preserve">
+  <data name="mnuActionBar0.Text" xml:space="preserve">
     <value>-</value>
   </data>
   <data name="mnuActionPause.Text" xml:space="preserve">
@@ -638,13 +644,13 @@
   <data name="mnuActionRestart.Text" xml:space="preserve">
     <value>Restart</value>
   </data>
-  <data name="MenuItem9.Text" xml:space="preserve">
+  <data name="mnuActionBar1.Text" xml:space="preserve">
     <value>-</value>
   </data>
   <data name="mnuActionRemove.Text" xml:space="preserve">
     <value>Remove</value>
   </data>
-  <data name="MenuItem11.Text" xml:space="preserve">
+  <data name="mnuActionBar2.Text" xml:space="preserve">
     <value>-</value>
   </data>
   <data name="mnuActionSettings.Text" xml:space="preserve">
@@ -653,35 +659,29 @@
   <data name="mnuActionProperties.Text" xml:space="preserve">
     <value>Properties</value>
   </data>
+  <data name="mnuAction.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
   <data name="mnuHelpContents.Text" xml:space="preserve">
     <value>Virtual Mac Help</value>
   </data>
   <data name="mnuHelpSearchForHelpOn.Text" xml:space="preserve">
     <value>Online Help</value>
   </data>
-  <data name="MenuItem7.Text" xml:space="preserve">
+  <data name="mnuHelpBar0.Text" xml:space="preserve">
     <value>-</value>
   </data>
   <data name="mnuHelpAbout.Text" xml:space="preserve">
     <value>About Virtual Mac...</value>
   </data>
-  <data name="MenuItem6.Text" xml:space="preserve">
-    <value>New Disk Wizard</value>
-  </data>
-  <data name="mnuFileBar0.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="mnuFileBar1.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="mnuFileOptions.Text" xml:space="preserve">
-    <value>Options</value>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>42</value>
+    <value>40</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -901,10 +901,10 @@
   <data name="&gt;&gt;MainMenu1.Type" xml:space="preserve">
     <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuItem1.Name" xml:space="preserve">
-    <value>MenuItem1</value>
+  <data name="&gt;&gt;mnuFile.Name" xml:space="preserve">
+    <value>mnuFile</value>
   </data>
-  <data name="&gt;&gt;MenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;mnuFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuNewMac.Name" xml:space="preserve">
@@ -913,16 +913,40 @@
   <data name="&gt;&gt;mnuNewMac.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;mnuNewDisk.Name" xml:space="preserve">
+    <value>mnuNewDisk</value>
+  </data>
+  <data name="&gt;&gt;mnuNewDisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar0.Name" xml:space="preserve">
+    <value>mnuFileBar0</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuFileOptions.Name" xml:space="preserve">
+    <value>mnuFileOptions</value>
+  </data>
+  <data name="&gt;&gt;mnuFileOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar1.Name" xml:space="preserve">
+    <value>mnuFileBar1</value>
+  </data>
+  <data name="&gt;&gt;mnuFileBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;mnuFileExit.Name" xml:space="preserve">
     <value>mnuFileExit</value>
   </data>
   <data name="&gt;&gt;mnuFileExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuItem2.Name" xml:space="preserve">
-    <value>MenuItem2</value>
+  <data name="&gt;&gt;mnuAction.Name" xml:space="preserve">
+    <value>mnuAction</value>
   </data>
-  <data name="&gt;&gt;MenuItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;mnuAction.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionStart.Name" xml:space="preserve">
@@ -931,10 +955,10 @@
   <data name="&gt;&gt;mnuActionStart.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuItem5.Name" xml:space="preserve">
-    <value>MenuItem5</value>
+  <data name="&gt;&gt;mnuActionBar0.Name" xml:space="preserve">
+    <value>mnuActionBar0</value>
   </data>
-  <data name="&gt;&gt;MenuItem5.Type" xml:space="preserve">
+  <data name="&gt;&gt;mnuActionBar0.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionPause.Name" xml:space="preserve">
@@ -949,10 +973,10 @@
   <data name="&gt;&gt;mnuActionRestart.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuItem9.Name" xml:space="preserve">
-    <value>MenuItem9</value>
+  <data name="&gt;&gt;mnuActionBar1.Name" xml:space="preserve">
+    <value>mnuActionBar1</value>
   </data>
-  <data name="&gt;&gt;MenuItem9.Type" xml:space="preserve">
+  <data name="&gt;&gt;mnuActionBar1.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionRemove.Name" xml:space="preserve">
@@ -961,10 +985,10 @@
   <data name="&gt;&gt;mnuActionRemove.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuItem11.Name" xml:space="preserve">
-    <value>MenuItem11</value>
+  <data name="&gt;&gt;mnuActionBar2.Name" xml:space="preserve">
+    <value>mnuActionBar2</value>
   </data>
-  <data name="&gt;&gt;MenuItem11.Type" xml:space="preserve">
+  <data name="&gt;&gt;mnuActionBar2.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuActionSettings.Name" xml:space="preserve">
@@ -979,10 +1003,10 @@
   <data name="&gt;&gt;mnuActionProperties.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuItem3.Name" xml:space="preserve">
-    <value>MenuItem3</value>
+  <data name="&gt;&gt;mnuHelp.Name" xml:space="preserve">
+    <value>mnuHelp</value>
   </data>
-  <data name="&gt;&gt;MenuItem3.Type" xml:space="preserve">
+  <data name="&gt;&gt;mnuHelp.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuHelpContents.Name" xml:space="preserve">
@@ -997,40 +1021,16 @@
   <data name="&gt;&gt;mnuHelpSearchForHelpOn.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuItem7.Name" xml:space="preserve">
-    <value>MenuItem7</value>
+  <data name="&gt;&gt;mnuHelpBar0.Name" xml:space="preserve">
+    <value>mnuHelpBar0</value>
   </data>
-  <data name="&gt;&gt;MenuItem7.Type" xml:space="preserve">
+  <data name="&gt;&gt;mnuHelpBar0.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuHelpAbout.Name" xml:space="preserve">
     <value>mnuHelpAbout</value>
   </data>
   <data name="&gt;&gt;mnuHelpAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MenuItem6.Name" xml:space="preserve">
-    <value>MenuItem6</value>
-  </data>
-  <data name="&gt;&gt;MenuItem6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar0.Name" xml:space="preserve">
-    <value>mnuFileBar0</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar1.Name" xml:space="preserve">
-    <value>mnuFileBar1</value>
-  </data>
-  <data name="&gt;&gt;mnuFileBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuFileOptions.Name" xml:space="preserve">
-    <value>mnuFileOptions</value>
-  </data>
-  <data name="&gt;&gt;mnuFileOptions.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

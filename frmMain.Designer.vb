@@ -69,28 +69,28 @@
         Me.MenuBar2 = New System.Windows.Forms.ToolStripSeparator()
         Me.IconExit = New System.Windows.Forms.ToolStripMenuItem()
         Me.MainMenu1 = New System.Windows.Forms.MainMenu(Me.components)
-        Me.MenuItem1 = New System.Windows.Forms.MenuItem()
+        Me.mnuFile = New System.Windows.Forms.MenuItem()
         Me.mnuNewMac = New System.Windows.Forms.MenuItem()
+        Me.mnuNewDisk = New System.Windows.Forms.MenuItem()
+        Me.mnuFileBar0 = New System.Windows.Forms.MenuItem()
+        Me.mnuFileOptions = New System.Windows.Forms.MenuItem()
+        Me.mnuFileBar1 = New System.Windows.Forms.MenuItem()
         Me.mnuFileExit = New System.Windows.Forms.MenuItem()
-        Me.MenuItem2 = New System.Windows.Forms.MenuItem()
+        Me.mnuAction = New System.Windows.Forms.MenuItem()
         Me.mnuActionStart = New System.Windows.Forms.MenuItem()
-        Me.MenuItem5 = New System.Windows.Forms.MenuItem()
+        Me.mnuActionBar0 = New System.Windows.Forms.MenuItem()
         Me.mnuActionPause = New System.Windows.Forms.MenuItem()
         Me.mnuActionRestart = New System.Windows.Forms.MenuItem()
-        Me.MenuItem9 = New System.Windows.Forms.MenuItem()
+        Me.mnuActionBar1 = New System.Windows.Forms.MenuItem()
         Me.mnuActionRemove = New System.Windows.Forms.MenuItem()
-        Me.MenuItem11 = New System.Windows.Forms.MenuItem()
+        Me.mnuActionBar2 = New System.Windows.Forms.MenuItem()
         Me.mnuActionSettings = New System.Windows.Forms.MenuItem()
         Me.mnuActionProperties = New System.Windows.Forms.MenuItem()
-        Me.MenuItem3 = New System.Windows.Forms.MenuItem()
+        Me.mnuHelp = New System.Windows.Forms.MenuItem()
         Me.mnuHelpContents = New System.Windows.Forms.MenuItem()
         Me.mnuHelpSearchForHelpOn = New System.Windows.Forms.MenuItem()
-        Me.MenuItem7 = New System.Windows.Forms.MenuItem()
+        Me.mnuHelpBar0 = New System.Windows.Forms.MenuItem()
         Me.mnuHelpAbout = New System.Windows.Forms.MenuItem()
-        Me.MenuItem6 = New System.Windows.Forms.MenuItem()
-        Me.mnuFileBar0 = New System.Windows.Forms.MenuItem()
-        Me.mnuFileBar1 = New System.Windows.Forms.MenuItem()
-        Me.mnuFileOptions = New System.Windows.Forms.MenuItem()
         Me.VMGraphicList.SuspendLayout()
         Me._VM_0.SuspendLayout()
         CType(Me._VMSnap_0, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -275,39 +275,59 @@
         '
         'MainMenu1
         '
-        Me.MainMenu1.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.MenuItem1, Me.MenuItem2, Me.MenuItem3})
+        Me.MainMenu1.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuFile, Me.mnuAction, Me.mnuHelp})
         '
-        'MenuItem1
+        'mnuFile
         '
-        Me.MenuItem1.Index = 0
-        Me.MenuItem1.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuNewMac, Me.MenuItem6, Me.mnuFileBar0, Me.mnuFileOptions, Me.mnuFileBar1, Me.mnuFileExit})
-        resources.ApplyResources(Me.MenuItem1, "MenuItem1")
+        Me.mnuFile.Index = 0
+        Me.mnuFile.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuNewMac, Me.mnuNewDisk, Me.mnuFileBar0, Me.mnuFileOptions, Me.mnuFileBar1, Me.mnuFileExit})
+        resources.ApplyResources(Me.mnuFile, "mnuFile")
         '
         'mnuNewMac
         '
         Me.mnuNewMac.Index = 0
         resources.ApplyResources(Me.mnuNewMac, "mnuNewMac")
         '
+        'mnuNewDisk
+        '
+        Me.mnuNewDisk.Index = 1
+        resources.ApplyResources(Me.mnuNewDisk, "mnuNewDisk")
+        '
+        'mnuFileBar0
+        '
+        Me.mnuFileBar0.Index = 2
+        resources.ApplyResources(Me.mnuFileBar0, "mnuFileBar0")
+        '
+        'mnuFileOptions
+        '
+        Me.mnuFileOptions.Index = 3
+        resources.ApplyResources(Me.mnuFileOptions, "mnuFileOptions")
+        '
+        'mnuFileBar1
+        '
+        Me.mnuFileBar1.Index = 4
+        resources.ApplyResources(Me.mnuFileBar1, "mnuFileBar1")
+        '
         'mnuFileExit
         '
         Me.mnuFileExit.Index = 5
         resources.ApplyResources(Me.mnuFileExit, "mnuFileExit")
         '
-        'MenuItem2
+        'mnuAction
         '
-        Me.MenuItem2.Index = 1
-        Me.MenuItem2.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuActionStart, Me.MenuItem5, Me.mnuActionPause, Me.mnuActionRestart, Me.MenuItem9, Me.mnuActionRemove, Me.MenuItem11, Me.mnuActionSettings, Me.mnuActionProperties})
-        resources.ApplyResources(Me.MenuItem2, "MenuItem2")
+        Me.mnuAction.Index = 1
+        Me.mnuAction.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuActionStart, Me.mnuActionBar0, Me.mnuActionPause, Me.mnuActionRestart, Me.mnuActionBar1, Me.mnuActionRemove, Me.mnuActionBar2, Me.mnuActionSettings, Me.mnuActionProperties})
+        resources.ApplyResources(Me.mnuAction, "mnuAction")
         '
         'mnuActionStart
         '
         Me.mnuActionStart.Index = 0
         resources.ApplyResources(Me.mnuActionStart, "mnuActionStart")
         '
-        'MenuItem5
+        'mnuActionBar0
         '
-        Me.MenuItem5.Index = 1
-        resources.ApplyResources(Me.MenuItem5, "MenuItem5")
+        Me.mnuActionBar0.Index = 1
+        resources.ApplyResources(Me.mnuActionBar0, "mnuActionBar0")
         '
         'mnuActionPause
         '
@@ -319,20 +339,20 @@
         Me.mnuActionRestart.Index = 3
         resources.ApplyResources(Me.mnuActionRestart, "mnuActionRestart")
         '
-        'MenuItem9
+        'mnuActionBar1
         '
-        Me.MenuItem9.Index = 4
-        resources.ApplyResources(Me.MenuItem9, "MenuItem9")
+        Me.mnuActionBar1.Index = 4
+        resources.ApplyResources(Me.mnuActionBar1, "mnuActionBar1")
         '
         'mnuActionRemove
         '
         Me.mnuActionRemove.Index = 5
         resources.ApplyResources(Me.mnuActionRemove, "mnuActionRemove")
         '
-        'MenuItem11
+        'mnuActionBar2
         '
-        Me.MenuItem11.Index = 6
-        resources.ApplyResources(Me.MenuItem11, "MenuItem11")
+        Me.mnuActionBar2.Index = 6
+        resources.ApplyResources(Me.mnuActionBar2, "mnuActionBar2")
         '
         'mnuActionSettings
         '
@@ -344,11 +364,11 @@
         Me.mnuActionProperties.Index = 8
         resources.ApplyResources(Me.mnuActionProperties, "mnuActionProperties")
         '
-        'MenuItem3
+        'mnuHelp
         '
-        Me.MenuItem3.Index = 2
-        Me.MenuItem3.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuHelpContents, Me.mnuHelpSearchForHelpOn, Me.MenuItem7, Me.mnuHelpAbout})
-        resources.ApplyResources(Me.MenuItem3, "MenuItem3")
+        Me.mnuHelp.Index = 2
+        Me.mnuHelp.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuHelpContents, Me.mnuHelpSearchForHelpOn, Me.mnuHelpBar0, Me.mnuHelpAbout})
+        resources.ApplyResources(Me.mnuHelp, "mnuHelp")
         '
         'mnuHelpContents
         '
@@ -360,35 +380,15 @@
         Me.mnuHelpSearchForHelpOn.Index = 1
         resources.ApplyResources(Me.mnuHelpSearchForHelpOn, "mnuHelpSearchForHelpOn")
         '
-        'MenuItem7
+        'mnuHelpBar0
         '
-        Me.MenuItem7.Index = 2
-        resources.ApplyResources(Me.MenuItem7, "MenuItem7")
+        Me.mnuHelpBar0.Index = 2
+        resources.ApplyResources(Me.mnuHelpBar0, "mnuHelpBar0")
         '
         'mnuHelpAbout
         '
         Me.mnuHelpAbout.Index = 3
         resources.ApplyResources(Me.mnuHelpAbout, "mnuHelpAbout")
-        '
-        'MenuItem6
-        '
-        Me.MenuItem6.Index = 1
-        resources.ApplyResources(Me.MenuItem6, "MenuItem6")
-        '
-        'mnuFileBar0
-        '
-        Me.mnuFileBar0.Index = 2
-        resources.ApplyResources(Me.mnuFileBar0, "mnuFileBar0")
-        '
-        'mnuFileBar1
-        '
-        Me.mnuFileBar1.Index = 4
-        resources.ApplyResources(Me.mnuFileBar1, "mnuFileBar1")
-        '
-        'mnuFileOptions
-        '
-        Me.mnuFileOptions.Index = 3
-        resources.ApplyResources(Me.mnuFileOptions, "mnuFileOptions")
         '
         'frmMain
         '
@@ -404,6 +404,7 @@
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
+        Me.Menu = Me.MainMenu1
         Me.Name = "frmMain"
         Me.VMGraphicList.ResumeLayout(False)
         Me._VM_0.ResumeLayout(False)
@@ -427,27 +428,27 @@
     Friend WithEvents IconNewMac As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MenuBar2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents MainMenu1 As MainMenu
-    Friend WithEvents MenuItem1 As MenuItem
-    Friend WithEvents MenuItem2 As MenuItem
-    Friend WithEvents MenuItem3 As MenuItem
-    Friend WithEvents mnuHelpContents As MenuItem
-    Friend WithEvents mnuHelpSearchForHelpOn As MenuItem
-    Friend WithEvents MenuItem7 As MenuItem
-    Friend WithEvents mnuHelpAbout As MenuItem
+    Friend WithEvents mnuFile As MenuItem
+    Friend WithEvents mnuNewMac As MenuItem
+    Friend WithEvents mnuNewDisk As MenuItem
+    Friend WithEvents mnuFileBar0 As MenuItem
+    Friend WithEvents mnuFileOptions As MenuItem
+    Friend WithEvents mnuFileBar1 As MenuItem
+    Friend WithEvents mnuFileExit As MenuItem
+    Friend WithEvents mnuAction As MenuItem
     Friend WithEvents mnuActionStart As MenuItem
-    Friend WithEvents MenuItem5 As MenuItem
+    Friend WithEvents mnuActionBar0 As MenuItem
     Friend WithEvents mnuActionPause As MenuItem
     Friend WithEvents mnuActionRestart As MenuItem
-    Friend WithEvents MenuItem9 As MenuItem
+    Friend WithEvents mnuActionBar1 As MenuItem
     Friend WithEvents mnuActionRemove As MenuItem
-    Friend WithEvents MenuItem11 As MenuItem
+    Friend WithEvents mnuActionBar2 As MenuItem
     Friend WithEvents mnuActionSettings As MenuItem
     Friend WithEvents mnuActionProperties As MenuItem
-    Friend WithEvents mnuNewMac As MenuItem
-    Friend WithEvents mnuFileExit As MenuItem
-    Friend WithEvents MenuItem6 As MenuItem
-    Friend WithEvents mnuFileBar0 As MenuItem
-    Friend WithEvents mnuFileBar1 As MenuItem
-    Friend WithEvents mnuFileOptions As MenuItem
+    Friend WithEvents mnuHelp As MenuItem
+    Friend WithEvents mnuHelpContents As MenuItem
+    Friend WithEvents mnuHelpSearchForHelpOn As MenuItem
+    Friend WithEvents mnuHelpBar0 As MenuItem
+    Friend WithEvents mnuHelpAbout As MenuItem
 #End Region
 End Class
