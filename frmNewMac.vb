@@ -220,6 +220,7 @@ EndNext:
         End If
 
         If NewMac6.Visible = True Then 'You'll see the Finish page
+            DescriptionEnd.Text = DescriptionEnd.Text + " " + MacName
             NewMac6.Visible = False
             OpenSettingsAfterFinish.Visible = False
             NewMacWizard.Visible = False
