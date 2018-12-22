@@ -192,7 +192,7 @@ Friend Class frmMain
     Private Sub NewMac_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles NewMac.Click
         frmNewMac.Show()
     End Sub
-    Private Sub Remove_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Remove.Click
+    Private Sub MacRemove_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Remove.Click
         RemoveSelectedMac()
     End Sub
     Private Sub Settings_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Settings.Click
