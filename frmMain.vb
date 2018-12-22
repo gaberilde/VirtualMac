@@ -211,7 +211,7 @@ Friend Class frmMain
     End Sub
 
     Public Sub mnuHelpAbout_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuHelpAbout.Click
-        frmAbout.Show()
+        frmAbout.ShowDialog()
     End Sub
 
     Public Sub mnuFileExit_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuFileExit.Click
