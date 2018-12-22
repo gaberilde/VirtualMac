@@ -2,18 +2,10 @@ Option Strict Off
 Option Explicit On
 Friend Class frmNewMac
     Inherits System.Windows.Forms.Form
+    Dim VMemory As Integer
+    Dim VDisk As Integer
+    Dim VArch As String
     'Honestly, the most complicated assistant (Here is where my hard work is :D)
-    Private Structure MEMORYSTATUS 'Api for checking how much RAM is avaible in the machine
-        Dim dwLength As Integer
-        Dim dwMemoryLoad As Integer
-        Dim dwTotalPhys As Integer
-        Dim dwAvailPhys As Integer
-        Dim dwTotalPageFile As Integer
-        Dim dwAvailPageFile As Integer
-        Dim dwTotalVirtual As Integer
-        Dim dwAvailVirtual As Integer
-    End Structure
-    Private Declare Sub GlobalMemoryStatus Lib "kernel32" (ByRef lpBuffer As MEMORYSTATUS)
     Private Sub BrowseA_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles BrowseA.Click
         'A for Add, that means 'Add an existing machine'.
         'Opens a 'Open dialog' to search VirtualMac config file
@@ -121,18 +113,14 @@ EndNext:
         On Error GoTo ErrorHandler
 
         'Declarations
-        Dim MemStat As MEMORYSTATUS
         Dim RAM As Integer
         Dim MacName As String
-        Dim VMemory As Integer
-        Dim VDisk As Integer
-        Dim VArch As String
+
 
         'Assigning values to the declarations
         MacName = Replace(FileNameC.Text, ".mcc", "")
 
-        GlobalMemoryStatus(MemStat)
-        RAM = CInt(Str(MemStat.dwTotalPhys / 1024 / 1024))
+        RAM = CInt(Str(My.Computer.Info.TotalPhysicalMemory / 1024 / 1024))
 
         If NewMac1.Visible = True Then 'Shows the assistant
             NewMacWizard.Visible = True
@@ -144,7 +132,6 @@ EndNext:
         End If
 
         If NewMac2.Visible = True Then 'This will differ as the option you choose
-
             If AddExist.Checked = True Then 'If you want to add from EXISTING file
                 NewMac2.Visible = False
                 Action.Text = "Existing Virtual Macintosh Name and Location"
@@ -174,7 +161,7 @@ EndNext:
             End If
 
             If CreateNew.Checked = True Then 'If you choosed to Create a new thing and follow instruction step by step
-                HardwareEngineer(True)
+                'HardwareEngineer(True)
                 Action.Text = "Operating System"
                 ActionDescription.Text = "Select the operating system you plan to install on this machine"
                 NewMac3.Visible = False
@@ -186,7 +173,7 @@ EndNext:
             End If
 
             If UseDefaults.Checked = True Then 'If you don't wanna waste time and just want a new machine NOW
-                HardwareEngineer(True)
+                'HardwareEngineer(True)
                 'AutoConfigure 'This will be uncommented when implemmented
                 VMName.Text = MacName
                 NewMacWizard.Visible = False
@@ -204,11 +191,11 @@ EndNext:
             NewMac4.Visible = False
             Action.Text = "Memory"
             ActionDescription.Text = "You can configure the RAM on this Mac"
-            RAMAdjust.Maximum = 2048
+            RAMAdjust.Maximum = FormatNumber(CDbl(My.Computer.Info.TotalPhysicalMemory / 1048576), 2)
             RAMAdjust.Value = VMemory
             RAMAdjust.TickFrequency = 2048 / 20
             RAMMegabyteNumber.Text = CStr(VMemory)
-            RecRAM.Text = "Recommended RAM: [" & MemoryMB.Text & "]"
+            RecRAM.Text = "Recommended RAM: [" & "128 MB" & "]"
             NewMac5.Visible = True
             Recommend.Focus()
             GoTo EndNext
@@ -249,8 +236,8 @@ EndNext:
             Me.Close()
             If OpenSettingsAfterFinish.Visible = True Then
                 If OpenSettingsAfterFinish.CheckState = 1 Then
-
-                    frmVMSettings.Show(MacName)
+                    frmMain.MacToEdit = MacName
+                    frmVMSettings.Show()
                 End If
             End If
         End If
@@ -264,109 +251,61 @@ ErrorHandler:
 
 EndNext:
     End Sub
-    Public Function HardwareEngineer(ByVal AutoDetect As Boolean) As String
-
-        Dim VMemory As Integer
-        Dim VDisk As Integer
-        Dim VArch As String = ""
+    Sub HardwareEngineer(ByVal AutoDetect As Boolean)
         Dim FoundPosition As Long
         Dim OSType As String = "Other"
 
         If AutoDetect = False Then GoTo Catalog
 
-        FoundPosition = InStr(FileNameC.Text, " 6")
-        If FoundPosition <> 0 Then
-            OSType = "Mac6"
+        FoundPosition = OSList.SelectedIndex
+        If FoundPosition = 0 Then
+            VMemory = 8
+            VDisk = 100
+            VArch = "m680"
             GoTo Catalog
         End If
 
-        FoundPosition = InStr(FileNameC.Text, " 7")
-        If FoundPosition <> 0 Then
-            OSType = "Mac7"
+        If FoundPosition = 1 Then
+            VMemory = 16
+            VDisk = 200
+            VArch = "m684"
             GoTo Catalog
         End If
 
-        FoundPosition = InStr(FileNameC.Text, " 7.")
-        If FoundPosition <> 0 Then
-            OSType = "Mac75"
+        If FoundPosition = 3 Then
+            VArch = "Mac75"
             GoTo Catalog
         End If
 
-        FoundPosition = InStr(FileNameC.Text, " 8")
-        If FoundPosition <> 0 Then
-            OSType = "Mac8"
+        If FoundPosition = 4 Then
+            VArch = "Mac8"
             GoTo Catalog
         End If
 
-        FoundPosition = InStr(FileNameC.Text, " 9")
-        If FoundPosition <> 0 Then
-            OSType = "Mac9"
+        If FoundPosition = 5 Then
+            VArch = "Mac9"
             GoTo Catalog
         End If
 
-        FoundPosition = InStr(FileNameC.Text, " 9.")
-        If FoundPosition <> 0 Then
-            OSType = "Mac9"
+        If FoundPosition = 6 Then
+            VMemory = 32
+            VDisk = 500
+            VArch = "PPC"
             GoTo Catalog
         End If
 
-        FoundPosition = InStr(FileNameC.Text, " Classic")
-        If FoundPosition <> 0 Then
-            OSType = "Mac9"
+        If FoundPosition = 7 Then
+            VMemory = 128
+            VDisk = 256
+            VArch = "Other"
             GoTo Catalog
         End If
-
-        FoundPosition = InStr(FileNameC.Text, " X")
-        If FoundPosition <> 0 Then
-            OSType = "Mac10"
-            GoTo Catalog
-        End If
-
-        FoundPosition = InStr(FileNameC.Text, " 10")
-        If FoundPosition <> 0 Then
-            OSType = "Mac10"
-            GoTo Catalog
-        End If
-
-        FoundPosition = InStr(FileNameC.Text, " 10.")
-        If FoundPosition <> 0 Then
-            OSType = "Mac10"
-            GoTo Catalog
-        End If
-
 
 Catalog:
-        If AutoDetect = False Then
-            'XDR
-        End If
-
-        Select Case OSType
-            Case "Mac6"
-                VMemory = 8
-                VDisk = 100
-                VArch = "m680"
-            Case "Mac7"
-                VMemory = 16
-                VDisk = 200
-                VArch = "m684"
-            Case "Mac8"
-                VMemory = 32
-                VDisk = 500
-                VArch = "PPC"
-            Case "Mac9"
-
-            Case "Mac10"
-
-            Case "Other"
-
-        End Select
-
-
-        MsgBox(VMemory & "," & VDisk & "," & VArch)
-
-        Return VMemory & "," & VDisk & "," & VArch
-
-    End Function
+        MemoryMB.Text = VMemory
+        DiskMB.Text = VDisk
+        CPUArch.Text = VArch
+    End Sub
     Public Sub Labeler(ByVal Memory As Long, ByVal Disk As Long, ByVal Arch As String)
         MemoryMB.Text = Memory & " MB"
         DiskMB.Text = Disk & " MB"
@@ -515,5 +454,11 @@ ErrorHandler:
                 RAMMegabyteNumber.TabStop = False
             End If
         End If
+    End Sub
+    Private Sub OSList_SelectedValueChanged(sender As Object, e As EventArgs) Handles OSList.SelectedValueChanged
+        HardwareEngineer(True)
+    End Sub
+    Private Sub frmNewMac_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        OSList.Text = "Other"
     End Sub
 End Class
