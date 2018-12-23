@@ -25,21 +25,10 @@
 	Public WithEvents Remove As System.Windows.Forms.Button
 	Public WithEvents Settings As System.Windows.Forms.Button
 	Public WithEvents NewMac As System.Windows.Forms.Button
-	Public WithEvents VMGraphicScroll As System.Windows.Forms.VScrollBar
-	Public WithEvents _VMSnap_0 As System.Windows.Forms.PictureBox
-	Public WithEvents _VMName_0 As System.Windows.Forms.Label
-	Public WithEvents _VMDescription_0 As System.Windows.Forms.Label
-	Public WithEvents _VM_0 As System.Windows.Forms.Panel
-	Public WithEvents VMGraphicList As System.Windows.Forms.Panel
-	Public WithEvents VMList As System.Windows.Forms.ListBox
-	Public WithEvents VM As Microsoft.VisualBasic.Compatibility.VB6.PanelArray
-	Public WithEvents VMDescription As Microsoft.VisualBasic.Compatibility.VB6.LabelArray
-	Public WithEvents VMName As Microsoft.VisualBasic.Compatibility.VB6.LabelArray
-	Public WithEvents VMSnap As Microsoft.VisualBasic.Compatibility.VB6.PictureBoxArray
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.
     'Do not modify it using the code editor.
-	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
@@ -47,17 +36,6 @@
         Me.Remove = New System.Windows.Forms.Button()
         Me.Settings = New System.Windows.Forms.Button()
         Me.NewMac = New System.Windows.Forms.Button()
-        Me.VMGraphicList = New System.Windows.Forms.Panel()
-        Me.VMList = New System.Windows.Forms.ListBox()
-        Me.VMGraphicScroll = New System.Windows.Forms.VScrollBar()
-        Me._VM_0 = New System.Windows.Forms.Panel()
-        Me._VMSnap_0 = New System.Windows.Forms.PictureBox()
-        Me._VMName_0 = New System.Windows.Forms.Label()
-        Me._VMDescription_0 = New System.Windows.Forms.Label()
-        Me.VM = New Microsoft.VisualBasic.Compatibility.VB6.PanelArray(Me.components)
-        Me.VMDescription = New Microsoft.VisualBasic.Compatibility.VB6.LabelArray(Me.components)
-        Me.VMName = New Microsoft.VisualBasic.Compatibility.VB6.LabelArray(Me.components)
-        Me.VMSnap = New Microsoft.VisualBasic.Compatibility.VB6.PictureBoxArray(Me.components)
         Me.VirtualMacTray = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.ShowVMC = New System.Windows.Forms.ToolStripMenuItem()
@@ -91,13 +69,8 @@
         Me.mnuHelpSearchForHelpOn = New System.Windows.Forms.MenuItem()
         Me.mnuHelpBar0 = New System.Windows.Forms.MenuItem()
         Me.mnuHelpAbout = New System.Windows.Forms.MenuItem()
-        Me.VMGraphicList.SuspendLayout()
-        Me._VM_0.SuspendLayout()
-        CType(Me._VMSnap_0, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.VM, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.VMDescription, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.VMName, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.VMSnap, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.VMListnew = New System.Windows.Forms.ListView()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -136,89 +109,6 @@
         resources.ApplyResources(Me.NewMac, "NewMac")
         Me.NewMac.Name = "NewMac"
         Me.NewMac.UseVisualStyleBackColor = True
-        '
-        'VMGraphicList
-        '
-        Me.VMGraphicList.BackColor = System.Drawing.Color.White
-        Me.VMGraphicList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.VMGraphicList.Controls.Add(Me.VMList)
-        Me.VMGraphicList.Controls.Add(Me.VMGraphicScroll)
-        Me.VMGraphicList.Controls.Add(Me._VM_0)
-        Me.VMGraphicList.Cursor = System.Windows.Forms.Cursors.Default
-        Me.VMGraphicList.ForeColor = System.Drawing.SystemColors.ControlText
-        resources.ApplyResources(Me.VMGraphicList, "VMGraphicList")
-        Me.VMGraphicList.Name = "VMGraphicList"
-        Me.VMGraphicList.TabStop = True
-        '
-        'VMList
-        '
-        Me.VMList.BackColor = System.Drawing.SystemColors.Window
-        Me.VMList.Cursor = System.Windows.Forms.Cursors.Default
-        Me.VMList.ForeColor = System.Drawing.SystemColors.WindowText
-        resources.ApplyResources(Me.VMList, "VMList")
-        Me.VMList.Name = "VMList"
-        '
-        'VMGraphicScroll
-        '
-        Me.VMGraphicScroll.Cursor = System.Windows.Forms.Cursors.Default
-        Me.VMGraphicScroll.LargeChange = 1
-        resources.ApplyResources(Me.VMGraphicScroll, "VMGraphicScroll")
-        Me.VMGraphicScroll.Maximum = 3
-        Me.VMGraphicScroll.Name = "VMGraphicScroll"
-        Me.VMGraphicScroll.TabStop = True
-        '
-        '_VM_0
-        '
-        Me._VM_0.BackColor = System.Drawing.Color.White
-        Me._VM_0.Controls.Add(Me._VMSnap_0)
-        Me._VM_0.Controls.Add(Me._VMName_0)
-        Me._VM_0.Controls.Add(Me._VMDescription_0)
-        Me._VM_0.Cursor = System.Windows.Forms.Cursors.Default
-        Me._VM_0.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.VM.SetIndex(Me._VM_0, CType(0, Short))
-        resources.ApplyResources(Me._VM_0, "_VM_0")
-        Me._VM_0.Name = "_VM_0"
-        '
-        '_VMSnap_0
-        '
-        Me._VMSnap_0.BackColor = System.Drawing.SystemColors.Control
-        Me._VMSnap_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me._VMSnap_0.Cursor = System.Windows.Forms.Cursors.Default
-        Me._VMSnap_0.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.VMSnap.SetIndex(Me._VMSnap_0, CType(0, Short))
-        resources.ApplyResources(Me._VMSnap_0, "_VMSnap_0")
-        Me._VMSnap_0.Name = "_VMSnap_0"
-        Me._VMSnap_0.TabStop = False
-        '
-        '_VMName_0
-        '
-        Me._VMName_0.BackColor = System.Drawing.Color.Transparent
-        Me._VMName_0.Cursor = System.Windows.Forms.Cursors.Default
-        Me._VMName_0.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.VMName.SetIndex(Me._VMName_0, CType(0, Short))
-        resources.ApplyResources(Me._VMName_0, "_VMName_0")
-        Me._VMName_0.Name = "_VMName_0"
-        '
-        '_VMDescription_0
-        '
-        Me._VMDescription_0.BackColor = System.Drawing.Color.Transparent
-        Me._VMDescription_0.Cursor = System.Windows.Forms.Cursors.Default
-        Me._VMDescription_0.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.VMDescription.SetIndex(Me._VMDescription_0, CType(0, Short))
-        resources.ApplyResources(Me._VMDescription_0, "_VMDescription_0")
-        Me._VMDescription_0.Name = "_VMDescription_0"
-        '
-        'VM
-        '
-        '
-        'VMDescription
-        '
-        '
-        'VMName
-        '
-        '
-        'VMSnap
-        '
         '
         'VirtualMacTray
         '
@@ -390,29 +280,42 @@
         Me.mnuHelpAbout.Index = 3
         resources.ApplyResources(Me.mnuHelpAbout, "mnuHelpAbout")
         '
+        'VMListnew
+        '
+        resources.ApplyResources(Me.VMListnew, "VMListnew")
+        Me.VMListnew.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {CType(resources.GetObject("VMListnew.Groups"), System.Windows.Forms.ListViewGroup)})
+        Me.VMListnew.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.VMListnew.HideSelection = False
+        Me.VMListnew.LargeImageList = Me.ImageList1
+        Me.VMListnew.MultiSelect = False
+        Me.VMListnew.Name = "VMListnew"
+        Me.VMListnew.ShowGroups = False
+        Me.VMListnew.TileSize = New System.Drawing.Size(170, 30)
+        Me.VMListnew.UseCompatibleStateImageBehavior = False
+        Me.VMListnew.View = System.Windows.Forms.View.Tile
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth24Bit
+        resources.ApplyResources(Me.ImageList1, "ImageList1")
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        '
         'frmMain
         '
         Me.AcceptButton = Me.Start
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
+        Me.Controls.Add(Me.VMListnew)
         Me.Controls.Add(Me.Start)
         Me.Controls.Add(Me.Remove)
         Me.Controls.Add(Me.Settings)
         Me.Controls.Add(Me.NewMac)
-        Me.Controls.Add(Me.VMGraphicList)
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Menu = Me.MainMenu1
         Me.Name = "frmMain"
-        Me.VMGraphicList.ResumeLayout(False)
-        Me._VM_0.ResumeLayout(False)
-        CType(Me._VMSnap_0, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.VM, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.VMDescription, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.VMName, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.VMSnap, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -450,5 +353,7 @@
     Friend WithEvents mnuHelpSearchForHelpOn As MenuItem
     Friend WithEvents mnuHelpBar0 As MenuItem
     Friend WithEvents mnuHelpAbout As MenuItem
+    Friend WithEvents VMListnew As ListView
+    Friend WithEvents ImageList1 As ImageList
 #End Region
 End Class
