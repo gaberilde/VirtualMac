@@ -1,5 +1,7 @@
 Option Strict Off
 Option Explicit On
+Imports System.IO
+
 Friend Class frmNewMac
     Inherits System.Windows.Forms.Form
     Dim VMemory As Integer
@@ -107,6 +109,7 @@ EndNext:
         'a New Mac, this will Unload the current Window
         Me.Close()
     End Sub
+    Dim selectedpath As Integer = 0
     Private Sub cmdNext_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdNext.Click
         'Here is the REALLY HARD work. This code will make you advance
         'throught the assistant. This will check which page (Frame) is
@@ -121,7 +124,6 @@ EndNext:
 
         'Assigning values to the declarations
         RAM = CInt(Str(My.Computer.Info.TotalPhysicalMemory / 1024 / 1024))
-        MacName = Replace(FileNameC.Text, ".mcc", "")
 
         If NewMac1.Visible = True Then 'Shows the assistant
             NewMacWizard.Visible = True
@@ -152,15 +154,10 @@ EndNext:
         End If
 
         If NewMac3.Visible = True Then 'This will differ too with the choice that you've made before
-
-            If Not String.IsNullOrEmpty(BrowseOpen.FileName) Then
-                MacName = Replace(BrowseOpen.FileName, ".mcc", "")
-            End If
-
-            If String.IsNullOrEmpty(BrowseOpen.FileName) Then
-                MacName = FileNameC.Text
-            End If
-
+            MacName = FileNameC.Text
+            MacName = Replace(FileNameC.Text, ".mcc", "")
+            If Not Path.GetFileName(MacName) = MacName Then MacName = Path.GetFileName(MacName) : selectedpath = 1
+            If Not FileNameC.Text.EndsWith(".mcc") Then FileNameC.Text = FileNameC.Text + ".mcc"
             If CreateNew.Checked = True Then 'If you choosed to Create a new thing and follow instruction step by step
                 'HardwareEngineer(True)
                 Action.Text = "Operating System"
@@ -176,7 +173,6 @@ EndNext:
             If UseDefaults.Checked = True Then 'If you don't wanna waste time and just want a new machine NOW
                 'HardwareEngineer(True)
                 'AutoConfigure 'This will be uncommented when implemmented
-                VMName.Text = MacName
                 NewMacWizard.Visible = False
                 cmdNext.Text = "Finish"
                 VB6.SetDefault(cmdNext, True)
@@ -189,18 +185,18 @@ EndNext:
         'Move away from the OS page and choose the RAM for you new Mac!
         '(Only avaible when creating new one, not when you choosed use defaults)
         If NewMac4.Visible = True Then
-            NewMac4.Visible = False
-            Action.Text = "Memory"
-            ActionDescription.Text = "You can configure the RAM on this Mac"
-            RAMAdjust.Maximum = FormatNumber(CDbl(My.Computer.Info.TotalPhysicalMemory / 1048576), 2)
-            RAMAdjust.Value = VMemory
-            RAMAdjust.TickFrequency = 2048 / 20
-            RAMMegabyteNumber.Text = CStr(VMemory)
-            RecRAM.Text = "Recommended RAM: [" & "128 MB" & "]"
-            NewMac5.Visible = True
-            Recommend.Focus()
-            GoTo EndNext
-        End If
+                NewMac4.Visible = False
+                Action.Text = "Memory"
+                ActionDescription.Text = "You can configure the RAM on this Mac"
+                RAMAdjust.Maximum = FormatNumber(CDbl(My.Computer.Info.TotalPhysicalMemory / 1048576), 2)
+                RAMAdjust.Value = VMemory
+                RAMAdjust.TickFrequency = 2048 / 20
+                RAMMegabyteNumber.Text = CStr(VMemory)
+                RecRAM.Text = "Recommended RAM: [" & "128 MB" & "]"
+                NewMac5.Visible = True
+                Recommend.Focus()
+                GoTo EndNext
+            End If
 
         If NewMac5.Visible = True Then 'Configure you new hard disk!
             VMemory = RAMAdjust.Value
@@ -208,17 +204,16 @@ EndNext:
             Action.Text = "Virtual Hard Disk Location"
             ActionDescription.Text = "This wizard creates a fixed size virtual disk with the specified size"
             DiskSizeMB.Text = VDisk
-
-            If String.IsNullOrEmpty(BrowseOpen.FileName) Then
-                NewMac7VDName.Text = Replace(BrowseOpen.FileName, ".mcc", ".dsk")
-            End If
-
-            If String.IsNullOrEmpty(BrowseOpen.FileName) Then
+            If selectedpath = 0 Then
                 If My.Settings.DefaultMacFolder = "UserDocumentPath" Then
-                    NewMac7VDName.Text = My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\" & MacName & ".dsk"
+                    NewMac7VDName.Text = My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\My Macs\" & MacName & ".dsk"
                 Else
                     NewMac7VDName.Text = My.Settings.DefaultMacFolder & "\" & MacName & ".dsk"
                 End If
+            Else NewMac7VDName.Text = FileNameC.Text
+            End If
+            If Not String.IsNullOrEmpty(BrowseOpen.FileName) Then
+                NewMac7VDName.Text = Replace(BrowseOpen.FileName, ".mcc", ".dsk")
             End If
 
             NewMac6.Visible = True
@@ -227,36 +222,30 @@ EndNext:
 
         If NewMac6.Visible = True Then 'You'll see the Finish page
             VDisk = DiskSizeMB.Text
-            Console.WriteLine(MacName)
-            Console.WriteLine(FileNameC.Text)
-            Console.WriteLine(VMemory)
-            Console.WriteLine(VDisk)
-            Console.WriteLine(VDInfoMaxMBSize)
-            Console.WriteLine(VDInfoAboutVD)
             DescriptionEnd.Text = DescriptionEnd.Text + " " + MacName
-            NewMac6.Visible = False
-            OpenSettingsAfterFinish.Visible = False
-            NewMacWizard.Visible = False
-            cmdNext.Text = "Finish"
-            NewMacEnd.Visible = True
-            GoTo EndNext
-        End If
+                NewMac6.Visible = False
+                OpenSettingsAfterFinish.Visible = False
+                NewMacWizard.Visible = False
+                cmdNext.Text = "Finish"
+                NewMacEnd.Visible = True
+                GoTo EndNext
+            End If
 
-        If NewMacEnd.Visible = True Then
-            AddVM(MacName)
-            Me.Close()
-            If OpenSettingsAfterFinish.Visible = True Then
-                If OpenSettingsAfterFinish.CheckState = 1 Then
-                    frmMain.MacToEdit = MacName
-                    frmVMSettings.Show()
+            If NewMacEnd.Visible = True Then
+                AddVM(MacName)
+                Me.Close()
+                If OpenSettingsAfterFinish.Visible = True Then
+                    If OpenSettingsAfterFinish.CheckState = 1 Then
+                        frmMain.MacToEdit = MacName
+                        frmVMSettings.Show()
+                    End If
                 End If
             End If
-        End If
 
-        GoTo EndNext
+            GoTo EndNext
 
 ErrorHandler:
-        If Not Err.Number = 0 Then
+            If Not Err.Number = 0 Then
             MsgBox(Err.Number & ". " & Err.Description, MsgBoxStyle.Critical)
         End If
 
@@ -403,11 +392,12 @@ Catalog:
 
         'Procedure
         For x = 1 To frmMain.VM.Count - 1
-            i = InStr(frmMain.VMName(x).Text, FileNameC.Text)
+            i = InStr(frmMain.VMName(x).Text & ".mcc", FileNameC.Text)
             If i <> 0 Then
                 FileNameC.Text = "New Mac (" & x & ")" & ".mcc"
             End If
         Next
+        MacName = Replace(FileNameC.Text, ".mcc", "")
     End Sub
     Private Sub RAMAdjust_Scroll(ByVal sender As Object, ByVal e As System.EventArgs) Handles RAMAdjust.Scroll
         RAMMegabyteNumber.Text = CStr(RAMAdjust.Value)
