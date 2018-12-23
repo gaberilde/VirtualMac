@@ -181,7 +181,7 @@
     <value>4</value>
   </data>
   <metadata name="picOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>225, 17</value>
+    <value>217, 9</value>
   </metadata>
   <data name="&gt;&gt;fraSample4.Name" xml:space="preserve">
     <value>fraSample4</value>
@@ -439,7 +439,7 @@
     <value>2</value>
   </data>
   <data name="DefFolderTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 17</value>
+    <value>5, 18</value>
   </data>
   <data name="DefFolderTitle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -466,7 +466,7 @@
     <value>0</value>
   </data>
   <data name="DefaultMacFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 37</value>
+    <value>6, 36</value>
   </data>
   <data name="DefaultMacFolder.MaxLength" type="System.Int32, mscorlib">
     <value>0</value>
@@ -475,13 +475,13 @@
     <value>No</value>
   </data>
   <data name="DefaultMacFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 21</value>
+    <value>241, 21</value>
   </data>
   <data name="DefaultMacFolder.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
   <data name="DefaultMacFolder.Text" xml:space="preserve">
-    <value>C:\Documents and settings\Edson Armando\Mis documentos\My Macs</value>
+    <value>UserDocumentPath</value>
   </data>
   <data name="&gt;&gt;DefaultMacFolder.Name" xml:space="preserve">
     <value>DefaultMacFolder</value>
@@ -496,13 +496,13 @@
     <value>1</value>
   </data>
   <data name="BrowseFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 64</value>
+    <value>5, 61</value>
   </data>
   <data name="BrowseFolder.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="BrowseFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 22</value>
+    <value>241, 22</value>
   </data>
   <data name="BrowseFolder.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -522,59 +522,8 @@
   <data name="&gt;&gt;BrowseFolder.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;ROMFile.Name" xml:space="preserve">
-    <value>ROMFile</value>
-  </data>
-  <data name="&gt;&gt;ROMFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ROMFile.Parent" xml:space="preserve">
-    <value>ROM</value>
-  </data>
-  <data name="&gt;&gt;ROMFile.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BrowseROM.Name" xml:space="preserve">
-    <value>BrowseROM</value>
-  </data>
-  <data name="&gt;&gt;BrowseROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BrowseROM.Parent" xml:space="preserve">
-    <value>ROM</value>
-  </data>
-  <data name="&gt;&gt;BrowseROM.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 6</value>
-  </data>
-  <data name="ROM.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="ROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 86</value>
-  </data>
-  <data name="ROM.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="ROM.Text" xml:space="preserve">
-    <value>ROM</value>
-  </data>
-  <data name="&gt;&gt;ROM.Name" xml:space="preserve">
-    <value>ROM</value>
-  </data>
-  <data name="&gt;&gt;ROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ROM.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ROM.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="ROMFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 20</value>
+    <value>5, 20</value>
   </data>
   <data name="ROMFile.MaxLength" type="System.Int32, mscorlib">
     <value>0</value>
@@ -583,7 +532,7 @@
     <value>No</value>
   </data>
   <data name="ROMFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 21</value>
+    <value>243, 21</value>
   </data>
   <data name="ROMFile.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -601,7 +550,7 @@
     <value>0</value>
   </data>
   <data name="BrowseROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 58</value>
+    <value>4, 49</value>
   </data>
   <data name="BrowseROM.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -625,6 +574,33 @@
     <value>ROM</value>
   </data>
   <data name="&gt;&gt;BrowseROM.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ROM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 97</value>
+  </data>
+  <data name="ROM.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ROM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 78</value>
+  </data>
+  <data name="ROM.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ROM.Text" xml:space="preserve">
+    <value>ROM</value>
+  </data>
+  <data name="&gt;&gt;ROM.Name" xml:space="preserve">
+    <value>ROM</value>
+  </data>
+  <data name="&gt;&gt;ROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ROM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ROM.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <metadata name="picOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -699,6 +675,9 @@
   </data>
   <data name="ColumnHeader1.Text" xml:space="preserve">
     <value>Options</value>
+  </data>
+  <data name="ColumnHeader1.Width" type="System.Int32, mscorlib">
+    <value>63</value>
   </data>
   <data name="ColumnHeader2.Text" xml:space="preserve">
     <value>Value</value>
@@ -827,6 +806,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAB
         AADAAAAAAAMAAP///////wAA
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 29</value>

@@ -17,6 +17,7 @@ errFunction:
     End Sub
     Private Sub cmdOK_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdOK.Click
         My.Settings.DefaultROM = ROMFile.Text
+        My.Settings.DefaultMacFolder = DefaultMacFolder.Text
         My.Settings.Save()
         Me.Close()
     End Sub
@@ -32,5 +33,6 @@ errFunction:
     End Sub
     Private Sub frmOptions_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ROMFile.Text = My.Settings.DefaultROM
+        DefaultMacFolder.Text = My.Settings.DefaultMacFolder
     End Sub
 End Class
