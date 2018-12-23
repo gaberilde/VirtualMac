@@ -5,22 +5,23 @@ Friend Class frmNewMac
     Dim VMemory As Integer
     Dim VDisk As Integer
     Dim VArch As String
+    Dim MacName As String
     'Honestly, the most complicated assistant (Here is where my hard work is :D)
     Private Sub BrowseA_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles BrowseA.Click
         'A for Add, that means 'Add an existing machine'.
         'Opens a 'Open dialog' to search VirtualMac config file
         BrowseOpen.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
-        BrowseOpen.ShowDialog()
-        FileNameA.Text = BrowseOpen.FileName
+        If BrowseOpen.ShowDialog() = DialogResult.OK Then
+            FileNameA.Text = BrowseOpen.FileName
+        End If
     End Sub
     Private Sub BrowseC_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles BrowseC.Click
         'C for Create, that means 'Create a new machine'
         'Opens the save dialog that let's you choose where
         'will the config file be saved
-        BrowseOpen.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
         BrowseSave.Filter = "Virtual Mac Configuration File (*.mcc)|*.mcc|All files (*.*)|*.*"
-        BrowseOpen.FileName = BrowseSave.FileName
         If BrowseSave.ShowDialog() = DialogResult.OK Then
+            BrowseOpen.FileName = BrowseSave.FileName
             FileNameC.Text = BrowseOpen.FileName
         End If
     End Sub
@@ -80,6 +81,8 @@ Friend Class frmNewMac
             'If choosen the option 'Create a new Mac', this will return
             'to the 'RAM' page
             If CreateNew.Checked = True Then
+                DescriptionEnd.Text = DescriptionEnd.Text.Replace(MacName, "")
+                DescriptionEnd.Text = DescriptionEnd.Text.TrimEnd(" ") : DescriptionEnd.Text = DescriptionEnd.Text + " "
                 NewMacEnd.Visible = False
                 cmdNext.Text = "Next >"
                 NewMacWizard.Visible = True
@@ -100,7 +103,7 @@ Friend Class frmNewMac
 EndNext:
     End Sub
     Private Sub cmdCancel_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdCancel.Click
-        'If you cahnge of opinion and you think you don't need
+        'If you change of opinion and you think you don't need
         'a New Mac, this will Unload the current Window
         Me.Close()
     End Sub
@@ -114,7 +117,6 @@ EndNext:
 
         'Declarations
         Dim RAM As Integer
-        Dim MacName As String
 
 
         'Assigning values to the declarations
@@ -151,11 +153,11 @@ EndNext:
 
         If NewMac3.Visible = True Then 'This will differ too with the choice that you've made before
 
-            If Not BrowseOpen.FileName = "" Then
+            If Not String.IsNullOrEmpty(BrowseOpen.FileName) Then
                 MacName = Replace(BrowseOpen.FileName, ".mcc", "")
             End If
 
-            If BrowseOpen.FileName = "" Then
+            If String.IsNullOrEmpty(BrowseOpen.FileName) Then
                 MacName = FileNameC.Text
             End If
 
@@ -206,12 +208,16 @@ EndNext:
             ActionDescription.Text = "This wizard creates a fixed size virtual disk with the specified size"
             DiskSizeMB.Text = VDisk
 
-            If Not BrowseOpen.FileName = "" Then
+            If String.IsNullOrEmpty(BrowseOpen.FileName) Then
                 NewMac7VDName.Text = Replace(BrowseOpen.FileName, ".mcc", ".dsk")
             End If
 
-            If BrowseOpen.FileName = "" Then
-                NewMac7VDName.Text = frmOptions.DefaultMacFolder.Text & "\" & MacName & ".dsk"
+            If String.IsNullOrEmpty(BrowseOpen.FileName) Then
+                If My.Settings.DefaultMacFolder = "UserDocumentPath" Then
+                    NewMac7VDName.Text = My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\" & MacName & ".dsk"
+                Else
+                    NewMac7VDName.Text = My.Settings.DefaultMacFolder & "\" & MacName & ".dsk"
+                End If
             End If
 
             NewMac6.Visible = True
@@ -229,10 +235,7 @@ EndNext:
         End If
 
         If NewMacEnd.Visible = True Then
-
-            frmMain.VMList.Items.Add(MacName)   'Adds the just created machine to the VM List
-            frmMain.RedrawList()    'Redraw the list so you'll see the new elements
-
+            AddVM(MacName)
             Me.Close()
             If OpenSettingsAfterFinish.Visible = True Then
                 If OpenSettingsAfterFinish.CheckState = 1 Then
@@ -373,12 +376,16 @@ Catalog:
             VerifyKey = 0
         End If
     End Function
-    Public Sub AddVM()
+    Public Sub AddVM(s As String)
         'This procedure will, make place where at the end
         'of the assistant the machine is made and the config file
         'is written to disk. But for now it's incomplete
-
-        frmMain.RedrawList() 'Verifies for new items and redraws the list
+        Try
+            frmMain.VMList.Items.Add(s)   'Adds the just created machine to the VM List
+            frmMain.RedrawList()    'Redraw the list so you'll see the new elements
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
     End Sub
     Public Sub CheckIfNameExist()
         '===Check that we haven't a machine with the same name===
@@ -415,7 +422,6 @@ Catalog:
         'Makes that the value of the TextBox will be represented in the slider
         On Error GoTo ErrorHandler
         RAMAdjust.Value = CInt(RAMMegabyteNumber.Text)
-
 ErrorHandler:
         If Not Err.Number = 0 Then
             If Err.Number = 13 Then
