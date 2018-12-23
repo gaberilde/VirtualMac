@@ -118,9 +118,8 @@ EndNext:
 
 
         'Assigning values to the declarations
-        MacName = Replace(FileNameC.Text, ".mcc", "")
-
         RAM = CInt(Str(My.Computer.Info.TotalPhysicalMemory / 1024 / 1024))
+        MacName = Replace(FileNameC.Text, ".mcc", "")
 
         If NewMac1.Visible = True Then 'Shows the assistant
             NewMacWizard.Visible = True
@@ -265,43 +264,36 @@ EndNext:
             VArch = "m680"
             GoTo Catalog
         End If
-
         If FoundPosition = 1 Then
             VMemory = 16
             VDisk = 200
             VArch = "m684"
             GoTo Catalog
         End If
-
         If FoundPosition = 3 Then
             VArch = "Mac75"
             GoTo Catalog
         End If
-
         If FoundPosition = 4 Then
             VArch = "Mac8"
             GoTo Catalog
         End If
-
         If FoundPosition = 5 Then
             VArch = "Mac9"
             GoTo Catalog
         End If
-
         If FoundPosition = 6 Then
             VMemory = 32
             VDisk = 500
             VArch = "PPC"
             GoTo Catalog
         End If
-
         If FoundPosition = 7 Then
             VMemory = 128
             VDisk = 256
             VArch = "Other"
             GoTo Catalog
         End If
-
 Catalog:
         MemoryMB.Text = VMemory
         DiskMB.Text = VDisk
@@ -314,7 +306,6 @@ Catalog:
     End Sub
     Private Sub DiskSizeMB_TextChanged(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles DiskSizeMB.TextChanged
         'This is the tiny code that makes the slider and the textbox to synchronize
-
         On Error Resume Next
 
         If DiskSizeMB.Text = "" Then
@@ -399,7 +390,7 @@ Catalog:
         For x = 1 To frmMain.VM.Count - 1
             i = InStr(frmMain.VMName(x).Text, FileNameC.Text)
             If i <> 0 Then
-                FileNameC.Text = "New Mac (" & x & ")"
+                FileNameC.Text = "New Mac (" & x & ")" & ".mcc"
             End If
         Next
     End Sub

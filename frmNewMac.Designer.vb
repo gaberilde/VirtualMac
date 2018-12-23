@@ -170,7 +170,6 @@
         Me.WizardStart = New System.Windows.Forms.PictureBox()
         Me.TitleStart = New System.Windows.Forms.Label()
         Me.DescriptionStart = New System.Windows.Forms.Label()
-        Me.ContextMenu1 = New System.Windows.Forms.ContextMenu()
         Me.NewMacWizard.SuspendLayout()
         Me.NewMac2.SuspendLayout()
         Me.NewMac5.SuspendLayout()
@@ -990,7 +989,6 @@
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents ContextMenu1 As System.Windows.Forms.ContextMenu
     Public WithEvents RAMAdjuster As System.Windows.Forms.Panel
     Friend WithEvents RAMAdjust As System.Windows.Forms.TrackBar
     Public WithEvents RAMMegabyteNumber As System.Windows.Forms.TextBox

@@ -322,7 +322,7 @@
     <value>52</value>
   </data>
   <data name="UseDefaultsDescription2.Text" xml:space="preserve">
-    <value>You can automatically create a .mvv file with default settings. The resulting virtual machine will not have a virtual hard disk associated with it, so you will have to select one using the Settings dialog.</value>
+    <value>You can automatically create a .mcc file with default settings. The resulting virtual machine will not have a virtual hard disk associated with it, so you will have to select one using the Settings dialog.</value>
   </data>
   <data name="&gt;&gt;UseDefaultsDescription2.Name" xml:space="preserve">
     <value>UseDefaultsDescription2</value>
@@ -391,6 +391,765 @@
     <value>NewMacWizard</value>
   </data>
   <data name="&gt;&gt;NewMac2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Name" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Recommend.Name" xml:space="preserve">
+    <value>Recommend</value>
+  </data>
+  <data name="&gt;&gt;Recommend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Recommend.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;Recommend.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Adjust.Name" xml:space="preserve">
+    <value>Adjust</value>
+  </data>
+  <data name="&gt;&gt;Adjust.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Adjust.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;Adjust.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.Name" xml:space="preserve">
+    <value>RecRAM</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.Name" xml:space="preserve">
+    <value>RAMHelpTitle</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.Name" xml:space="preserve">
+    <value>RAMHelp</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NewMac5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="NewMac5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 257</value>
+  </data>
+  <data name="NewMac5.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="NewMac5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NewMac5.Name" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;NewMac5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac5.Parent" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;NewMac5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;WizardPictureSmall.Name" xml:space="preserve">
+    <value>WizardPictureSmall</value>
+  </data>
+  <data name="&gt;&gt;WizardPictureSmall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WizardPictureSmall.Parent" xml:space="preserve">
+    <value>DescriptionBox</value>
+  </data>
+  <data name="&gt;&gt;WizardPictureSmall.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ActionDescription.Name" xml:space="preserve">
+    <value>ActionDescription</value>
+  </data>
+  <data name="&gt;&gt;ActionDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActionDescription.Parent" xml:space="preserve">
+    <value>DescriptionBox</value>
+  </data>
+  <data name="&gt;&gt;ActionDescription.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Action.Name" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="&gt;&gt;Action.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Action.Parent" xml:space="preserve">
+    <value>DescriptionBox</value>
+  </data>
+  <data name="&gt;&gt;Action.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DescriptionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -8</value>
+  </data>
+  <data name="DescriptionBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="DescriptionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 65</value>
+  </data>
+  <data name="DescriptionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;DescriptionBox.Name" xml:space="preserve">
+    <value>DescriptionBox</value>
+  </data>
+  <data name="&gt;&gt;DescriptionBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescriptionBox.Parent" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;DescriptionBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OSList.Name" xml:space="preserve">
+    <value>OSList</value>
+  </data>
+  <data name="&gt;&gt;OSList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSList.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;OSList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.Name" xml:space="preserve">
+    <value>CPUArch</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.Name" xml:space="preserve">
+    <value>DiskMB</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.Name" xml:space="preserve">
+    <value>MemoryMB</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Name" xml:space="preserve">
+    <value>CPUType</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;CPUType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Disk.Name" xml:space="preserve">
+    <value>Disk</value>
+  </data>
+  <data name="&gt;&gt;Disk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Disk.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;Disk.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Memory.Name" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="&gt;&gt;Memory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Memory.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;Memory.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.Name" xml:space="preserve">
+    <value>DefaultHardware</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.Name" xml:space="preserve">
+    <value>OSListTitle</value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Help4.Name" xml:space="preserve">
+    <value>Help4</value>
+  </data>
+  <data name="&gt;&gt;Help4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Help4.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;Help4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="NewMac4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="NewMac4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 265</value>
+  </data>
+  <data name="NewMac4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="NewMac4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NewMac4.Name" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;NewMac4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac4.Parent" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;NewMac4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.Name" xml:space="preserve">
+    <value>DiskSizeMB</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.Name" xml:space="preserve">
+    <value>NewVDBrowse</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.Name" xml:space="preserve">
+    <value>NewMac7VDName</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.Name" xml:space="preserve">
+    <value>WarningLowerSize</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.Name" xml:space="preserve">
+    <value>VDInfoAboutVD</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.Name" xml:space="preserve">
+    <value>VDInfoMaxMBSize</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.Name" xml:space="preserve">
+    <value>VDMBInfo</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.Name" xml:space="preserve">
+    <value>MaxVDSize</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.Name" xml:space="preserve">
+    <value>InfoVDSize</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.Name" xml:space="preserve">
+    <value>NewVDHelp</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.Name" xml:space="preserve">
+    <value>NewVDTitleHelp</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="NewMac6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="NewMac6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="NewMac6.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="NewMac6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NewMac6.Name" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewMac6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac6.Parent" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;NewMac6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.Name" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.Parent" xml:space="preserve">
+    <value>NewMac60</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NewMac60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="NewMac60.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 257</value>
+  </data>
+  <data name="NewMac60.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="NewMac60.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NewMac60.Name" xml:space="preserve">
+    <value>NewMac60</value>
+  </data>
+  <data name="&gt;&gt;NewMac60.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60.Parent" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;NewMac60.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.Name" xml:space="preserve">
+    <value>FileNameA</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.Name" xml:space="preserve">
+    <value>BrowseA</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.Name" xml:space="preserve">
+    <value>FileNameTitleA</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;HelpA.Name" xml:space="preserve">
+    <value>HelpA</value>
+  </data>
+  <data name="&gt;&gt;HelpA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;HelpA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NewMacFromExist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="NewMacFromExist.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMacFromExist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="NewMacFromExist.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="NewMacFromExist.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NewMacFromExist.Name" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;NewMacFromExist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMacFromExist.Parent" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;NewMacFromExist.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;FileNameC.Name" xml:space="preserve">
+    <value>FileNameC</value>
+  </data>
+  <data name="&gt;&gt;FileNameC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileNameC.Parent" xml:space="preserve">
+    <value>NewMac3</value>
+  </data>
+  <data name="&gt;&gt;FileNameC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BrowseC.Name" xml:space="preserve">
+    <value>BrowseC</value>
+  </data>
+  <data name="&gt;&gt;BrowseC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowseC.Parent" xml:space="preserve">
+    <value>NewMac3</value>
+  </data>
+  <data name="&gt;&gt;BrowseC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleC.Name" xml:space="preserve">
+    <value>FileNameTitleC</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleC.Parent" xml:space="preserve">
+    <value>NewMac3</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleC.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;HelpC.Name" xml:space="preserve">
+    <value>HelpC</value>
+  </data>
+  <data name="&gt;&gt;HelpC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpC.Parent" xml:space="preserve">
+    <value>NewMac3</value>
+  </data>
+  <data name="&gt;&gt;HelpC.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NewMac3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
+  </data>
+  <data name="NewMac3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 257</value>
+  </data>
+  <data name="NewMac3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="NewMac3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NewMac3.Name" xml:space="preserve">
+    <value>NewMac3</value>
+  </data>
+  <data name="&gt;&gt;NewMac3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac3.Parent" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;NewMac3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NewMacWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NewMacWizard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMacWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 313</value>
+  </data>
+  <data name="NewMacWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="NewMacWizard.Text" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="NewMacWizard.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NewMacWizard.Name" xml:space="preserve">
+    <value>NewMacWizard</value>
+  </data>
+  <data name="&gt;&gt;NewMacWizard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMacWizard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NewMacWizard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Name" xml:space="preserve">
+    <value>RAMAdjust</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Name" xml:space="preserve">
+    <value>RAMMegabyteNumber</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Name" xml:space="preserve">
+    <value>MegaByte</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Name" xml:space="preserve">
+    <value>RAMDescription</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RAMAdjuster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 149</value>
+  </data>
+  <data name="RAMAdjuster.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMAdjuster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 76</value>
+  </data>
+  <data name="RAMAdjuster.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="RAMAdjuster.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Name" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="RAMAdjust.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -513,33 +1272,6 @@
   <data name="&gt;&gt;RAMDescription.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="RAMAdjuster.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 149</value>
-  </data>
-  <data name="RAMAdjuster.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RAMAdjuster.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 76</value>
-  </data>
-  <data name="RAMAdjuster.TabIndex" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
-  <data name="RAMAdjuster.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjuster.Name" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjuster.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjuster.Parent" xml:space="preserve">
-    <value>NewMac5</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjuster.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="Recommend.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -574,7 +1306,7 @@
     <value>NoControl</value>
   </data>
   <data name="Adjust.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 133</value>
+    <value>47, 132</value>
   </data>
   <data name="Adjust.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -690,33 +1422,6 @@
   <data name="&gt;&gt;RAMHelp.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="NewMac5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 56</value>
-  </data>
-  <data name="NewMac5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 257</value>
-  </data>
-  <data name="NewMac5.TabIndex" type="System.Int32, mscorlib">
-    <value>55</value>
-  </data>
-  <data name="NewMac5.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;NewMac5.Name" xml:space="preserve">
-    <value>NewMac5</value>
-  </data>
-  <data name="&gt;&gt;NewMac5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac5.Parent" xml:space="preserve">
-    <value>NewMacWizard</value>
-  </data>
-  <data name="&gt;&gt;NewMac5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="WizardPictureSmall.Location" type="System.Drawing.Point, System.Drawing">
     <value>442, 11</value>
   </data>
@@ -796,30 +1501,6 @@
     <value>DescriptionBox</value>
   </data>
   <data name="&gt;&gt;Action.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="DescriptionBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -8</value>
-  </data>
-  <data name="DescriptionBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="DescriptionBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 65</value>
-  </data>
-  <data name="DescriptionBox.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;DescriptionBox.Name" xml:space="preserve">
-    <value>DescriptionBox</value>
-  </data>
-  <data name="&gt;&gt;DescriptionBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DescriptionBox.Parent" xml:space="preserve">
-    <value>NewMacWizard</value>
-  </data>
-  <data name="&gt;&gt;DescriptionBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="OSList.Items" xml:space="preserve">
@@ -1121,33 +1802,6 @@
   </data>
   <data name="&gt;&gt;Help4.ZOrder" xml:space="preserve">
     <value>9</value>
-  </data>
-  <data name="NewMac4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 56</value>
-  </data>
-  <data name="NewMac4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 265</value>
-  </data>
-  <data name="NewMac4.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="NewMac4.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;NewMac4.Name" xml:space="preserve">
-    <value>NewMac4</value>
-  </data>
-  <data name="&gt;&gt;NewMac4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac4.Parent" xml:space="preserve">
-    <value>NewMacWizard</value>
-  </data>
-  <data name="&gt;&gt;NewMac4.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="DiskSizeMB.Location" type="System.Drawing.Point, System.Drawing">
     <value>208, 151</value>
@@ -1455,32 +2109,89 @@
   <data name="&gt;&gt;NewVDTitleHelp.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="NewMac6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 56</value>
+  <data name="&gt;&gt;CreateNewVD.Name" xml:space="preserve">
+    <value>CreateNewVD</value>
   </data>
-  <data name="NewMac6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="&gt;&gt;CreateNewVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Name" xml:space="preserve">
+    <value>AddExistingVD</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Name" xml:space="preserve">
+    <value>NewMac60Help</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Name" xml:space="preserve">
+    <value>NewMac60Use</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Name" xml:space="preserve">
+    <value>NewMac60About</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NewMac60ButtonFix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 10</value>
+  </data>
+  <data name="NewMac60ButtonFix.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="NewMac6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 257</value>
+  <data name="NewMac60ButtonFix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 156</value>
   </data>
-  <data name="NewMac6.TabIndex" type="System.Int32, mscorlib">
-    <value>70</value>
+  <data name="NewMac60ButtonFix.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
   </data>
-  <data name="NewMac6.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;NewMac60ButtonFix.Name" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
   </data>
-  <data name="&gt;&gt;NewMac6.Name" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;NewMac6.Type" xml:space="preserve">
+  <data name="&gt;&gt;NewMac60ButtonFix.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NewMac6.Parent" xml:space="preserve">
-    <value>NewMacWizard</value>
+  <data name="&gt;&gt;NewMac60ButtonFix.Parent" xml:space="preserve">
+    <value>NewMac60</value>
   </data>
-  <data name="&gt;&gt;NewMac6.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;NewMac60ButtonFix.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="CreateNewVD.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 103</value>
@@ -1617,57 +2328,6 @@
   <data name="&gt;&gt;NewMac60About.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="NewMac60ButtonFix.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 10</value>
-  </data>
-  <data name="NewMac60ButtonFix.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac60ButtonFix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>415, 156</value>
-  </data>
-  <data name="NewMac60ButtonFix.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.Name" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.Parent" xml:space="preserve">
-    <value>NewMac60</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NewMac60.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 56</value>
-  </data>
-  <data name="NewMac60.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac60.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 257</value>
-  </data>
-  <data name="NewMac60.TabIndex" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="NewMac60.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;NewMac60.Name" xml:space="preserve">
-    <value>NewMac60</value>
-  </data>
-  <data name="&gt;&gt;NewMac60.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60.Parent" xml:space="preserve">
-    <value>NewMacWizard</value>
-  </data>
-  <data name="&gt;&gt;NewMac60.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="FileNameA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Disable</value>
   </data>
@@ -1778,33 +2438,6 @@
   </data>
   <data name="&gt;&gt;HelpA.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="NewMacFromExist.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 56</value>
-  </data>
-  <data name="NewMacFromExist.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMacFromExist.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 257</value>
-  </data>
-  <data name="NewMacFromExist.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="NewMacFromExist.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;NewMacFromExist.Name" xml:space="preserve">
-    <value>NewMacFromExist</value>
-  </data>
-  <data name="&gt;&gt;NewMacFromExist.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMacFromExist.Parent" xml:space="preserve">
-    <value>NewMacWizard</value>
-  </data>
-  <data name="&gt;&gt;NewMacFromExist.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <data name="FileNameC.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 104</value>
@@ -1917,62 +2550,119 @@
   <data name="&gt;&gt;HelpC.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="NewMac3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 56</value>
+  <data name="&gt;&gt;OpenSettingsAfterFinish.Name" xml:space="preserve">
+    <value>OpenSettingsAfterFinish</value>
   </data>
-  <data name="NewMac3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="&gt;&gt;OpenSettingsAfterFinish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="NewMac3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>481, 257</value>
+  <data name="&gt;&gt;OpenSettingsAfterFinish.Parent" xml:space="preserve">
+    <value>NewMacEnd</value>
   </data>
-  <data name="NewMac3.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="&gt;&gt;OpenSettingsAfterFinish.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="NewMac3.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;WizardEnd.Name" xml:space="preserve">
+    <value>WizardEnd</value>
   </data>
-  <data name="&gt;&gt;NewMac3.Name" xml:space="preserve">
-    <value>NewMac3</value>
+  <data name="&gt;&gt;WizardEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NewMac3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;WizardEnd.Parent" xml:space="preserve">
+    <value>NewMacEnd</value>
   </data>
-  <data name="&gt;&gt;NewMac3.Parent" xml:space="preserve">
-    <value>NewMacWizard</value>
+  <data name="&gt;&gt;WizardEnd.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;NewMac3.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;AdviceClickFinish.Name" xml:space="preserve">
+    <value>AdviceClickFinish</value>
   </data>
-  <data name="NewMacWizard.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="&gt;&gt;AdviceClickFinish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdviceClickFinish.Parent" xml:space="preserve">
+    <value>NewMacEnd</value>
+  </data>
+  <data name="&gt;&gt;AdviceClickFinish.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AdviceNoHD.Name" xml:space="preserve">
+    <value>AdviceNoHD</value>
+  </data>
+  <data name="&gt;&gt;AdviceNoHD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdviceNoHD.Parent" xml:space="preserve">
+    <value>NewMacEnd</value>
+  </data>
+  <data name="&gt;&gt;AdviceNoHD.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;VMName.Name" xml:space="preserve">
+    <value>VMName</value>
+  </data>
+  <data name="&gt;&gt;VMName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VMName.Parent" xml:space="preserve">
+    <value>NewMacEnd</value>
+  </data>
+  <data name="&gt;&gt;VMName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DescriptionEnd.Name" xml:space="preserve">
+    <value>DescriptionEnd</value>
+  </data>
+  <data name="&gt;&gt;DescriptionEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescriptionEnd.Parent" xml:space="preserve">
+    <value>NewMacEnd</value>
+  </data>
+  <data name="&gt;&gt;DescriptionEnd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TitleEnd.Name" xml:space="preserve">
+    <value>TitleEnd</value>
+  </data>
+  <data name="&gt;&gt;TitleEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TitleEnd.Parent" xml:space="preserve">
+    <value>NewMacEnd</value>
+  </data>
+  <data name="&gt;&gt;TitleEnd.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NewMacEnd.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="NewMacWizard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="NewMacEnd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="NewMacWizard.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="NewMacEnd.Size" type="System.Drawing.Size, System.Drawing">
     <value>497, 313</value>
   </data>
-  <data name="NewMacWizard.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="NewMacEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
   </data>
-  <data name="NewMacWizard.Text" xml:space="preserve">
-    <value>Frame1</value>
+  <data name="NewMacEnd.Text" xml:space="preserve">
+    <value>NewMac1</value>
   </data>
-  <data name="NewMacWizard.Visible" type="System.Boolean, mscorlib">
+  <data name="NewMacEnd.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;NewMacWizard.Name" xml:space="preserve">
-    <value>NewMacWizard</value>
+  <data name="&gt;&gt;NewMacEnd.Name" xml:space="preserve">
+    <value>NewMacEnd</value>
   </data>
-  <data name="&gt;&gt;NewMacWizard.Type" xml:space="preserve">
+  <data name="&gt;&gt;NewMacEnd.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NewMacWizard.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NewMacEnd.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;NewMacWizard.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;NewMacEnd.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="OpenSettingsAfterFinish.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 204</value>
@@ -2786,42 +3476,60 @@
   <data name="&gt;&gt;TitleEnd.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="NewMacEnd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="NewMacEnd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMacEnd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 313</value>
-  </data>
-  <data name="NewMacEnd.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="NewMacEnd.Text" xml:space="preserve">
-    <value>NewMac1</value>
-  </data>
-  <data name="NewMacEnd.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;NewMacEnd.Name" xml:space="preserve">
-    <value>NewMacEnd</value>
-  </data>
-  <data name="&gt;&gt;NewMacEnd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMacEnd.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NewMacEnd.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <metadata name="BrowseOpen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>128, 17</value>
   </metadata>
   <metadata name="BrowseSave.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="&gt;&gt;cmdCancel.Name" xml:space="preserve">
+    <value>cmdCancel</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Parent" xml:space="preserve">
+    <value>ButtonBox</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmdNext.Name" xml:space="preserve">
+    <value>cmdNext</value>
+  </data>
+  <data name="&gt;&gt;cmdNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdNext.Parent" xml:space="preserve">
+    <value>ButtonBox</value>
+  </data>
+  <data name="&gt;&gt;cmdNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 308</value>
+  </data>
+  <data name="ButtonBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ButtonBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 56</value>
+  </data>
+  <data name="ButtonBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ButtonBox.Name" xml:space="preserve">
+    <value>ButtonBox</value>
+  </data>
+  <data name="&gt;&gt;ButtonBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="cmdCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>414, 20</value>
   </data>
@@ -2879,29 +3587,65 @@
   <data name="&gt;&gt;cmdNext.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="ButtonBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 308</value>
+  <data name="&gt;&gt;WizardStart.Name" xml:space="preserve">
+    <value>WizardStart</value>
   </data>
-  <data name="ButtonBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="&gt;&gt;WizardStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WizardStart.Parent" xml:space="preserve">
+    <value>NewMac1</value>
+  </data>
+  <data name="&gt;&gt;WizardStart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TitleStart.Name" xml:space="preserve">
+    <value>TitleStart</value>
+  </data>
+  <data name="&gt;&gt;TitleStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TitleStart.Parent" xml:space="preserve">
+    <value>NewMac1</value>
+  </data>
+  <data name="&gt;&gt;TitleStart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DescriptionStart.Name" xml:space="preserve">
+    <value>DescriptionStart</value>
+  </data>
+  <data name="&gt;&gt;DescriptionStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescriptionStart.Parent" xml:space="preserve">
+    <value>NewMac1</value>
+  </data>
+  <data name="&gt;&gt;DescriptionStart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NewMac1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NewMac1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="ButtonBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 56</value>
+  <data name="NewMac1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 313</value>
   </data>
-  <data name="ButtonBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="NewMac1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;ButtonBox.Name" xml:space="preserve">
-    <value>ButtonBox</value>
+  <data name="&gt;&gt;NewMac1.Name" xml:space="preserve">
+    <value>NewMac1</value>
   </data>
-  <data name="&gt;&gt;ButtonBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NewMac1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ButtonBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NewMac1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ButtonBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;NewMac1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="WizardStart.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -2984,33 +3728,6 @@
   <data name="&gt;&gt;DescriptionStart.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="NewMac1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="NewMac1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>497, 313</value>
-  </data>
-  <data name="NewMac1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NewMac1.Name" xml:space="preserve">
-    <value>NewMac1</value>
-  </data>
-  <data name="&gt;&gt;NewMac1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NewMac1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="ContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>336, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -3165,12 +3882,6 @@
   </data>
   <data name="&gt;&gt;BrowseSave.Type" xml:space="preserve">
     <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextMenu1.Name" xml:space="preserve">
-    <value>ContextMenu1</value>
-  </data>
-  <data name="&gt;&gt;ContextMenu1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmNewMac</value>
