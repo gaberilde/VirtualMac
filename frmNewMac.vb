@@ -203,6 +203,7 @@ EndNext:
         End If
 
         If NewMac5.Visible = True Then 'Configure you new hard disk!
+            VMemory = RAMAdjust.Value
             NewMac5.Visible = False
             Action.Text = "Virtual Hard Disk Location"
             ActionDescription.Text = "This wizard creates a fixed size virtual disk with the specified size"
@@ -225,6 +226,13 @@ EndNext:
         End If
 
         If NewMac6.Visible = True Then 'You'll see the Finish page
+            VDisk = DiskSizeMB.Text
+            Console.WriteLine(MacName)
+            Console.WriteLine(FileNameC.Text)
+            Console.WriteLine(VMemory)
+            Console.WriteLine(VDisk)
+            Console.WriteLine(VDInfoMaxMBSize)
+            Console.WriteLine(VDInfoAboutVD)
             DescriptionEnd.Text = DescriptionEnd.Text + " " + MacName
             NewMac6.Visible = False
             OpenSettingsAfterFinish.Visible = False
