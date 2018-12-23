@@ -82,9 +82,9 @@ Friend Class frmNewMac
         If NewMacEnd.Visible = True Then
             'If choosen the option 'Create a new Mac', this will return
             'to the 'RAM' page
+            DescriptionEnd.Text = DescriptionEnd.Text.Replace(MacName, "")
+            DescriptionEnd.Text = DescriptionEnd.Text.TrimEnd(" ")
             If CreateNew.Checked = True Then
-                DescriptionEnd.Text = DescriptionEnd.Text.Replace(MacName, "")
-                DescriptionEnd.Text = DescriptionEnd.Text.TrimEnd(" ") : DescriptionEnd.Text = DescriptionEnd.Text + " "
                 NewMacEnd.Visible = False
                 cmdNext.Text = "Next >"
                 NewMacWizard.Visible = True
@@ -173,6 +173,7 @@ EndNext:
             If UseDefaults.Checked = True Then 'If you don't wanna waste time and just want a new machine NOW
                 'HardwareEngineer(True)
                 'AutoConfigure 'This will be uncommented when implemmented
+                DescriptionEnd.Text = DescriptionEnd.Text + " " + MacName
                 NewMacWizard.Visible = False
                 cmdNext.Text = "Finish"
                 VB6.SetDefault(cmdNext, True)
@@ -215,7 +216,6 @@ EndNext:
             If Not String.IsNullOrEmpty(BrowseOpen.FileName) Then
                 NewMac7VDName.Text = Replace(BrowseOpen.FileName, ".mcc", ".dsk")
             End If
-
             NewMac6.Visible = True
             GoTo EndNext
         End If
@@ -223,29 +223,29 @@ EndNext:
         If NewMac6.Visible = True Then 'You'll see the Finish page
             VDisk = DiskSizeMB.Text
             DescriptionEnd.Text = DescriptionEnd.Text + " " + MacName
-                NewMac6.Visible = False
-                OpenSettingsAfterFinish.Visible = False
-                NewMacWizard.Visible = False
-                cmdNext.Text = "Finish"
-                NewMacEnd.Visible = True
-                GoTo EndNext
-            End If
+            NewMac6.Visible = False
+            OpenSettingsAfterFinish.Visible = False
+            NewMacWizard.Visible = False
+            cmdNext.Text = "Finish"
+            NewMacEnd.Visible = True
+            GoTo EndNext
+        End If
 
-            If NewMacEnd.Visible = True Then
-                AddVM(MacName)
-                Me.Close()
-                If OpenSettingsAfterFinish.Visible = True Then
-                    If OpenSettingsAfterFinish.CheckState = 1 Then
-                        frmMain.MacToEdit = MacName
-                        frmVMSettings.Show()
-                    End If
+        If NewMacEnd.Visible = True Then
+            AddVM(MacName)
+            Me.Close()
+            If OpenSettingsAfterFinish.Visible = True Then
+                If OpenSettingsAfterFinish.CheckState = 1 Then
+                    frmMain.MacToEdit = MacName
+                    frmVMSettings.ShowDialog()
                 End If
             End If
+        End If
 
-            GoTo EndNext
+        GoTo EndNext
 
 ErrorHandler:
-            If Not Err.Number = 0 Then
+        If Not Err.Number = 0 Then
             MsgBox(Err.Number & ". " & Err.Description, MsgBoxStyle.Critical)
         End If
 
@@ -344,7 +344,6 @@ Catalog:
     End Sub
     Private Sub NewVDBrowse_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles NewVDBrowse.Click
         'Opens the dialog to let you choice the location of the new hard disk
-
         BrowseOpen.Filter = "Virtual Mac Disk (*.dsk)|*.dsk|All files (*.*)|*.*"
         BrowseSave.Filter = "Virtual Mac Disk (*.dsk)|*.dsk|All files (*.*)|*.*"
         BrowseSave.ShowDialog()
