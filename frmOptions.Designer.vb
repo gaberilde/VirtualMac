@@ -198,7 +198,6 @@
         Me.ROMFile.ForeColor = System.Drawing.SystemColors.WindowText
         resources.ApplyResources(Me.ROMFile, "ROMFile")
         Me.ROMFile.Name = "ROMFile"
-        Me.ROMFile.ReadOnly = True
         '
         'BrowseROM
         '

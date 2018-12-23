@@ -16,6 +16,8 @@ errFunction:
         Me.Close()
     End Sub
     Private Sub cmdOK_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdOK.Click
+        My.Settings.DefaultROM = ROMFile.Text
+        My.Settings.Save()
         Me.Close()
     End Sub
     Private Sub BrowseFolder_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles BrowseFolder.Click
@@ -24,11 +26,11 @@ errFunction:
     End Sub
     Private Sub BrowseROM_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles BrowseROM.Click
         BrowseOpen.Filter = "ROM File (*.rom)|*.rom|All files (*.*)|*.*"
-        BrowseOpen.ShowDialog()
-        If BrowseOpen.FileName = "" Then
-            ROMFile.Text = "(No selected)"
-        Else
+        If BrowseOpen.ShowDialog() = DialogResult.OK Then
             ROMFile.Text = BrowseOpen.FileName
         End If
+    End Sub
+    Private Sub frmOptions_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ROMFile.Text = My.Settings.DefaultROM
     End Sub
 End Class
