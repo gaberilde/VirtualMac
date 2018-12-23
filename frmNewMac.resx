@@ -154,7 +154,7 @@
     <value>NoControl</value>
   </data>
   <data name="CreateNew.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 34</value>
+    <value>59, 37</value>
   </data>
   <data name="CreateNew.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -274,7 +274,7 @@
     <value>NoControl</value>
   </data>
   <data name="NewDescription2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 58</value>
+    <value>76, 61</value>
   </data>
   <data name="NewDescription2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -340,7 +340,7 @@
     <value>No</value>
   </data>
   <data name="AddExistDescription2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>401, 25</value>
+    <value>401, 35</value>
   </data>
   <data name="AddExistDescription2.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -387,69 +387,6 @@
   <data name="&gt;&gt;NewMac2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;RAMAdjust.Name" xml:space="preserve">
-    <value>RAMAdjust</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjust.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjust.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjust.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.Name" xml:space="preserve">
-    <value>RAMMegabyteNumber</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.Name" xml:space="preserve">
-    <value>MegaByte</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.Name" xml:space="preserve">
-    <value>RAMDescription</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="RAMAdjuster.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 149</value>
-  </data>
-  <data name="RAMAdjuster.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RAMAdjuster.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 76</value>
-  </data>
-  <data name="RAMAdjuster.TabIndex" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
-  <data name="RAMAdjuster.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;RAMAdjuster.Name" xml:space="preserve">
     <value>RAMAdjuster</value>
   </data>
@@ -461,24 +398,6 @@
   </data>
   <data name="&gt;&gt;RAMAdjuster.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Recommend.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Recommend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 112</value>
-  </data>
-  <data name="Recommend.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="Recommend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 17</value>
-  </data>
-  <data name="Recommend.TabIndex" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="Recommend.Text" xml:space="preserve">
-    <value>Using the recomended RAM</value>
   </data>
   <data name="&gt;&gt;Recommend.Name" xml:space="preserve">
     <value>Recommend</value>
@@ -492,24 +411,6 @@
   <data name="&gt;&gt;Recommend.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="Adjust.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Adjust.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 132</value>
-  </data>
-  <data name="Adjust.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="Adjust.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 17</value>
-  </data>
-  <data name="Adjust.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="Adjust.Text" xml:space="preserve">
-    <value>Adjusting the RAM</value>
-  </data>
   <data name="&gt;&gt;Adjust.Name" xml:space="preserve">
     <value>Adjust</value>
   </data>
@@ -521,24 +422,6 @@
   </data>
   <data name="&gt;&gt;Adjust.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="RecRAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="RecRAM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 69</value>
-  </data>
-  <data name="RecRAM.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RecRAM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 17</value>
-  </data>
-  <data name="RecRAM.TabIndex" type="System.Int32, mscorlib">
-    <value>68</value>
-  </data>
-  <data name="RecRAM.Text" xml:space="preserve">
-    <value>Recommended RAM [128 MB]</value>
   </data>
   <data name="&gt;&gt;RecRAM.Name" xml:space="preserve">
     <value>RecRAM</value>
@@ -552,24 +435,6 @@
   <data name="&gt;&gt;RecRAM.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="RAMHelpTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="RAMHelpTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 93</value>
-  </data>
-  <data name="RAMHelpTitle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RAMHelpTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 17</value>
-  </data>
-  <data name="RAMHelpTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>67</value>
-  </data>
-  <data name="RAMHelpTitle.Text" xml:space="preserve">
-    <value>Allocate RAM for this Mac by:</value>
-  </data>
   <data name="&gt;&gt;RAMHelpTitle.Name" xml:space="preserve">
     <value>RAMHelpTitle</value>
   </data>
@@ -581,24 +446,6 @@
   </data>
   <data name="&gt;&gt;RAMHelpTitle.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="RAMHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="RAMHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 21</value>
-  </data>
-  <data name="RAMHelp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RAMHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 57</value>
-  </data>
-  <data name="RAMHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>66</value>
-  </data>
-  <data name="RAMHelp.Text" xml:space="preserve">
-    <value>To improve the performance of this Mac and to run more applications on its operating system, increase the amount of RAM allocated to it. To leave more RAM for other virtual machines on your system, use the recommended RAM allocation.</value>
   </data>
   <data name="&gt;&gt;RAMHelp.Name" xml:space="preserve">
     <value>RAMHelp</value>
@@ -699,42 +546,6 @@
   <data name="&gt;&gt;DescriptionBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="OSList.Items" xml:space="preserve">
-    <value>System Software 5</value>
-  </data>
-  <data name="OSList.Items1" xml:space="preserve">
-    <value>System Software 6</value>
-  </data>
-  <data name="OSList.Items2" xml:space="preserve">
-    <value>Mac OS 7</value>
-  </data>
-  <data name="OSList.Items3" xml:space="preserve">
-    <value>Mac OS 7.5</value>
-  </data>
-  <data name="OSList.Items4" xml:space="preserve">
-    <value>Mac OS 8</value>
-  </data>
-  <data name="OSList.Items5" xml:space="preserve">
-    <value>Mac OS 9</value>
-  </data>
-  <data name="OSList.Items6" xml:space="preserve">
-    <value>OS X</value>
-  </data>
-  <data name="OSList.Items7" xml:space="preserve">
-    <value>Other</value>
-  </data>
-  <data name="OSList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 104</value>
-  </data>
-  <data name="OSList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="OSList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 21</value>
-  </data>
-  <data name="OSList.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
   <data name="&gt;&gt;OSList.Name" xml:space="preserve">
     <value>OSList</value>
   </data>
@@ -746,27 +557,6 @@
   </data>
   <data name="&gt;&gt;OSList.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="CPUArch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="CPUArch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 152</value>
-  </data>
-  <data name="CPUArch.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="CPUArch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 17</value>
-  </data>
-  <data name="CPUArch.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
-  </data>
-  <data name="CPUArch.Text" xml:space="preserve">
-    <value>{Architecture}</value>
-  </data>
-  <data name="CPUArch.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
   </data>
   <data name="&gt;&gt;CPUArch.Name" xml:space="preserve">
     <value>CPUArch</value>
@@ -780,27 +570,6 @@
   <data name="&gt;&gt;CPUArch.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="DiskMB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DiskMB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 128</value>
-  </data>
-  <data name="DiskMB.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="DiskMB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
-  </data>
-  <data name="DiskMB.TabIndex" type="System.Int32, mscorlib">
-    <value>53</value>
-  </data>
-  <data name="DiskMB.Text" xml:space="preserve">
-    <value>{DiskMB}</value>
-  </data>
-  <data name="DiskMB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
   <data name="&gt;&gt;DiskMB.Name" xml:space="preserve">
     <value>DiskMB</value>
   </data>
@@ -812,27 +581,6 @@
   </data>
   <data name="&gt;&gt;DiskMB.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="MemoryMB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="MemoryMB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 104</value>
-  </data>
-  <data name="MemoryMB.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="MemoryMB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
-  </data>
-  <data name="MemoryMB.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
-  <data name="MemoryMB.Text" xml:space="preserve">
-    <value>{MemoryMB}</value>
-  </data>
-  <data name="MemoryMB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
   </data>
   <data name="&gt;&gt;MemoryMB.Name" xml:space="preserve">
     <value>MemoryMB</value>
@@ -846,24 +594,6 @@
   <data name="&gt;&gt;MemoryMB.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="CPUType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="CPUType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 152</value>
-  </data>
-  <data name="CPUType.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="CPUType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 17</value>
-  </data>
-  <data name="CPUType.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="CPUType.Text" xml:space="preserve">
-    <value>CPU arquitecture:</value>
-  </data>
   <data name="&gt;&gt;CPUType.Name" xml:space="preserve">
     <value>CPUType</value>
   </data>
@@ -875,24 +605,6 @@
   </data>
   <data name="&gt;&gt;CPUType.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="Disk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Disk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 128</value>
-  </data>
-  <data name="Disk.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="Disk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 17</value>
-  </data>
-  <data name="Disk.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="Disk.Text" xml:space="preserve">
-    <value>Disk space:</value>
   </data>
   <data name="&gt;&gt;Disk.Name" xml:space="preserve">
     <value>Disk</value>
@@ -906,24 +618,6 @@
   <data name="&gt;&gt;Disk.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="Memory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Memory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 104</value>
-  </data>
-  <data name="Memory.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="Memory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 17</value>
-  </data>
-  <data name="Memory.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="Memory.Text" xml:space="preserve">
-    <value>Memory:</value>
-  </data>
   <data name="&gt;&gt;Memory.Name" xml:space="preserve">
     <value>Memory</value>
   </data>
@@ -935,24 +629,6 @@
   </data>
   <data name="&gt;&gt;Memory.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="DefaultHardware.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DefaultHardware.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 82</value>
-  </data>
-  <data name="DefaultHardware.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="DefaultHardware.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 17</value>
-  </data>
-  <data name="DefaultHardware.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="DefaultHardware.Text" xml:space="preserve">
-    <value>Default hardware selection:</value>
   </data>
   <data name="&gt;&gt;DefaultHardware.Name" xml:space="preserve">
     <value>DefaultHardware</value>
@@ -966,24 +642,6 @@
   <data name="&gt;&gt;DefaultHardware.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="OSListTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="OSListTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 82</value>
-  </data>
-  <data name="OSListTitle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="OSListTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
-  </data>
-  <data name="OSListTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="OSListTitle.Text" xml:space="preserve">
-    <value>Operating system: </value>
-  </data>
   <data name="&gt;&gt;OSListTitle.Name" xml:space="preserve">
     <value>OSListTitle</value>
   </data>
@@ -995,24 +653,6 @@
   </data>
   <data name="&gt;&gt;OSListTitle.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="Help4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Help4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 16</value>
-  </data>
-  <data name="Help4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="Help4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>417, 57</value>
-  </data>
-  <data name="Help4.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="Help4.Text" xml:space="preserve">
-    <value>Selecting an Operating System here allows the wizard to reccomend appropiate settings for this Virtual Macintosh. If the desired guest Operating System is not listed, select an operating system that requires an equivalent amount of memory or select Other.</value>
   </data>
   <data name="&gt;&gt;Help4.Name" xml:space="preserve">
     <value>Help4</value>
@@ -1431,6 +1071,351 @@
   <data name="&gt;&gt;NewMacWizard.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;RAMAdjust.Name" xml:space="preserve">
+    <value>RAMAdjust</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Name" xml:space="preserve">
+    <value>RAMMegabyteNumber</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Name" xml:space="preserve">
+    <value>MegaByte</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Name" xml:space="preserve">
+    <value>RAMDescription</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RAMAdjuster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 149</value>
+  </data>
+  <data name="RAMAdjuster.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMAdjuster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 76</value>
+  </data>
+  <data name="RAMAdjuster.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="RAMAdjuster.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Name" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjuster.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RAMAdjust.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RAMAdjust.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 28</value>
+  </data>
+  <data name="RAMAdjust.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 45</value>
+  </data>
+  <data name="RAMAdjust.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Name" xml:space="preserve">
+    <value>RAMAdjust</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMAdjust.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RAMMegabyteNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 35</value>
+  </data>
+  <data name="RAMMegabyteNumber.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RAMMegabyteNumber.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMMegabyteNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 21</value>
+  </data>
+  <data name="RAMMegabyteNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RAMMegabyteNumber.Text" xml:space="preserve">
+    <value>128</value>
+  </data>
+  <data name="RAMMegabyteNumber.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Name" xml:space="preserve">
+    <value>RAMMegabyteNumber</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMMegabyteNumber.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MegaByte.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MegaByte.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 36</value>
+  </data>
+  <data name="MegaByte.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="MegaByte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 17</value>
+  </data>
+  <data name="MegaByte.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="MegaByte.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="MegaByte.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Name" xml:space="preserve">
+    <value>MegaByte</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;MegaByte.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RAMDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RAMDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 8</value>
+  </data>
+  <data name="RAMDescription.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="RAMDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="RAMDescription.Text" xml:space="preserve">
+    <value>Set the RAM for this Macintosh:</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Name" xml:space="preserve">
+    <value>RAMDescription</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.Parent" xml:space="preserve">
+    <value>RAMAdjuster</value>
+  </data>
+  <data name="&gt;&gt;RAMDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Recommend.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Recommend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 112</value>
+  </data>
+  <data name="Recommend.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Recommend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 17</value>
+  </data>
+  <data name="Recommend.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="Recommend.Text" xml:space="preserve">
+    <value>Using the recomended RAM</value>
+  </data>
+  <data name="&gt;&gt;Recommend.Name" xml:space="preserve">
+    <value>Recommend</value>
+  </data>
+  <data name="&gt;&gt;Recommend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Recommend.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;Recommend.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Adjust.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Adjust.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 132</value>
+  </data>
+  <data name="Adjust.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Adjust.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 17</value>
+  </data>
+  <data name="Adjust.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="Adjust.Text" xml:space="preserve">
+    <value>Adjusting the RAM</value>
+  </data>
+  <data name="&gt;&gt;Adjust.Name" xml:space="preserve">
+    <value>Adjust</value>
+  </data>
+  <data name="&gt;&gt;Adjust.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Adjust.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;Adjust.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RecRAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RecRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 69</value>
+  </data>
+  <data name="RecRAM.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RecRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 17</value>
+  </data>
+  <data name="RecRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="RecRAM.Text" xml:space="preserve">
+    <value>Recommended RAM [128 MB]</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.Name" xml:space="preserve">
+    <value>RecRAM</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RecRAM.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RAMHelpTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RAMHelpTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 93</value>
+  </data>
+  <data name="RAMHelpTitle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMHelpTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="RAMHelpTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="RAMHelpTitle.Text" xml:space="preserve">
+    <value>Allocate RAM for this Mac by:</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.Name" xml:space="preserve">
+    <value>RAMHelpTitle</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RAMHelpTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RAMHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RAMHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="RAMHelp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 57</value>
+  </data>
+  <data name="RAMHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="RAMHelp.Text" xml:space="preserve">
+    <value>To improve the performance of this Mac and to run more applications on its operating system, increase the amount of RAM allocated to it. To leave more RAM for other virtual machines on your system, use the recommended RAM allocation.</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.Name" xml:space="preserve">
+    <value>RAMHelp</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.Parent" xml:space="preserve">
+    <value>NewMac5</value>
+  </data>
+  <data name="&gt;&gt;RAMHelp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="WizardPictureSmall.Location" type="System.Drawing.Point, System.Drawing">
     <value>442, 11</value>
   </data>
@@ -1511,6 +1496,1020 @@
   </data>
   <data name="&gt;&gt;Action.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="OSList.Items" xml:space="preserve">
+    <value>System Software 5</value>
+  </data>
+  <data name="OSList.Items1" xml:space="preserve">
+    <value>System Software 6</value>
+  </data>
+  <data name="OSList.Items2" xml:space="preserve">
+    <value>Mac OS 7</value>
+  </data>
+  <data name="OSList.Items3" xml:space="preserve">
+    <value>Mac OS 7.5</value>
+  </data>
+  <data name="OSList.Items4" xml:space="preserve">
+    <value>Mac OS 8</value>
+  </data>
+  <data name="OSList.Items5" xml:space="preserve">
+    <value>Mac OS 9</value>
+  </data>
+  <data name="OSList.Items6" xml:space="preserve">
+    <value>OS X</value>
+  </data>
+  <data name="OSList.Items7" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="OSList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 104</value>
+  </data>
+  <data name="OSList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OSList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 21</value>
+  </data>
+  <data name="OSList.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;OSList.Name" xml:space="preserve">
+    <value>OSList</value>
+  </data>
+  <data name="&gt;&gt;OSList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSList.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;OSList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CPUArch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CPUArch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 152</value>
+  </data>
+  <data name="CPUArch.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CPUArch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="CPUArch.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="CPUArch.Text" xml:space="preserve">
+    <value>{Architecture}</value>
+  </data>
+  <data name="CPUArch.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.Name" xml:space="preserve">
+    <value>CPUArch</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;CPUArch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DiskMB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DiskMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 128</value>
+  </data>
+  <data name="DiskMB.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="DiskMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="DiskMB.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="DiskMB.Text" xml:space="preserve">
+    <value>{DiskMB}</value>
+  </data>
+  <data name="DiskMB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.Name" xml:space="preserve">
+    <value>DiskMB</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;DiskMB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MemoryMB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MemoryMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 104</value>
+  </data>
+  <data name="MemoryMB.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="MemoryMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="MemoryMB.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="MemoryMB.Text" xml:space="preserve">
+    <value>{MemoryMB}</value>
+  </data>
+  <data name="MemoryMB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.Name" xml:space="preserve">
+    <value>MemoryMB</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;MemoryMB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CPUType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CPUType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 152</value>
+  </data>
+  <data name="CPUType.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CPUType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="CPUType.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="CPUType.Text" xml:space="preserve">
+    <value>CPU arquitecture:</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Name" xml:space="preserve">
+    <value>CPUType</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;CPUType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Disk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Disk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 128</value>
+  </data>
+  <data name="Disk.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Disk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="Disk.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Disk.Text" xml:space="preserve">
+    <value>Disk space:</value>
+  </data>
+  <data name="&gt;&gt;Disk.Name" xml:space="preserve">
+    <value>Disk</value>
+  </data>
+  <data name="&gt;&gt;Disk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Disk.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;Disk.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Memory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Memory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 104</value>
+  </data>
+  <data name="Memory.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Memory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="Memory.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="Memory.Text" xml:space="preserve">
+    <value>Memory:</value>
+  </data>
+  <data name="&gt;&gt;Memory.Name" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="&gt;&gt;Memory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Memory.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;Memory.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DefaultHardware.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DefaultHardware.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 82</value>
+  </data>
+  <data name="DefaultHardware.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="DefaultHardware.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="DefaultHardware.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="DefaultHardware.Text" xml:space="preserve">
+    <value>Default hardware selection:</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.Name" xml:space="preserve">
+    <value>DefaultHardware</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;DefaultHardware.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="OSListTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OSListTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 82</value>
+  </data>
+  <data name="OSListTitle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OSListTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="OSListTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="OSListTitle.Text" xml:space="preserve">
+    <value>Operating system: </value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.Name" xml:space="preserve">
+    <value>OSListTitle</value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;OSListTitle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Help4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Help4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 16</value>
+  </data>
+  <data name="Help4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Help4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 57</value>
+  </data>
+  <data name="Help4.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Help4.Text" xml:space="preserve">
+    <value>Selecting an Operating System here allows the wizard to reccomend appropiate settings for this Virtual Macintosh. If the desired guest Operating System is not listed, select an operating system that requires an equivalent amount of memory or select Other.</value>
+  </data>
+  <data name="&gt;&gt;Help4.Name" xml:space="preserve">
+    <value>Help4</value>
+  </data>
+  <data name="&gt;&gt;Help4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Help4.Parent" xml:space="preserve">
+    <value>NewMac4</value>
+  </data>
+  <data name="&gt;&gt;Help4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="DiskSizeMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 151</value>
+  </data>
+  <data name="DiskSizeMB.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DiskSizeMB.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="DiskSizeMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="DiskSizeMB.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="DiskSizeMB.Text" xml:space="preserve">
+    <value>1024</value>
+  </data>
+  <data name="DiskSizeMB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.Name" xml:space="preserve">
+    <value>DiskSizeMB</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeMB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NewVDBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewVDBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 98</value>
+  </data>
+  <data name="NewVDBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewVDBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="NewVDBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="NewVDBrowse.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.Name" xml:space="preserve">
+    <value>NewVDBrowse</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewVDBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NewMac7VDName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 99</value>
+  </data>
+  <data name="NewMac7VDName.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NewMac7VDName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac7VDName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 21</value>
+  </data>
+  <data name="NewMac7VDName.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.Name" xml:space="preserve">
+    <value>NewMac7VDName</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewMac7VDName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WarningLowerSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WarningLowerSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 176</value>
+  </data>
+  <data name="WarningLowerSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="WarningLowerSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 17</value>
+  </data>
+  <data name="WarningLowerSize.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="WarningLowerSize.Text" xml:space="preserve">
+    <value>Please enter a size value between 4 MB and 130,557 MB.</value>
+  </data>
+  <data name="WarningLowerSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.Name" xml:space="preserve">
+    <value>WarningLowerSize</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;WarningLowerSize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="VDInfoAboutVD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VDInfoAboutVD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 208</value>
+  </data>
+  <data name="VDInfoAboutVD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="VDInfoAboutVD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 33</value>
+  </data>
+  <data name="VDInfoAboutVD.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="VDInfoAboutVD.Text" xml:space="preserve">
+    <value>To learn more about virtual disks, see Virtual Mac Help. For advanced virtual hard disk options, use the Virtual Disk Wizard.</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.Name" xml:space="preserve">
+    <value>VDInfoAboutVD</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;VDInfoAboutVD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="VDInfoMaxMBSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VDInfoMaxMBSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 128</value>
+  </data>
+  <data name="VDInfoMaxMBSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="VDInfoMaxMBSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="VDInfoMaxMBSize.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="VDInfoMaxMBSize.Text" xml:space="preserve">
+    <value>130,557 MB</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.Name" xml:space="preserve">
+    <value>VDInfoMaxMBSize</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;VDInfoMaxMBSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="VDMBInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VDMBInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 152</value>
+  </data>
+  <data name="VDMBInfo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="VDMBInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="VDMBInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="VDMBInfo.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.Name" xml:space="preserve">
+    <value>VDMBInfo</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;VDMBInfo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="MaxVDSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MaxVDSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 128</value>
+  </data>
+  <data name="MaxVDSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="MaxVDSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="MaxVDSize.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="MaxVDSize.Text" xml:space="preserve">
+    <value>Maxium virtual disk size:</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.Name" xml:space="preserve">
+    <value>MaxVDSize</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;MaxVDSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="InfoVDSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InfoVDSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 152</value>
+  </data>
+  <data name="InfoVDSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="InfoVDSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="InfoVDSize.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="InfoVDSize.Text" xml:space="preserve">
+    <value>Virtual disk size:</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.Name" xml:space="preserve">
+    <value>InfoVDSize</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;InfoVDSize.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NewVDHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewVDHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="NewVDHelp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewVDHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 57</value>
+  </data>
+  <data name="NewVDHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="NewVDHelp.Text" xml:space="preserve">
+    <value>Type a name for the new virtual hard disk. Unless you specify a different location, the virtual hard disk file will automatically be saved in the same location as the virtual macintosh configuration file.</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.Name" xml:space="preserve">
+    <value>NewVDHelp</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewVDHelp.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="NewVDTitleHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewVDTitleHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 74</value>
+  </data>
+  <data name="NewVDTitleHelp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewVDTitleHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="NewVDTitleHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="NewVDTitleHelp.Text" xml:space="preserve">
+    <value>Name and location:</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.Name" xml:space="preserve">
+    <value>NewVDTitleHelp</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.Parent" xml:space="preserve">
+    <value>NewMac6</value>
+  </data>
+  <data name="&gt;&gt;NewVDTitleHelp.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.Name" xml:space="preserve">
+    <value>CreateNewVD</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Name" xml:space="preserve">
+    <value>AddExistingVD</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Name" xml:space="preserve">
+    <value>NewMac60Help</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Name" xml:space="preserve">
+    <value>NewMac60Use</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Name" xml:space="preserve">
+    <value>NewMac60About</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NewMac60ButtonFix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 10</value>
+  </data>
+  <data name="NewMac60ButtonFix.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac60ButtonFix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 156</value>
+  </data>
+  <data name="NewMac60ButtonFix.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.Name" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.Parent" xml:space="preserve">
+    <value>NewMac60</value>
+  </data>
+  <data name="&gt;&gt;NewMac60ButtonFix.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CreateNewVD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 103</value>
+  </data>
+  <data name="CreateNewVD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CreateNewVD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 17</value>
+  </data>
+  <data name="CreateNewVD.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="CreateNewVD.Text" xml:space="preserve">
+    <value>A new virtual disk</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.Name" xml:space="preserve">
+    <value>CreateNewVD</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AddExistingVD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddExistingVD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 120</value>
+  </data>
+  <data name="AddExistingVD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="AddExistingVD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 17</value>
+  </data>
+  <data name="AddExistingVD.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="AddExistingVD.Text" xml:space="preserve">
+    <value>An existing virtual hard disk</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Name" xml:space="preserve">
+    <value>AddExistingVD</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;AddExistingVD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NewMac60Help.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewMac60Help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 4</value>
+  </data>
+  <data name="NewMac60Help.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac60Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 33</value>
+  </data>
+  <data name="NewMac60Help.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="NewMac60Help.Text" xml:space="preserve">
+    <value>A virtual hard disk is a .dsk file that is stored on your physical hard disk and is used to contain the guest operating system, applications and data.</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Name" xml:space="preserve">
+    <value>NewMac60Help</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Help.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NewMac60Use.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewMac60Use.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 81</value>
+  </data>
+  <data name="NewMac60Use.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac60Use.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="NewMac60Use.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="NewMac60Use.Text" xml:space="preserve">
+    <value>Do you want to use:</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Name" xml:space="preserve">
+    <value>NewMac60Use</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60Use.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NewMac60About.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewMac60About.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 44</value>
+  </data>
+  <data name="NewMac60About.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="NewMac60About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 33</value>
+  </data>
+  <data name="NewMac60About.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="NewMac60About.Text" xml:space="preserve">
+    <value>The first virtual hard disk you create or select for your virtual machine is called Disk 1 in Settings and is the Startup disk.</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Name" xml:space="preserve">
+    <value>NewMac60About</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.Parent" xml:space="preserve">
+    <value>NewMac60ButtonFix</value>
+  </data>
+  <data name="&gt;&gt;NewMac60About.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FileNameA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="FileNameA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 56</value>
+  </data>
+  <data name="FileNameA.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FileNameA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="FileNameA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 21</value>
+  </data>
+  <data name="FileNameA.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.Name" xml:space="preserve">
+    <value>FileNameA</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;FileNameA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BrowseA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BrowseA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 55</value>
+  </data>
+  <data name="BrowseA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="BrowseA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="BrowseA.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="BrowseA.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.Name" xml:space="preserve">
+    <value>BrowseA</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;BrowseA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FileNameTitleA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FileNameTitleA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="FileNameTitleA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="FileNameTitleA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="FileNameTitleA.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="FileNameTitleA.Text" xml:space="preserve">
+    <value>Name and location:</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.Name" xml:space="preserve">
+    <value>FileNameTitleA</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;FileNameTitleA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HelpA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HelpA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="HelpA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="HelpA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 17</value>
+  </data>
+  <data name="HelpA.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="HelpA.Text" xml:space="preserve">
+    <value>Specify the .mcc file you want to add to the Virtual Mac Console.</value>
+  </data>
+  <data name="&gt;&gt;HelpA.Name" xml:space="preserve">
+    <value>HelpA</value>
+  </data>
+  <data name="&gt;&gt;HelpA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpA.Parent" xml:space="preserve">
+    <value>NewMacFromExist</value>
+  </data>
+  <data name="&gt;&gt;HelpA.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="FileNameC.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 104</value>
@@ -2634,7 +3633,7 @@
     <value>None</value>
   </data>
   <data name="cmdNext.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 20</value>
+    <value>329, 20</value>
   </data>
   <data name="cmdNext.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -2804,813 +3803,6 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>235, 11</value>
   </metadata>
-  <data name="HelpA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="HelpA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 16</value>
-  </data>
-  <data name="HelpA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="HelpA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>385, 17</value>
-  </data>
-  <data name="HelpA.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="HelpA.Text" xml:space="preserve">
-    <value>Specify the .mcc file you want to add to the Virtual Mac Console.</value>
-  </data>
-  <data name="&gt;&gt;HelpA.Name" xml:space="preserve">
-    <value>HelpA</value>
-  </data>
-  <data name="&gt;&gt;HelpA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HelpA.Parent" xml:space="preserve">
-    <value>NewMacFromExist</value>
-  </data>
-  <data name="&gt;&gt;HelpA.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="FileNameTitleA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="FileNameTitleA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="FileNameTitleA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="FileNameTitleA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 17</value>
-  </data>
-  <data name="FileNameTitleA.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="FileNameTitleA.Text" xml:space="preserve">
-    <value>Name and location:</value>
-  </data>
-  <data name="&gt;&gt;FileNameTitleA.Name" xml:space="preserve">
-    <value>FileNameTitleA</value>
-  </data>
-  <data name="&gt;&gt;FileNameTitleA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FileNameTitleA.Parent" xml:space="preserve">
-    <value>NewMacFromExist</value>
-  </data>
-  <data name="&gt;&gt;FileNameTitleA.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="BrowseA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BrowseA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 55</value>
-  </data>
-  <data name="BrowseA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="BrowseA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 23</value>
-  </data>
-  <data name="BrowseA.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="BrowseA.Text" xml:space="preserve">
-    <value>Browse...</value>
-  </data>
-  <data name="&gt;&gt;BrowseA.Name" xml:space="preserve">
-    <value>BrowseA</value>
-  </data>
-  <data name="&gt;&gt;BrowseA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BrowseA.Parent" xml:space="preserve">
-    <value>NewMacFromExist</value>
-  </data>
-  <data name="&gt;&gt;BrowseA.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="FileNameA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="FileNameA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 56</value>
-  </data>
-  <data name="FileNameA.MaxLength" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="FileNameA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="FileNameA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 21</value>
-  </data>
-  <data name="FileNameA.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;FileNameA.Name" xml:space="preserve">
-    <value>FileNameA</value>
-  </data>
-  <data name="&gt;&gt;FileNameA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FileNameA.Parent" xml:space="preserve">
-    <value>NewMacFromExist</value>
-  </data>
-  <data name="&gt;&gt;FileNameA.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.Name" xml:space="preserve">
-    <value>CreateNewVD</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.Name" xml:space="preserve">
-    <value>AddExistingVD</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.Name" xml:space="preserve">
-    <value>NewMac60Help</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.Name" xml:space="preserve">
-    <value>NewMac60Use</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.Name" xml:space="preserve">
-    <value>NewMac60About</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="NewMac60ButtonFix.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 10</value>
-  </data>
-  <data name="NewMac60ButtonFix.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac60ButtonFix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>415, 156</value>
-  </data>
-  <data name="NewMac60ButtonFix.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.Name" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.Parent" xml:space="preserve">
-    <value>NewMac60</value>
-  </data>
-  <data name="&gt;&gt;NewMac60ButtonFix.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NewMac60About.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="NewMac60About.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 44</value>
-  </data>
-  <data name="NewMac60About.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac60About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>401, 33</value>
-  </data>
-  <data name="NewMac60About.TabIndex" type="System.Int32, mscorlib">
-    <value>67</value>
-  </data>
-  <data name="NewMac60About.Text" xml:space="preserve">
-    <value>The first virtual hard disk you create or select for your virtual machine is called Disk 1 in Settings and is the Startup disk.</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.Name" xml:space="preserve">
-    <value>NewMac60About</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60About.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="NewMac60Use.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="NewMac60Use.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 81</value>
-  </data>
-  <data name="NewMac60Use.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac60Use.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 17</value>
-  </data>
-  <data name="NewMac60Use.TabIndex" type="System.Int32, mscorlib">
-    <value>68</value>
-  </data>
-  <data name="NewMac60Use.Text" xml:space="preserve">
-    <value>Do you want to use:</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.Name" xml:space="preserve">
-    <value>NewMac60Use</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Use.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="NewMac60Help.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="NewMac60Help.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 4</value>
-  </data>
-  <data name="NewMac60Help.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac60Help.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 33</value>
-  </data>
-  <data name="NewMac60Help.TabIndex" type="System.Int32, mscorlib">
-    <value>69</value>
-  </data>
-  <data name="NewMac60Help.Text" xml:space="preserve">
-    <value>A virtual hard disk is a .dsk file that is stored on your physical hard disk and is used to contain the guest operating system, applications and data.</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.Name" xml:space="preserve">
-    <value>NewMac60Help</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;NewMac60Help.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="AddExistingVD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="AddExistingVD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 120</value>
-  </data>
-  <data name="AddExistingVD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="AddExistingVD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 17</value>
-  </data>
-  <data name="AddExistingVD.TabIndex" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
-  <data name="AddExistingVD.Text" xml:space="preserve">
-    <value>An existing virtual hard disk</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.Name" xml:space="preserve">
-    <value>AddExistingVD</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;AddExistingVD.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="CreateNewVD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="CreateNewVD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 103</value>
-  </data>
-  <data name="CreateNewVD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="CreateNewVD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 17</value>
-  </data>
-  <data name="CreateNewVD.TabIndex" type="System.Int32, mscorlib">
-    <value>66</value>
-  </data>
-  <data name="CreateNewVD.Text" xml:space="preserve">
-    <value>A new virtual disk</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.Name" xml:space="preserve">
-    <value>CreateNewVD</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.Parent" xml:space="preserve">
-    <value>NewMac60ButtonFix</value>
-  </data>
-  <data name="&gt;&gt;CreateNewVD.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NewVDTitleHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="NewVDTitleHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 74</value>
-  </data>
-  <data name="NewVDTitleHelp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewVDTitleHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
-  </data>
-  <data name="NewVDTitleHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>73</value>
-  </data>
-  <data name="NewVDTitleHelp.Text" xml:space="preserve">
-    <value>Name and location:</value>
-  </data>
-  <data name="&gt;&gt;NewVDTitleHelp.Name" xml:space="preserve">
-    <value>NewVDTitleHelp</value>
-  </data>
-  <data name="&gt;&gt;NewVDTitleHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewVDTitleHelp.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;NewVDTitleHelp.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="NewVDHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="NewVDHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 16</value>
-  </data>
-  <data name="NewVDHelp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewVDHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>433, 57</value>
-  </data>
-  <data name="NewVDHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>74</value>
-  </data>
-  <data name="NewVDHelp.Text" xml:space="preserve">
-    <value>Type a name for the new virtual hard disk. Unless you specify a different location, the virtual hard disk file will automatically be saved in the same location as the virtual macintosh configuration file.</value>
-  </data>
-  <data name="&gt;&gt;NewVDHelp.Name" xml:space="preserve">
-    <value>NewVDHelp</value>
-  </data>
-  <data name="&gt;&gt;NewVDHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewVDHelp.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;NewVDHelp.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="InfoVDSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="InfoVDSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 152</value>
-  </data>
-  <data name="InfoVDSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="InfoVDSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
-  </data>
-  <data name="InfoVDSize.TabIndex" type="System.Int32, mscorlib">
-    <value>75</value>
-  </data>
-  <data name="InfoVDSize.Text" xml:space="preserve">
-    <value>Virtual disk size:</value>
-  </data>
-  <data name="&gt;&gt;InfoVDSize.Name" xml:space="preserve">
-    <value>InfoVDSize</value>
-  </data>
-  <data name="&gt;&gt;InfoVDSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InfoVDSize.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;InfoVDSize.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="MaxVDSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="MaxVDSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 128</value>
-  </data>
-  <data name="MaxVDSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="MaxVDSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 17</value>
-  </data>
-  <data name="MaxVDSize.TabIndex" type="System.Int32, mscorlib">
-    <value>76</value>
-  </data>
-  <data name="MaxVDSize.Text" xml:space="preserve">
-    <value>Maxium virtual disk size:</value>
-  </data>
-  <data name="&gt;&gt;MaxVDSize.Name" xml:space="preserve">
-    <value>MaxVDSize</value>
-  </data>
-  <data name="&gt;&gt;MaxVDSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MaxVDSize.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;MaxVDSize.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="VDMBInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="VDMBInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 152</value>
-  </data>
-  <data name="VDMBInfo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="VDMBInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 17</value>
-  </data>
-  <data name="VDMBInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>78</value>
-  </data>
-  <data name="VDMBInfo.Text" xml:space="preserve">
-    <value>MB</value>
-  </data>
-  <data name="&gt;&gt;VDMBInfo.Name" xml:space="preserve">
-    <value>VDMBInfo</value>
-  </data>
-  <data name="&gt;&gt;VDMBInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VDMBInfo.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;VDMBInfo.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="VDInfoMaxMBSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="VDInfoMaxMBSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 128</value>
-  </data>
-  <data name="VDInfoMaxMBSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="VDInfoMaxMBSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 17</value>
-  </data>
-  <data name="VDInfoMaxMBSize.TabIndex" type="System.Int32, mscorlib">
-    <value>79</value>
-  </data>
-  <data name="VDInfoMaxMBSize.Text" xml:space="preserve">
-    <value>130,557 MB</value>
-  </data>
-  <data name="&gt;&gt;VDInfoMaxMBSize.Name" xml:space="preserve">
-    <value>VDInfoMaxMBSize</value>
-  </data>
-  <data name="&gt;&gt;VDInfoMaxMBSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VDInfoMaxMBSize.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;VDInfoMaxMBSize.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="VDInfoAboutVD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="VDInfoAboutVD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 208</value>
-  </data>
-  <data name="VDInfoAboutVD.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="VDInfoAboutVD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>425, 33</value>
-  </data>
-  <data name="VDInfoAboutVD.TabIndex" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="VDInfoAboutVD.Text" xml:space="preserve">
-    <value>To learn more about virtual disks, see Virtual Mac Help. For advanced virtual hard disk options, use the Virtual Disk Wizard.</value>
-  </data>
-  <data name="&gt;&gt;VDInfoAboutVD.Name" xml:space="preserve">
-    <value>VDInfoAboutVD</value>
-  </data>
-  <data name="&gt;&gt;VDInfoAboutVD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VDInfoAboutVD.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;VDInfoAboutVD.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="WarningLowerSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="WarningLowerSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 176</value>
-  </data>
-  <data name="WarningLowerSize.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="WarningLowerSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 17</value>
-  </data>
-  <data name="WarningLowerSize.TabIndex" type="System.Int32, mscorlib">
-    <value>81</value>
-  </data>
-  <data name="WarningLowerSize.Text" xml:space="preserve">
-    <value>Please enter a size value between 4 MB and 130,557 MB.</value>
-  </data>
-  <data name="WarningLowerSize.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;WarningLowerSize.Name" xml:space="preserve">
-    <value>WarningLowerSize</value>
-  </data>
-  <data name="&gt;&gt;WarningLowerSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;WarningLowerSize.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;WarningLowerSize.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="NewMac7VDName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 99</value>
-  </data>
-  <data name="NewMac7VDName.MaxLength" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="NewMac7VDName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewMac7VDName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 21</value>
-  </data>
-  <data name="NewMac7VDName.TabIndex" type="System.Int32, mscorlib">
-    <value>71</value>
-  </data>
-  <data name="&gt;&gt;NewMac7VDName.Name" xml:space="preserve">
-    <value>NewMac7VDName</value>
-  </data>
-  <data name="&gt;&gt;NewMac7VDName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewMac7VDName.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;NewMac7VDName.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="NewVDBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="NewVDBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 98</value>
-  </data>
-  <data name="NewVDBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="NewVDBrowse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 23</value>
-  </data>
-  <data name="NewVDBrowse.TabIndex" type="System.Int32, mscorlib">
-    <value>72</value>
-  </data>
-  <data name="NewVDBrowse.Text" xml:space="preserve">
-    <value>Browse...</value>
-  </data>
-  <data name="&gt;&gt;NewVDBrowse.Name" xml:space="preserve">
-    <value>NewVDBrowse</value>
-  </data>
-  <data name="&gt;&gt;NewVDBrowse.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewVDBrowse.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;NewVDBrowse.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="DiskSizeMB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 151</value>
-  </data>
-  <data name="DiskSizeMB.MaxLength" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="DiskSizeMB.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="DiskSizeMB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 21</value>
-  </data>
-  <data name="DiskSizeMB.TabIndex" type="System.Int32, mscorlib">
-    <value>77</value>
-  </data>
-  <data name="DiskSizeMB.Text" xml:space="preserve">
-    <value>1024</value>
-  </data>
-  <data name="DiskSizeMB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;DiskSizeMB.Name" xml:space="preserve">
-    <value>DiskSizeMB</value>
-  </data>
-  <data name="&gt;&gt;DiskSizeMB.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DiskSizeMB.Parent" xml:space="preserve">
-    <value>NewMac6</value>
-  </data>
-  <data name="&gt;&gt;DiskSizeMB.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="RAMDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="RAMDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 8</value>
-  </data>
-  <data name="RAMDescription.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RAMDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 17</value>
-  </data>
-  <data name="RAMDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>58</value>
-  </data>
-  <data name="RAMDescription.Text" xml:space="preserve">
-    <value>Set the RAM for this Macintosh:</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.Name" xml:space="preserve">
-    <value>RAMDescription</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;RAMDescription.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="MegaByte.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="MegaByte.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 36</value>
-  </data>
-  <data name="MegaByte.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="MegaByte.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 17</value>
-  </data>
-  <data name="MegaByte.TabIndex" type="System.Int32, mscorlib">
-    <value>59</value>
-  </data>
-  <data name="MegaByte.Text" xml:space="preserve">
-    <value>MB</value>
-  </data>
-  <data name="MegaByte.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.Name" xml:space="preserve">
-    <value>MegaByte</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;MegaByte.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="RAMMegabyteNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>351, 35</value>
-  </data>
-  <data name="RAMMegabyteNumber.MaxLength" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="RAMMegabyteNumber.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RAMMegabyteNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 21</value>
-  </data>
-  <data name="RAMMegabyteNumber.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="RAMMegabyteNumber.Text" xml:space="preserve">
-    <value>128</value>
-  </data>
-  <data name="RAMMegabyteNumber.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.Name" xml:space="preserve">
-    <value>RAMMegabyteNumber</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;RAMMegabyteNumber.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="RAMAdjust.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="RAMAdjust.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 28</value>
-  </data>
-  <data name="RAMAdjust.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 45</value>
-  </data>
-  <data name="RAMAdjust.TabIndex" type="System.Int32, mscorlib">
-    <value>60</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjust.Name" xml:space="preserve">
-    <value>RAMAdjust</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjust.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjust.Parent" xml:space="preserve">
-    <value>RAMAdjuster</value>
-  </data>
-  <data name="&gt;&gt;RAMAdjust.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
