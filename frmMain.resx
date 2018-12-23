@@ -240,6 +240,66 @@
   <data name="&gt;&gt;NewMac.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;VMList.Name" xml:space="preserve">
+    <value>VMList</value>
+  </data>
+  <data name="&gt;&gt;VMList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VMList.Parent" xml:space="preserve">
+    <value>VMGraphicList</value>
+  </data>
+  <data name="&gt;&gt;VMList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicScroll.Name" xml:space="preserve">
+    <value>VMGraphicScroll</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicScroll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VScrollBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicScroll.Parent" xml:space="preserve">
+    <value>VMGraphicList</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicScroll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Name" xml:space="preserve">
+    <value>_VM_0</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Parent" xml:space="preserve">
+    <value>VMGraphicList</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="VMGraphicList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="VMGraphicList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="VMGraphicList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 185</value>
+  </data>
+  <data name="VMGraphicList.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.Name" xml:space="preserve">
+    <value>VMGraphicList</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VMGraphicList.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="VMList.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, -2</value>
   </data>
@@ -287,6 +347,69 @@
   </data>
   <data name="&gt;&gt;VMGraphicScroll.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <metadata name="VM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>91, 8</value>
+  </metadata>
+  <data name="&gt;&gt;_VMSnap_0.Name" xml:space="preserve">
+    <value>_VMSnap_0</value>
+  </data>
+  <data name="&gt;&gt;_VMSnap_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_VMSnap_0.Parent" xml:space="preserve">
+    <value>_VM_0</value>
+  </data>
+  <data name="&gt;&gt;_VMSnap_0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_VMName_0.Name" xml:space="preserve">
+    <value>_VMName_0</value>
+  </data>
+  <data name="&gt;&gt;_VMName_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_VMName_0.Parent" xml:space="preserve">
+    <value>_VM_0</value>
+  </data>
+  <data name="&gt;&gt;_VMName_0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_VMDescription_0.Name" xml:space="preserve">
+    <value>_VMDescription_0</value>
+  </data>
+  <data name="&gt;&gt;_VMDescription_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_VMDescription_0.Parent" xml:space="preserve">
+    <value>_VM_0</value>
+  </data>
+  <data name="&gt;&gt;_VMDescription_0.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_VM_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -61</value>
+  </data>
+  <data name="_VM_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="_VM_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 61</value>
+  </data>
+  <data name="_VM_0.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Name" xml:space="preserve">
+    <value>_VM_0</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.Parent" xml:space="preserve">
+    <value>VMGraphicList</value>
+  </data>
+  <data name="&gt;&gt;_VM_0.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="VMSnap.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>352, 9</value>
@@ -378,54 +501,15 @@
   <metadata name="VM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>91, 8</value>
   </metadata>
-  <data name="_VM_0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -61</value>
-  </data>
-  <data name="_VM_0.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="_VM_0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 61</value>
-  </data>
-  <data name="_VM_0.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Name" xml:space="preserve">
-    <value>_VM_0</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.Parent" xml:space="preserve">
-    <value>VMGraphicList</value>
-  </data>
-  <data name="&gt;&gt;_VM_0.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="VMGraphicList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 3</value>
-  </data>
-  <data name="VMGraphicList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="VMGraphicList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 185</value>
-  </data>
-  <data name="VMGraphicList.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.Name" xml:space="preserve">
-    <value>VMGraphicList</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;VMGraphicList.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
+  <metadata name="VMDescription.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 8</value>
+  </metadata>
+  <metadata name="VMName.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>259, 8</value>
+  </metadata>
+  <metadata name="VMSnap.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>352, 9</value>
+  </metadata>
   <metadata name="VirtualMacTray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>433, 9</value>
   </metadata>
@@ -438,51 +522,6 @@
   <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>553, 11</value>
   </metadata>
-  <data name="ShowVMC.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 8.25pt, style=Bold</value>
-  </data>
-  <data name="ShowVMC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="ShowVMC.Text" xml:space="preserve">
-    <value>Show Virtual Mac Console</value>
-  </data>
-  <data name="IconNewMac.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconNewMac.Text" xml:space="preserve">
-    <value>New Macintosh Wizard</value>
-  </data>
-  <data name="IconNewDisk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconNewDisk.Text" xml:space="preserve">
-    <value>New Disk Wizard</value>
-  </data>
-  <data name="MenuBar0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="IconOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="MenuBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="MenuBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="MenuBar2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="IconExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 132</value>
   </data>
@@ -608,9 +647,63 @@
   <data name="VirtualMacTray.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="ShowVMC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ShowVMC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="ShowVMC.Text" xml:space="preserve">
+    <value>Show Virtual Mac Console</value>
+  </data>
+  <data name="IconNewMac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconNewMac.Text" xml:space="preserve">
+    <value>New Macintosh Wizard</value>
+  </data>
+  <data name="IconNewDisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconNewDisk.Text" xml:space="preserve">
+    <value>New Disk Wizard</value>
+  </data>
+  <data name="MenuBar0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="IconOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MenuBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="MenuBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="MenuBar2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IconExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>699, 12</value>
   </metadata>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="mnuAction.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
   <data name="mnuNewMac.Text" xml:space="preserve">
     <value>New Mac Wizard</value>
   </data>
@@ -628,9 +721,6 @@
   </data>
   <data name="mnuFileExit.Text" xml:space="preserve">
     <value>Exit</value>
-  </data>
-  <data name="mnuFile.Text" xml:space="preserve">
-    <value>File</value>
   </data>
   <data name="mnuActionStart.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -677,9 +767,6 @@
   <data name="mnuActionProperties.Text" xml:space="preserve">
     <value>Properties</value>
   </data>
-  <data name="mnuAction.Text" xml:space="preserve">
-    <value>Action</value>
-  </data>
   <data name="mnuHelpContents.Text" xml:space="preserve">
     <value>Virtual Mac Help</value>
   </data>
@@ -691,9 +778,6 @@
   </data>
   <data name="mnuHelpAbout.Text" xml:space="preserve">
     <value>About Virtual Mac...</value>
-  </data>
-  <data name="mnuHelp.Text" xml:space="preserve">
-    <value>Help</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
