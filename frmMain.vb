@@ -174,7 +174,7 @@ Friend Class frmMain
         Start68kEmulation()
     End Sub
     Public Sub mnuFileOptions_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuFileOptions.Click
-        frmOptions.Show()
+        frmOptions.ShowDialog()
     End Sub
     Public Sub mnuHelpAbout_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuHelpAbout.Click
         frmAbout.ShowDialog()
