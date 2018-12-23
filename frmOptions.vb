@@ -22,8 +22,9 @@ errFunction:
         Me.Close()
     End Sub
     Private Sub BrowseFolder_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles BrowseFolder.Click
-        FolderBrowser.ShowDialog()
-        DefaultMacFolder.Text = FolderBrowser.SelectedPath
+        If FolderBrowser.ShowDialog() = DialogResult.OK Then
+            DefaultMacFolder.Text = FolderBrowser.SelectedPath
+        End If
     End Sub
     Private Sub BrowseROM_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles BrowseROM.Click
         BrowseOpen.Filter = "ROM File (*.rom)|*.rom|All files (*.*)|*.*"
