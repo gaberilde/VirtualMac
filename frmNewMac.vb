@@ -121,7 +121,6 @@ EndNext:
         'Declarations
         Dim RAM As Integer
 
-
         'Assigning values to the declarations
         RAM = CInt(Str(My.Computer.Info.TotalPhysicalMemory / 1024 / 1024))
 
@@ -186,18 +185,18 @@ EndNext:
         'Move away from the OS page and choose the RAM for you new Mac!
         '(Only avaible when creating new one, not when you choosed use defaults)
         If NewMac4.Visible = True Then
-                NewMac4.Visible = False
-                Action.Text = "Memory"
-                ActionDescription.Text = "You can configure the RAM on this Mac"
-                RAMAdjust.Maximum = FormatNumber(CDbl(My.Computer.Info.TotalPhysicalMemory / 1048576), 2)
-                RAMAdjust.Value = VMemory
-                RAMAdjust.TickFrequency = 2048 / 20
-                RAMMegabyteNumber.Text = CStr(VMemory)
-                RecRAM.Text = "Recommended RAM: [" & "128 MB" & "]"
-                NewMac5.Visible = True
-                Recommend.Focus()
-                GoTo EndNext
-            End If
+            NewMac4.Visible = False
+            Action.Text = "Memory"
+            ActionDescription.Text = "You can configure the RAM on this Mac"
+            RAMAdjust.Maximum = FormatNumber(CDbl(My.Computer.Info.TotalPhysicalMemory / 1048576), 2)
+            RAMAdjust.Value = VMemory
+            RAMAdjust.TickFrequency = 2048 / 20
+            RAMMegabyteNumber.Text = CStr(VMemory)
+            RecRAM.Text = "Recommended RAM: [" & VMemory & " MB" & "]"
+            NewMac5.Visible = True
+            Recommend.Focus()
+            GoTo EndNext
+        End If
 
         If NewMac5.Visible = True Then 'Configure you new hard disk!
             VMemory = RAMAdjust.Value
