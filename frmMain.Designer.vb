@@ -290,7 +290,7 @@
         Me.VMListnew.MultiSelect = False
         Me.VMListnew.Name = "VMListnew"
         Me.VMListnew.ShowGroups = False
-        Me.VMListnew.TileSize = New System.Drawing.Size(170, 30)
+        Me.VMListnew.TileSize = New System.Drawing.Size(230, 30)
         Me.VMListnew.UseCompatibleStateImageBehavior = False
         Me.VMListnew.View = System.Windows.Forms.View.Tile
         '

@@ -11,10 +11,49 @@ Friend Class frmMain
     Dim x As Integer 'Used to know which and where was the last graphic
     Dim division As Integer
     Public Shared MacToEdit As String ' Used for settings window to know which one to edit
+    Public Shared MacToEditPath As String ' Used for settings window to know path of which one to edit
     Public Shared listnumber As Integer = 0 ' Used to keep track of items in list for new list
-    Private Sub frmMain_Load(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles MyBase.Load
+    Private Sub frmMain_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         VirtualMacTray.Visible = True
+        VMListnew.BeginUpdate()
+        For Each mac As Object In My.Settings.MacList
+            Dim name As String = mac.ToString.Trim(Chr(34))
+            If IO.File.Exists(After(name, ",").Trim(Chr(34))) Then
+                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)), frmMain.listnumber)
+            Else
+                MsgBox("Cant find the '" & After(name, ",").Trim(Chr(34)) & "' VM on the computer. If you are sure it exists, check that you have permsissions to access it.", MsgBoxStyle.Exclamation)
+                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)) & " (inaccessible)", frmMain.listnumber)
+            End If
+            VMListnew.Items(frmMain.listnumber).SubItems.Add(After(name, ",").Trim(Chr(34)))
+            Dim bmp As New Bitmap(58, 82)
+            Dim flagGraphics As Graphics = Graphics.FromImage(bmp)
+            flagGraphics.FillRectangle(Brushes.Gray, 0, 10, 58, 56)
+            ImageList1.Images.Add(bmp)
+            listnumber += 1
+        Next
+        VMListnew.EndUpdate()
     End Sub
+    Function Before(value As String, a As String) As String
+        ' Get index of argument and return substring up to that point.
+        Dim posA As Integer = value.IndexOf(a)
+        If posA = -1 Then
+            Return ""
+        End If
+        Return value.Substring(0, posA)
+    End Function
+
+    Function After(value As String, a As String) As String
+        ' Get index of argument and return substring after its position.
+        Dim posA As Integer = value.LastIndexOf(a)
+        If posA = -1 Then
+            Return ""
+        End If
+        Dim adjustedPosA As Integer = posA + a.Length
+        If adjustedPosA >= value.Length Then
+            Return ""
+        End If
+        Return value.Substring(adjustedPosA)
+    End Function
     Private Sub frmMain_FormClosed(ByVal eventSender As System.Object, ByVal eventArgs As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
         If Me.WindowState <> System.Windows.Forms.FormWindowState.Minimized Then
             SaveSetting(My.Application.Info.Title, "Settings", "MainLeft", CStr(VB6.PixelsToTwipsX(Me.Left)))
@@ -24,24 +63,18 @@ Friend Class frmMain
         End If
     End Sub
     Public Sub Start68kEmulation()
-
         MsgBox("Virtual Mac © " & "Beta. Virtualization isn't supported (again). Only fake OS X screen plus example stuff avaible")
-
         'Shell (App.Path & "\68k.exe"), vbNormalFocus
         frmVirtualMacintosh.Text = VMListnew.SelectedItems(0).Text & " - Virtual Mac"
         frmVirtualMacintosh.Show()
     End Sub
     Public Sub EnableButtons()
-
         mnuActionStart.Enabled = True
         'mnuActionPause.Enabled = True
         'mnuActionRestart.Enabled = True
-
         mnuActionRemove.Enabled = True
         mnuActionSettings.Enabled = True
-
         'mnuActionProperties.Enabled = True
-
         Settings.Enabled = True
         Remove.Enabled = True
         Start.Enabled = True
@@ -59,19 +92,14 @@ Friend Class frmMain
         If VMListnew.SelectedIndices.Count = 1 Then
             'Asks you if you really want to delete the machine
             Dim Answer As Short = MsgBox("You have choosen to remove '" & VMListnew.SelectedItems(0).Text & "' from the Virtual Mac Console. Removing items from this list will not delete the .mcc or .dsk files from your physical computer. Do you want to remove this Virtual Mac from the Virtual Mac Console?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Virtual Mac")
-
+            My.Settings.MacList.Remove("""" & VMListnew.SelectedItems(0).Text.Replace(" (inaccessible)", "") & """" & "," & """" & VMListnew.SelectedItems(0).SubItems(1).Text & """")
+            My.Settings.Save()
             'If you don't want that old Mac Plus, this
             'is where it's deleted and recycled (Maybe)
             If Answer = 6 Then
                 VMListnew.Items.Remove(VMListnew.SelectedItems(0))
                 DisableButtons()
             End If
-        End If
-    End Sub
-    Public Sub mnuActionSettings_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuActionSettings.Click
-        If VMList.SelectedIndex <> -1 Then
-            MacToEdit = VB6.GetItemString(VMList, VMList.SelectedIndex)
-            frmVMSettings.Show()
         End If
     End Sub
     Public Sub mnuActionStart_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mnuActionStart.Click
@@ -104,6 +132,7 @@ Friend Class frmMain
     End Sub
     Public Sub OpenSettingsFor(ByRef MacName As String)
         MacToEdit = MacName
+        MacToEditPath = VMListnew.SelectedItems(0).SubItems(1).Text
         frmVMSettings.Text = "Settings for " & MacName
         frmVMSettings.Show()
     End Sub
