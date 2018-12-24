@@ -13,19 +13,52 @@ Friend Class frmMain
     Public Shared MacToEdit As String ' Used for settings window to know which one to edit
     Public Shared MacToEditPath As String ' Used for settings window to know path of which one to edit
     Public Shared listnumber As Integer = 0 ' Used to keep track of items in list for new list
+    Public Shared configversion As Integer = 1.1 ' Used to keep track of the config version.
     Private Sub frmMain_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         VirtualMacTray.Visible = True
         VMList.BeginUpdate()
         For Each mac As Object In My.Settings.MacList
             Dim name As String = mac.ToString.Trim(Chr(34))
+            Dim extradata As String = ""
             If IO.File.Exists(After(name, ",").Trim(Chr(34))) Then
                 Dim spaces As String = ""
+                extradata = ""
                 'temparaily disabled until i find a better solultion
                 'For i As Integer = 0 To Before(name, ",").Trim(Chr(34)).Length
                 '   spaces = spaces + " "
                 '& spaces & "                             Not running"
                 'Next
-                VMList.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString, Before(name, ",").Trim(Chr(34)), frmMain.listnumber)
+                Dim lines() As String = System.IO.File.ReadAllLines(After(name, ",").Trim(Chr(34)))
+                For i As Integer = 0 To lines.Length - 1
+                    If lines(i).StartsWith("Version: ") Then
+                        'CONFIG VERSION 1.1
+                        If "Version: " & 1.1 > lines(i) Then
+                            If MsgBox("Your config for """ & Before(name, ",").Trim(Chr(34)) & """ is outdated. Would you like to update? (Note this will mean you will be unable to use it with older VirtualMac versions.)", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo) Then
+                                ' MsgBox(lines(i))
+                                If lines(i) = "Version: 1.0" Then 'update to version 1.1
+                                    lines(i) = "Version: 1.1"
+                                    Dim errorsoccured = 0
+                                    Try
+                                        System.IO.File.WriteAllLines(After(name, ",").Trim(Chr(34)), lines)
+                                        My.Computer.FileSystem.WriteAllText(After(name, ",").Trim(Chr(34)), "hddpath=", True)
+                                    Catch ex As Exception
+                                        errorsoccured = 1
+                                    End Try
+                                    If errorsoccured = 0 Then
+                                        MsgBox("Successfully updated version.", MsgBoxStyle.Information)
+                                    Else
+                                        MsgBox("Failed to update config make sure you have permission to access it!", MsgBoxStyle.Critical)
+                                    End If
+                                End If
+                            End If
+                        End If
+                        If "Version: " & 1.1 < lines(i) Then
+                            MsgBox("The config is newer than your VirtualMac version, therefore it cannot be loaded.", MsgBoxStyle.Critical)
+                            extradata = " (incompatible)"
+                        End If
+                    End If
+                Next
+                VMList.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString, Before(name, ",").Trim(Chr(34)) & extradata, frmMain.listnumber)
             Else
                 MsgBox("Cant find the '" & After(name, ",").Trim(Chr(34)) & "' VM on the computer. If you are sure it exists, check that you have permsissions to access it.", MsgBoxStyle.Exclamation)
                 VMList.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)) & " (inaccessible)", frmMain.listnumber)
@@ -92,7 +125,7 @@ Friend Class frmMain
             'If you don't want that old Mac Plus, this
             'is where it's deleted and recycled (Maybe)
             If Answer = 6 Then
-                My.Settings.MacList.Remove("""" & VMList.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ").Replace(" (inaccessible)", "") & """" & "," & """" & VMList.SelectedItems(0).SubItems(1).Text & """")
+                My.Settings.MacList.Remove("""" & VMList.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ").Replace(" (inaccessible)", "").Replace(" (incompatible)", "") & """" & "," & """" & VMList.SelectedItems(0).SubItems(1).Text & """")
                 My.Settings.Save()
                 VMList.Items.Remove(VMList.SelectedItems(0))
                 listnumber -= 1
@@ -129,10 +162,14 @@ Friend Class frmMain
         OpenSettingsFor(VMList.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" "))
     End Sub
     Public Sub OpenSettingsFor(ByRef MacName As String)
-        MacToEdit = MacName
-        MacToEditPath = VMList.SelectedItems(0).SubItems(1).Text
-        frmVMSettings.Text = "Settings for " & MacName
-        frmVMSettings.Show()
+        If MacName.Contains("incompatible") Then
+            MsgBox("Cant edit settings for incompatible machine.", MsgBoxStyle.Critical)
+        Else
+            MacToEdit = MacName
+            MacToEditPath = VMList.SelectedItems(0).SubItems(1).Text
+            frmVMSettings.Text = "Settings for " & MacName
+            frmVMSettings.Show()
+        End If
     End Sub
     Private Sub Start_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Start.Click
         Start68kEmulation()
