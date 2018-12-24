@@ -252,51 +252,6 @@
   <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>208, 11</value>
   </metadata>
-  <data name="ShowVMC.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 8.25pt, style=Bold</value>
-  </data>
-  <data name="ShowVMC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="ShowVMC.Text" xml:space="preserve">
-    <value>Show Virtual Mac Console</value>
-  </data>
-  <data name="IconNewMac.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconNewMac.Text" xml:space="preserve">
-    <value>New Macintosh Wizard</value>
-  </data>
-  <data name="IconNewDisk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconNewDisk.Text" xml:space="preserve">
-    <value>New Disk Wizard</value>
-  </data>
-  <data name="MenuBar0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="IconOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconOptions.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="MenuBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="MenuBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 6</value>
-  </data>
-  <data name="MenuBar2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="IconExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 22</value>
-  </data>
-  <data name="IconExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>218, 132</value>
   </data>
@@ -422,9 +377,57 @@
   <data name="VirtualMacTray.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="ShowVMC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ShowVMC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="ShowVMC.Text" xml:space="preserve">
+    <value>Show Virtual Mac Console</value>
+  </data>
+  <data name="IconNewMac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconNewMac.Text" xml:space="preserve">
+    <value>New Macintosh Wizard</value>
+  </data>
+  <data name="IconNewDisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconNewDisk.Text" xml:space="preserve">
+    <value>New Disk Wizard</value>
+  </data>
+  <data name="MenuBar0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="IconOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MenuBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="MenuBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 6</value>
+  </data>
+  <data name="MenuBar2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IconExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 22</value>
+  </data>
+  <data name="IconExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>351, 11</value>
   </metadata>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
   <data name="mnuNewMac.Text" xml:space="preserve">
     <value>New Mac Wizard</value>
   </data>
@@ -443,8 +446,8 @@
   <data name="mnuFileExit.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
-  <data name="mnuFile.Text" xml:space="preserve">
-    <value>File</value>
+  <data name="mnuAction.Text" xml:space="preserve">
+    <value>Action</value>
   </data>
   <data name="mnuActionStart.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -491,8 +494,8 @@
   <data name="mnuActionProperties.Text" xml:space="preserve">
     <value>Properties</value>
   </data>
-  <data name="mnuAction.Text" xml:space="preserve">
-    <value>Action</value>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="mnuHelpContents.Text" xml:space="preserve">
     <value>Virtual Mac Help</value>
@@ -505,9 +508,6 @@
   </data>
   <data name="mnuHelpAbout.Text" xml:space="preserve">
     <value>About Virtual Mac...</value>
-  </data>
-  <data name="mnuHelp.Text" xml:space="preserve">
-    <value>Help</value>
   </data>
   <data name="VMListnew.Alignment" type="System.Windows.Forms.ListViewAlignment, System.Windows.Forms">
     <value>Default</value>

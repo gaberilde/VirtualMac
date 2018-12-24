@@ -19,7 +19,11 @@ Friend Class frmMain
         For Each mac As Object In My.Settings.MacList
             Dim name As String = mac.ToString.Trim(Chr(34))
             If IO.File.Exists(After(name, ",").Trim(Chr(34))) Then
-                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString, Before(name, ",").Trim(Chr(34)) & "                                   Not running", frmMain.listnumber)
+                Dim spaces As String = ""
+                For i As Integer = 0 To Before(name, ",").Trim(Chr(34)).Length
+                    spaces = spaces + " "
+                Next
+                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString, Before(name, ",").Trim(Chr(34)) & spaces & "                             Not running", frmMain.listnumber)
             Else
                 MsgBox("Cant find the '" & After(name, ",").Trim(Chr(34)) & "' VM on the computer. If you are sure it exists, check that you have permsissions to access it.", MsgBoxStyle.Exclamation)
                 VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)) & " (inaccessible)", frmMain.listnumber)
@@ -90,8 +94,8 @@ Friend Class frmMain
         'Checks that you have a machine selected
         If VMListnew.SelectedIndices.Count = 1 Then
             'Asks you if you really want to delete the machine
-            Dim Answer As Short = MsgBox("You have choosen to remove '" & VMListnew.SelectedItems(0).Text & "' from the Virtual Mac Console. Removing items from this list will not delete the .mcc or .dsk files from your physical computer. Do you want to remove this Virtual Mac from the Virtual Mac Console?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Virtual Mac")
-            My.Settings.MacList.Remove("""" & VMListnew.SelectedItems(0).Text.Replace(" (inaccessible)", "") & """" & "," & """" & VMListnew.SelectedItems(0).SubItems(1).Text & """")
+            Dim Answer As Short = MsgBox("You have choosen to remove '" & VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ") & "' from the Virtual Mac Console. Removing items from this list will not delete the .mcc or .dsk files from your physical computer. Do you want to remove this Virtual Mac from the Virtual Mac Console?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Virtual Mac")
+            My.Settings.MacList.Remove("""" & VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ").Replace(" (inaccessible)", "") & """" & "," & """" & VMListnew.SelectedItems(0).SubItems(1).Text & """")
             My.Settings.Save()
             'If you don't want that old Mac Plus, this
             'is where it's deleted and recycled (Maybe)
