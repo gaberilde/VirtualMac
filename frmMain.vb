@@ -57,18 +57,10 @@ Friend Class frmMain
         End If
         Return value.Substring(adjustedPosA)
     End Function
-    Private Sub frmMain_FormClosed(ByVal eventSender As System.Object, ByVal eventArgs As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
-        If Me.WindowState <> System.Windows.Forms.FormWindowState.Minimized Then
-            SaveSetting(My.Application.Info.Title, "Settings", "MainLeft", CStr(VB6.PixelsToTwipsX(Me.Left)))
-            SaveSetting(My.Application.Info.Title, "Settings", "MainTop", CStr(VB6.PixelsToTwipsY(Me.Top)))
-            SaveSetting(My.Application.Info.Title, "Settings", "MainWidth", CStr(VB6.PixelsToTwipsX(Me.Width)))
-            SaveSetting(My.Application.Info.Title, "Settings", "MainHeight", CStr(VB6.PixelsToTwipsY(Me.Height)))
-        End If
-    End Sub
     Public Sub Start68kEmulation()
         MsgBox("Virtual Mac © " & "Beta. Virtualization isn't supported (again). Only fake OS X screen plus example stuff avaible")
         'Shell (App.Path & "\68k.exe"), vbNormalFocus
-        frmVirtualMacintosh.Text = VMListnew.SelectedItems(0).Text & " - Virtual Mac"
+        frmVirtualMacintosh.Text = VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ") & " - Virtual Mac"
         frmVirtualMacintosh.Show()
     End Sub
     Public Sub EnableButtons()
@@ -95,12 +87,13 @@ Friend Class frmMain
         If VMListnew.SelectedIndices.Count = 1 Then
             'Asks you if you really want to delete the machine
             Dim Answer As Short = MsgBox("You have choosen to remove '" & VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ") & "' from the Virtual Mac Console. Removing items from this list will not delete the .mcc or .dsk files from your physical computer. Do you want to remove this Virtual Mac from the Virtual Mac Console?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Virtual Mac")
-            My.Settings.MacList.Remove("""" & VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ").Replace(" (inaccessible)", "") & """" & "," & """" & VMListnew.SelectedItems(0).SubItems(1).Text & """")
-            My.Settings.Save()
             'If you don't want that old Mac Plus, this
             'is where it's deleted and recycled (Maybe)
             If Answer = 6 Then
+                My.Settings.MacList.Remove("""" & VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ").Replace(" (inaccessible)", "") & """" & "," & """" & VMListnew.SelectedItems(0).SubItems(1).Text & """")
+                My.Settings.Save()
                 VMListnew.Items.Remove(VMListnew.SelectedItems(0))
+                listnumber -= 1
                 DisableButtons()
             End If
         End If
