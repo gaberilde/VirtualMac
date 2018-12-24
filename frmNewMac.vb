@@ -163,8 +163,7 @@ EndNext:
                 Action.Text = "Operating System"
                 ActionDescription.Text = "Select the operating system you plan to install on this machine"
                 NewMac3.Visible = False
-                VB6.SetDefault(cmdBack, False)
-                VB6.SetDefault(cmdNext, True)
+                cmdNext.Select()
                 cmdNext.Focus()
                 NewMac4.Visible = True
                 GoTo EndNext
@@ -176,7 +175,7 @@ EndNext:
                 DescriptionEnd.Text = DescriptionEnd.Text + " " + MacName
                 NewMacWizard.Visible = False
                 cmdNext.Text = "Finish"
-                VB6.SetDefault(cmdNext, True)
+                cmdNext.Select()
                 AdviceNoHD.Visible = True
                 NewMacEnd.Visible = True
                 GoTo EndNext
@@ -389,8 +388,8 @@ Catalog:
         End Try
         My.Settings.MacList.Add("""" & MacName & """" & "," & """" & savepath & """")
         My.Settings.Save()
-        frmMain.VMListnew.Items.Add(MacName + frmMain.listnumber.ToString + Environment.NewLine + "NMot running", MacName, frmMain.listnumber)
-        frmMain.VMListnew.Items(frmMain.listnumber).SubItems.Add(savepath)
+        frmMain.VMList.Items.Add(MacName + frmMain.listnumber.ToString, MacName, frmMain.listnumber)
+        frmMain.VMList.Items(frmMain.listnumber).SubItems.Add(savepath)
         Dim bmp As New Bitmap(58, 82)
         Dim flagGraphics As Graphics = Graphics.FromImage(bmp)
         flagGraphics.FillRectangle(Brushes.Gray, 0, 10, 58, 56)
@@ -405,9 +404,12 @@ Catalog:
         Dim x As Integer
 
         'Procedure
-        For x = 0 To frmMain.VMListnew.Items.Count - 1
-            i = InStr(frmMain.VMListnew.Items(x).Text & ".mcc", FileNameC.Text)
+        For x = 0 To frmMain.VMList.Items.Count - 1
+            i = InStr(frmMain.VMList.Items(x).Text & ".mcc", FileNameC.Text)
             If i <> 0 Then
+                FileNameC.Text = "New Mac (" & x + 1 & ")" & ".mcc"
+            End If
+            If Directory.Exists(My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\My Macs\" & FileNameC.Text.Replace(".mcc", "")) Then
                 FileNameC.Text = "New Mac (" & x + 1 & ")" & ".mcc"
             End If
         Next

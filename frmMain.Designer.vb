@@ -69,7 +69,7 @@
         Me.mnuHelpSearchForHelpOn = New System.Windows.Forms.MenuItem()
         Me.mnuHelpBar0 = New System.Windows.Forms.MenuItem()
         Me.mnuHelpAbout = New System.Windows.Forms.MenuItem()
-        Me.VMListnew = New System.Windows.Forms.ListView()
+        Me.VMList = New System.Windows.Forms.ListView()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -280,19 +280,19 @@
         Me.mnuHelpAbout.Index = 3
         resources.ApplyResources(Me.mnuHelpAbout, "mnuHelpAbout")
         '
-        'VMListnew
+        'VMList
         '
-        resources.ApplyResources(Me.VMListnew, "VMListnew")
-        Me.VMListnew.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {CType(resources.GetObject("VMListnew.Groups"), System.Windows.Forms.ListViewGroup)})
-        Me.VMListnew.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
-        Me.VMListnew.HideSelection = False
-        Me.VMListnew.LargeImageList = Me.ImageList1
-        Me.VMListnew.MultiSelect = False
-        Me.VMListnew.Name = "VMListnew"
-        Me.VMListnew.ShowGroups = False
-        Me.VMListnew.TileSize = New System.Drawing.Size(240, 30)
-        Me.VMListnew.UseCompatibleStateImageBehavior = False
-        Me.VMListnew.View = System.Windows.Forms.View.Tile
+        resources.ApplyResources(Me.VMList, "VMList")
+        Me.VMList.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {CType(resources.GetObject("VMList.Groups"), System.Windows.Forms.ListViewGroup)})
+        Me.VMList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.VMList.HideSelection = False
+        Me.VMList.LargeImageList = Me.ImageList1
+        Me.VMList.MultiSelect = False
+        Me.VMList.Name = "VMList"
+        Me.VMList.ShowGroups = False
+        Me.VMList.TileSize = New System.Drawing.Size(240, 30)
+        Me.VMList.UseCompatibleStateImageBehavior = False
+        Me.VMList.View = System.Windows.Forms.View.Tile
         '
         'ImageList1
         '
@@ -306,7 +306,7 @@
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.Controls.Add(Me.VMListnew)
+        Me.Controls.Add(Me.VMList)
         Me.Controls.Add(Me.Start)
         Me.Controls.Add(Me.Remove)
         Me.Controls.Add(Me.Settings)
@@ -353,7 +353,7 @@
     Friend WithEvents mnuHelpSearchForHelpOn As MenuItem
     Friend WithEvents mnuHelpBar0 As MenuItem
     Friend WithEvents mnuHelpAbout As MenuItem
-    Friend WithEvents VMListnew As ListView
+    Friend WithEvents VMList As ListView
     Friend WithEvents ImageList1 As ImageList
 #End Region
 End Class

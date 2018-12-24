@@ -15,27 +15,29 @@ Friend Class frmMain
     Public Shared listnumber As Integer = 0 ' Used to keep track of items in list for new list
     Private Sub frmMain_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         VirtualMacTray.Visible = True
-        VMListnew.BeginUpdate()
+        VMList.BeginUpdate()
         For Each mac As Object In My.Settings.MacList
             Dim name As String = mac.ToString.Trim(Chr(34))
             If IO.File.Exists(After(name, ",").Trim(Chr(34))) Then
                 Dim spaces As String = ""
-                For i As Integer = 0 To Before(name, ",").Trim(Chr(34)).Length
-                    spaces = spaces + " "
-                Next
-                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString, Before(name, ",").Trim(Chr(34)) & spaces & "                             Not running", frmMain.listnumber)
+                'temparaily disabled until i find a better solultion
+                'For i As Integer = 0 To Before(name, ",").Trim(Chr(34)).Length
+                '   spaces = spaces + " "
+                '& spaces & "                             Not running"
+                'Next
+                VMList.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString, Before(name, ",").Trim(Chr(34)), frmMain.listnumber)
             Else
                 MsgBox("Cant find the '" & After(name, ",").Trim(Chr(34)) & "' VM on the computer. If you are sure it exists, check that you have permsissions to access it.", MsgBoxStyle.Exclamation)
-                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)) & " (inaccessible)", frmMain.listnumber)
+                VMList.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)) & " (inaccessible)", frmMain.listnumber)
             End If
-            VMListnew.Items(frmMain.listnumber).SubItems.Add(After(name, ",").Trim(Chr(34)))
+            VMList.Items(frmMain.listnumber).SubItems.Add(After(name, ",").Trim(Chr(34)))
             Dim bmp As New Bitmap(58, 82)
             Dim flagGraphics As Graphics = Graphics.FromImage(bmp)
             flagGraphics.FillRectangle(Brushes.Gray, 0, 10, 58, 56)
             ImageList1.Images.Add(bmp)
             listnumber += 1
         Next
-        VMListnew.EndUpdate()
+        VMList.EndUpdate()
     End Sub
     Function Before(value As String, replace As String) As String
         ' Get index of argument and return substring up to that point.
@@ -60,7 +62,7 @@ Friend Class frmMain
     Public Sub Start68kEmulation()
         MsgBox("Virtual Mac © " & "Beta. Virtualization isn't supported (again). Only fake OS X screen plus example stuff avaible")
         'Shell (App.Path & "\68k.exe"), vbNormalFocus
-        frmVirtualMacintosh.Text = VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ") & " - Virtual Mac"
+        frmVirtualMacintosh.Text = VMList.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ") & " - Virtual Mac"
         frmVirtualMacintosh.Show()
     End Sub
     Public Sub EnableButtons()
@@ -84,15 +86,15 @@ Friend Class frmMain
     Public Sub RemoveSelectedMac()
         'Declarations
         'Checks that you have a machine selected
-        If VMListnew.SelectedIndices.Count = 1 Then
+        If VMList.SelectedIndices.Count = 1 Then
             'Asks you if you really want to delete the machine
-            Dim Answer As Short = MsgBox("You have choosen to remove '" & VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ") & "' from the Virtual Mac Console. Removing items from this list will not delete the .mcc or .dsk files from your physical computer. Do you want to remove this Virtual Mac from the Virtual Mac Console?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Virtual Mac")
+            Dim Answer As Short = MsgBox("You have choosen to remove '" & VMList.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ") & "' from the Virtual Mac Console. Removing items from this list will not delete the .mcc or .dsk files from your physical computer. Do you want to remove this Virtual Mac from the Virtual Mac Console?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Virtual Mac")
             'If you don't want that old Mac Plus, this
             'is where it's deleted and recycled (Maybe)
             If Answer = 6 Then
-                My.Settings.MacList.Remove("""" & VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ").Replace(" (inaccessible)", "") & """" & "," & """" & VMListnew.SelectedItems(0).SubItems(1).Text & """")
+                My.Settings.MacList.Remove("""" & VMList.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" ").Replace(" (inaccessible)", "") & """" & "," & """" & VMList.SelectedItems(0).SubItems(1).Text & """")
                 My.Settings.Save()
-                VMListnew.Items.Remove(VMListnew.SelectedItems(0))
+                VMList.Items.Remove(VMList.SelectedItems(0))
                 listnumber -= 1
                 DisableButtons()
             End If
@@ -124,11 +126,11 @@ Friend Class frmMain
         RemoveSelectedMac()
     End Sub
     Private Sub Settings_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Settings.Click
-        OpenSettingsFor(VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" "))
+        OpenSettingsFor(VMList.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" "))
     End Sub
     Public Sub OpenSettingsFor(ByRef MacName As String)
         MacToEdit = MacName
-        MacToEditPath = VMListnew.SelectedItems(0).SubItems(1).Text
+        MacToEditPath = VMList.SelectedItems(0).SubItems(1).Text
         frmVMSettings.Text = "Settings for " & MacName
         frmVMSettings.Show()
     End Sub
@@ -146,12 +148,7 @@ Friend Class frmMain
         Remove.Enabled = False
         Start.Enabled = False
     End Sub
-    Private Sub VM_DoubleClick(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs)
-        Dim Index As Short = VMListnew.SelectedItems(0).Index
-        Start68kEmulation()
-    End Sub
-    Private Sub VMDescription_DoubleClick(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs)
-        Dim Index As Short = VMListnew.SelectedItems(0).Index
+    Private Sub VM_DoubleClick(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles VMList.DoubleClick
         Start68kEmulation()
     End Sub
     Private Sub IconNewMac_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IconNewMac.Click
@@ -192,21 +189,21 @@ Friend Class frmMain
         Me.Show()
         Me.Focus()
     End Sub
-    Private Sub VMListnew_SelectedIndexChanged(sender As Object, e As EventArgs) Handles VMListnew.SelectedIndexChanged
-        If VMListnew.SelectedIndices.Count = 1 Then
+    Private Sub VMListnew_SelectedIndexChanged(sender As Object, e As EventArgs) Handles VMList.SelectedIndexChanged
+        If VMList.SelectedIndices.Count = 1 Then
             '===Makes it look like you selected an object===
             'When you make a single click, you'll select the element
 
             'This selects the current item
-            VMListnew.SelectedItems(0).BackColor = ColorTranslator.FromOle(&H8000000D)
+            VMList.SelectedItems(0).BackColor = ColorTranslator.FromOle(&H8000000D)
 
             'Let's enable those buttons and select the
             'corresponding item in the hidden list
             EnableButtons()
         Else
             'This makes all the items 'un-select', in other words, makes them white
-            For x As Integer = 0 To VMListnew.Items.Count - 1
-                VMListnew.Items(x).BackColor = Color.White
+            For x As Integer = 0 To VMList.Items.Count - 1
+                VMList.Items(x).BackColor = Color.White
             Next
 
             DisableButtons()
