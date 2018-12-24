@@ -53,57 +53,57 @@
 	'It can be modified using the Windows Form Designer.
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmNewDisk))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.cmdBack = New System.Windows.Forms.Button
-        Me.NewDisk1 = New System.Windows.Forms.Panel
-        Me.TitleStart = New System.Windows.Forms.Label
-        Me.DescriptionStart = New System.Windows.Forms.Label
-        Me.NewDiskWizard = New System.Windows.Forms.Panel
-        Me.NewDisk2 = New System.Windows.Forms.Panel
-        Me.EditVirtualDisk = New System.Windows.Forms.RadioButton
-        Me.DiscImage = New System.Windows.Forms.RadioButton
-        Me.FloppyDisk = New System.Windows.Forms.RadioButton
-        Me.FixedDisk = New System.Windows.Forms.RadioButton
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.NewDisk3 = New System.Windows.Forms.Panel
-        Me.NewDisk3Browse = New System.Windows.Forms.Button
-        Me.NewDisk3FileName = New System.Windows.Forms.TextBox
-        Me.NewVDTitleHelp = New System.Windows.Forms.Label
-        Me.Top_Renamed = New System.Windows.Forms.GroupBox
-        Me.Action = New System.Windows.Forms.Label
-        Me.ActionDescription = New System.Windows.Forms.Label
-        Me.NewMacFromExist = New System.Windows.Forms.Panel
-        Me.FileNameA = New System.Windows.Forms.TextBox
-        Me.BrowseA = New System.Windows.Forms.Button
-        Me.FileNameTitleA = New System.Windows.Forms.Label
-        Me.HelpA = New System.Windows.Forms.Label
-        Me.NewDiskEnd = New System.Windows.Forms.Panel
-        Me.OpenSettingsAfterFinish = New System.Windows.Forms.CheckBox
-        Me.AdviceClickFinish = New System.Windows.Forms.Label
-        Me.AdviceNoHD = New System.Windows.Forms.Label
-        Me.VMName = New System.Windows.Forms.Label
-        Me.DescriptionEnd = New System.Windows.Forms.Label
-        Me.TitleEnd = New System.Windows.Forms.Label
-        Me.BrowseSave = New System.Windows.Forms.SaveFileDialog
-        Me.ControlBox_Renamed = New System.Windows.Forms.GroupBox
-        Me.cmdCancel = New System.Windows.Forms.Button
-        Me.cmdNext = New System.Windows.Forms.Button
-        Me.WizardPictureSmall = New System.Windows.Forms.PictureBox
-        Me.WizardStart = New System.Windows.Forms.PictureBox
-        Me.WizardEnd = New System.Windows.Forms.PictureBox
+        Me.cmdBack = New System.Windows.Forms.Button()
+        Me.NewDisk1 = New System.Windows.Forms.Panel()
+        Me.WizardStart = New System.Windows.Forms.PictureBox()
+        Me.TitleStart = New System.Windows.Forms.Label()
+        Me.DescriptionStart = New System.Windows.Forms.Label()
+        Me.NewDiskWizard = New System.Windows.Forms.Panel()
+        Me.NewDisk2 = New System.Windows.Forms.Panel()
+        Me.EditVirtualDisk = New System.Windows.Forms.RadioButton()
+        Me.DiscImage = New System.Windows.Forms.RadioButton()
+        Me.FloppyDisk = New System.Windows.Forms.RadioButton()
+        Me.FixedDisk = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.NewDisk3 = New System.Windows.Forms.Panel()
+        Me.NewDisk3Browse = New System.Windows.Forms.Button()
+        Me.NewDisk3FileName = New System.Windows.Forms.TextBox()
+        Me.NewVDTitleHelp = New System.Windows.Forms.Label()
+        Me.Top_Renamed = New System.Windows.Forms.GroupBox()
+        Me.WizardPictureSmall = New System.Windows.Forms.PictureBox()
+        Me.Action = New System.Windows.Forms.Label()
+        Me.ActionDescription = New System.Windows.Forms.Label()
+        Me.NewMacFromExist = New System.Windows.Forms.Panel()
+        Me.FileNameA = New System.Windows.Forms.TextBox()
+        Me.BrowseA = New System.Windows.Forms.Button()
+        Me.FileNameTitleA = New System.Windows.Forms.Label()
+        Me.HelpA = New System.Windows.Forms.Label()
+        Me.NewDiskEnd = New System.Windows.Forms.Panel()
+        Me.OpenSettingsAfterFinish = New System.Windows.Forms.CheckBox()
+        Me.WizardEnd = New System.Windows.Forms.PictureBox()
+        Me.AdviceClickFinish = New System.Windows.Forms.Label()
+        Me.AdviceNoHD = New System.Windows.Forms.Label()
+        Me.VMName = New System.Windows.Forms.Label()
+        Me.DescriptionEnd = New System.Windows.Forms.Label()
+        Me.TitleEnd = New System.Windows.Forms.Label()
+        Me.BrowseSave = New System.Windows.Forms.SaveFileDialog()
+        Me.ControlBox_Renamed = New System.Windows.Forms.GroupBox()
+        Me.cmdCancel = New System.Windows.Forms.Button()
+        Me.cmdNext = New System.Windows.Forms.Button()
         Me.NewDisk1.SuspendLayout()
+        CType(Me.WizardStart, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.NewDiskWizard.SuspendLayout()
         Me.NewDisk2.SuspendLayout()
         Me.NewDisk3.SuspendLayout()
         Me.Top_Renamed.SuspendLayout()
+        CType(Me.WizardPictureSmall, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.NewMacFromExist.SuspendLayout()
         Me.NewDiskEnd.SuspendLayout()
-        Me.ControlBox_Renamed.SuspendLayout()
-        CType(Me.WizardPictureSmall, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.WizardStart, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WizardEnd, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ControlBox_Renamed.SuspendLayout()
         Me.SuspendLayout()
         '
         'cmdBack
@@ -126,6 +126,16 @@
         Me.NewDisk1.ForeColor = System.Drawing.SystemColors.ControlText
         resources.ApplyResources(Me.NewDisk1, "NewDisk1")
         Me.NewDisk1.Name = "NewDisk1"
+        '
+        'WizardStart
+        '
+        Me.WizardStart.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.WizardStart.Cursor = System.Windows.Forms.Cursors.Default
+        Me.WizardStart.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.WizardStart.Image = Global.VirtualMac.My.Resources.Resources.NewDisk
+        resources.ApplyResources(Me.WizardStart, "WizardStart")
+        Me.WizardStart.Name = "WizardStart"
+        Me.WizardStart.TabStop = False
         '
         'TitleStart
         '
@@ -265,6 +275,15 @@
         Me.Top_Renamed.Name = "Top_Renamed"
         Me.Top_Renamed.TabStop = False
         '
+        'WizardPictureSmall
+        '
+        Me.WizardPictureSmall.BackColor = System.Drawing.SystemColors.Control
+        Me.WizardPictureSmall.Cursor = System.Windows.Forms.Cursors.Default
+        Me.WizardPictureSmall.ForeColor = System.Drawing.SystemColors.ControlText
+        resources.ApplyResources(Me.WizardPictureSmall, "WizardPictureSmall")
+        Me.WizardPictureSmall.Name = "WizardPictureSmall"
+        Me.WizardPictureSmall.TabStop = False
+        '
         'Action
         '
         Me.Action.BackColor = System.Drawing.Color.Transparent
@@ -353,6 +372,15 @@
         Me.OpenSettingsAfterFinish.Name = "OpenSettingsAfterFinish"
         Me.OpenSettingsAfterFinish.UseVisualStyleBackColor = False
         '
+        'WizardEnd
+        '
+        Me.WizardEnd.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.WizardEnd.Cursor = System.Windows.Forms.Cursors.Default
+        Me.WizardEnd.ForeColor = System.Drawing.SystemColors.ControlText
+        resources.ApplyResources(Me.WizardEnd, "WizardEnd")
+        Me.WizardEnd.Name = "WizardEnd"
+        Me.WizardEnd.TabStop = False
+        '
         'AdviceClickFinish
         '
         Me.AdviceClickFinish.BackColor = System.Drawing.Color.Transparent
@@ -423,34 +451,6 @@
         Me.cmdNext.Name = "cmdNext"
         Me.cmdNext.UseVisualStyleBackColor = True
         '
-        'WizardPictureSmall
-        '
-        Me.WizardPictureSmall.BackColor = System.Drawing.SystemColors.Control
-        Me.WizardPictureSmall.Cursor = System.Windows.Forms.Cursors.Default
-        Me.WizardPictureSmall.ForeColor = System.Drawing.SystemColors.ControlText
-        resources.ApplyResources(Me.WizardPictureSmall, "WizardPictureSmall")
-        Me.WizardPictureSmall.Name = "WizardPictureSmall"
-        Me.WizardPictureSmall.TabStop = False
-        '
-        'WizardStart
-        '
-        Me.WizardStart.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.WizardStart.Cursor = System.Windows.Forms.Cursors.Default
-        Me.WizardStart.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.WizardStart.Image = Global.VirtualMac.My.Resources.Resources.NewDisk
-        resources.ApplyResources(Me.WizardStart, "WizardStart")
-        Me.WizardStart.Name = "WizardStart"
-        Me.WizardStart.TabStop = False
-        '
-        'WizardEnd
-        '
-        Me.WizardEnd.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.WizardEnd.Cursor = System.Windows.Forms.Cursors.Default
-        Me.WizardEnd.ForeColor = System.Drawing.SystemColors.ControlText
-        resources.ApplyResources(Me.WizardEnd, "WizardEnd")
-        Me.WizardEnd.Name = "WizardEnd"
-        Me.WizardEnd.TabStop = False
-        '
         'frmNewDisk
         '
         Me.AcceptButton = Me.cmdNext
@@ -469,19 +469,19 @@
         Me.MinimizeBox = False
         Me.Name = "frmNewDisk"
         Me.NewDisk1.ResumeLayout(False)
+        CType(Me.WizardStart, System.ComponentModel.ISupportInitialize).EndInit()
         Me.NewDiskWizard.ResumeLayout(False)
         Me.NewDisk2.ResumeLayout(False)
         Me.NewDisk3.ResumeLayout(False)
         Me.NewDisk3.PerformLayout()
         Me.Top_Renamed.ResumeLayout(False)
+        CType(Me.WizardPictureSmall, System.ComponentModel.ISupportInitialize).EndInit()
         Me.NewMacFromExist.ResumeLayout(False)
         Me.NewMacFromExist.PerformLayout()
         Me.NewDiskEnd.ResumeLayout(False)
         Me.NewDiskEnd.PerformLayout()
-        Me.ControlBox_Renamed.ResumeLayout(False)
-        CType(Me.WizardPictureSmall, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.WizardStart, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WizardEnd, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ControlBox_Renamed.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
