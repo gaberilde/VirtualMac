@@ -19,7 +19,7 @@ Friend Class frmMain
         For Each mac As Object In My.Settings.MacList
             Dim name As String = mac.ToString.Trim(Chr(34))
             If IO.File.Exists(After(name, ",").Trim(Chr(34))) Then
-                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)), frmMain.listnumber)
+                VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString, Before(name, ",").Trim(Chr(34)) & "                                   Not running", frmMain.listnumber)
             Else
                 MsgBox("Cant find the '" & After(name, ",").Trim(Chr(34)) & "' VM on the computer. If you are sure it exists, check that you have permsissions to access it.", MsgBoxStyle.Exclamation)
                 VMListnew.Items.Add(Before(name, ",").Trim(Chr(34)) + frmMain.listnumber.ToString + frmMain.listnumber.ToString + Environment.NewLine + "Not running", Before(name, ",").Trim(Chr(34)) & " (inaccessible)", frmMain.listnumber)
@@ -33,22 +33,21 @@ Friend Class frmMain
         Next
         VMListnew.EndUpdate()
     End Sub
-    Function Before(value As String, a As String) As String
+    Function Before(value As String, replace As String) As String
         ' Get index of argument and return substring up to that point.
-        Dim posA As Integer = value.IndexOf(a)
+        Dim posA As Integer = value.IndexOf(replace)
         If posA = -1 Then
             Return ""
         End If
         Return value.Substring(0, posA)
     End Function
-
-    Function After(value As String, a As String) As String
+    Function After(value As String, replace As String) As String
         ' Get index of argument and return substring after its position.
-        Dim posA As Integer = value.LastIndexOf(a)
+        Dim posA As Integer = value.LastIndexOf(replace)
         If posA = -1 Then
             Return ""
         End If
-        Dim adjustedPosA As Integer = posA + a.Length
+        Dim adjustedPosA As Integer = posA + replace.Length
         If adjustedPosA >= value.Length Then
             Return ""
         End If
@@ -128,7 +127,7 @@ Friend Class frmMain
         RemoveSelectedMac()
     End Sub
     Private Sub Settings_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Settings.Click
-        OpenSettingsFor(VMListnew.SelectedItems(0).Text)
+        OpenSettingsFor(VMListnew.SelectedItems(0).Text.Replace("Not running", "").TrimEnd(" "))
     End Sub
     Public Sub OpenSettingsFor(ByRef MacName As String)
         MacToEdit = MacName

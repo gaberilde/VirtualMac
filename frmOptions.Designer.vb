@@ -27,11 +27,11 @@
 	Public WithEvents fraSample2 As System.Windows.Forms.GroupBox
 	Public WithEvents _picOptions_1 As System.Windows.Forms.Panel
     Public WithEvents Folders As System.Windows.Forms.GroupBox
-    Public WithEvents picOptions As Microsoft.VisualBasic.Compatibility.VB6.PanelArray
-	'NOTE: The following procedure is required by the Windows Form Designer
-	'It can be modified using the Windows Form Designer.
-	'Do not modify it using the code editor.
-	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+    'Public WithEvents picOptions As Microsoft.VisualBasic.Compatibility.VB6.PanelArray
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmOptions))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
@@ -51,7 +51,7 @@
         Me.ROM = New System.Windows.Forms.GroupBox()
         Me.ROMFile = New System.Windows.Forms.TextBox()
         Me.BrowseROM = New System.Windows.Forms.Button()
-        Me.picOptions = New Microsoft.VisualBasic.Compatibility.VB6.PanelArray(Me.components)
+        'Me.picOptions = New Microsoft.VisualBasic.Compatibility.VB6.PanelArray(Me.components)
         Me.FolderBrowser = New System.Windows.Forms.FolderBrowserDialog()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -61,7 +61,7 @@
         Me._picOptions_1.SuspendLayout()
         Me.Folders.SuspendLayout()
         Me.ROM.SuspendLayout()
-        CType(Me.picOptions, System.ComponentModel.ISupportInitialize).BeginInit()
+        'CType(Me.picOptions, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'cmdOK
@@ -91,7 +91,7 @@
         Me._picOptions_3.Controls.Add(Me.fraSample4)
         Me._picOptions_3.Cursor = System.Windows.Forms.Cursors.Default
         Me._picOptions_3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.picOptions.SetIndex(Me._picOptions_3, CType(3, Short))
+        'Me.picOptions.SetIndex(Me._picOptions_3, CType(3, Short))
         resources.ApplyResources(Me._picOptions_3, "_picOptions_3")
         Me._picOptions_3.Name = "_picOptions_3"
         '
@@ -110,7 +110,7 @@
         Me._picOptions_2.Controls.Add(Me.fraSample3)
         Me._picOptions_2.Cursor = System.Windows.Forms.Cursors.Default
         Me._picOptions_2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.picOptions.SetIndex(Me._picOptions_2, CType(2, Short))
+        'Me.picOptions.SetIndex(Me._picOptions_2, CType(2, Short))
         resources.ApplyResources(Me._picOptions_2, "_picOptions_2")
         Me._picOptions_2.Name = "_picOptions_2"
         '
@@ -129,7 +129,7 @@
         Me._picOptions_1.Controls.Add(Me.fraSample2)
         Me._picOptions_1.Cursor = System.Windows.Forms.Cursors.Default
         Me._picOptions_1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.picOptions.SetIndex(Me._picOptions_1, CType(1, Short))
+        'Me.picOptions.SetIndex(Me._picOptions_1, CType(1, Short))
         resources.ApplyResources(Me._picOptions_1, "_picOptions_1")
         Me._picOptions_1.Name = "_picOptions_1"
         '
@@ -257,7 +257,7 @@
         Me.Folders.PerformLayout()
         Me.ROM.ResumeLayout(False)
         Me.ROM.PerformLayout()
-        CType(Me.picOptions, System.ComponentModel.ISupportInitialize).EndInit()
+        ' CType(Me.picOptions, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

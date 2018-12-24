@@ -38,10 +38,10 @@
         Me.cmdOK = New System.Windows.Forms.Button()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.MachineName = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.machinenameTextBox = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.MachineName = New System.Windows.Forms.Panel()
+        Me.machinenameTextBox = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.MachineName.SuspendLayout()
         Me.SuspendLayout()
@@ -105,6 +105,15 @@
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(7, 14)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(127, 13)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Select a setting to begin."
+        '
         'MachineName
         '
         Me.MachineName.Controls.Add(Me.machinenameTextBox)
@@ -115,6 +124,13 @@
         Me.MachineName.TabIndex = 0
         Me.MachineName.Visible = False
         '
+        'machinenameTextBox
+        '
+        Me.machinenameTextBox.Location = New System.Drawing.Point(11, 35)
+        Me.machinenameTextBox.Name = "machinenameTextBox"
+        Me.machinenameTextBox.Size = New System.Drawing.Size(288, 21)
+        Me.machinenameTextBox.TabIndex = 1
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -123,22 +139,6 @@
         Me.Label1.Size = New System.Drawing.Size(291, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "This is the name that will appear in the Virtual Mac Console."
-        '
-        'machinenameTextBox
-        '
-        Me.machinenameTextBox.Location = New System.Drawing.Point(11, 35)
-        Me.machinenameTextBox.Name = "machinenameTextBox"
-        Me.machinenameTextBox.Size = New System.Drawing.Size(288, 21)
-        Me.machinenameTextBox.TabIndex = 1
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(7, 14)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(127, 13)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Select a setting to begin."
         '
         'frmVMSettings
         '
