@@ -11,6 +11,7 @@ Friend Class frmVMSettings
     Private Sub cmdOK_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdOK.Click
 SaveSettings:
         'Save settings in a file
+        Dim correctindex = 0
         Try
             If Not frmMain.MacToEdit = machinenameTextBox.Text Then
                 Dim lines() As String = System.IO.File.ReadAllLines(frmMain.MacToEditPath)
@@ -26,13 +27,16 @@ SaveSettings:
             For Each item As String In My.Settings.MacList
                 If frmMain.Before(item, ",").Trim(Chr(34)) = frmMain.MacToEdit Then
                     queueseddit(My.Settings.MacList.IndexOf(item), item.Replace("""" & frmMain.Before(item, ",").Trim(Chr(34)) & """" & ",", """" & machinenameTextBox.Text & ""","))
+                    correctindex = My.Settings.MacList.IndexOf(item)
                 End If
             Next
         Catch ex As Exception
         End Try
         editsready = 1
-        For Each item As ListViewItem In frmMain.VMListnew.Items
-            frmMain.VMListnew.Items.Item(frmMain.VMListnew.Items.IndexOf(item)).Text = item.Text.Replace(item.Text.Replace("Not running", "").TrimEnd(" "), machinenameTextBox.Text)
+        For Each item As ListViewItem In frmMain.VMList.Items
+            If frmMain.VMList.Items.Item(frmMain.VMList.Items.IndexOf(item)).Text = frmMain.MacToEdit Then
+                frmMain.VMList.Items.Item(frmMain.VMList.Items.IndexOf(item)).Text = item.Text.Replace(item.Text.Replace("Not running", "").TrimEnd(" "), machinenameTextBox.Text)
+            End If
         Next
         Me.Close()
     End Sub

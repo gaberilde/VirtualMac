@@ -1852,7 +1852,7 @@
     <value>3</value>
   </data>
   <data name="NewMacFromExist.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -56</value>
+    <value>0, 56</value>
   </data>
   <data name="NewMacFromExist.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
